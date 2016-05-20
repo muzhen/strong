@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+   <meta charset="utf-8">
+    <title>闽侯</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    
+
+ <link href="../av-modules/bootstrap-3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  
+</head>
+<body >
+
+<div class="container-fluid pad-15"  ms-controller="test" >
+    <div ms-controller="splitScreenPart"   ms-include-src="{{splitScreenViewTpl}}">
+
+    </div>
+</div>
+ 
+   <script type="text/javascript" src="../av-modules/require.js" ></script>
+    <script type="text/javascript" src="../av-modules/require-helper.js"></script>
+    <script>
+      require(["avalon","warnInf"],function(avalon,partData){
+
+          avalon.ready(function(){
+
+              var Inf=avalon.define({
+                  $id:"test",
+                  splitScreenViewTpl: require.toUrl('splitScreenView')+'.tpl',
+
+                  cloudFun:function(){//卫星云图
+                    alert("卫星云图");
+                  },
+                  typhoonFun:function(){//台风路径
+                      alert("台风路径");
+                  },
+                  weatherFun:function(){//气象雷达
+                      alert("气象雷达");
+                  },
+                  rainFun:function(){//雨量
+                      alert("雨量");
+                  }
+              });
+              var splitScreenView=partData.init({
+                  clid:"splitScreenPart",
+                  data:{
+                      a1:"http://wdy.fzqx.gov.cn:2001/Files/Weather/SAT/Static/XML/FY2D_WCN_L_DLCS_P1/1/FY2D_WCN_L_DLCS_P1_TOP10.xml",//卫星云图
+                      a2:"http://wdy.fzqx.gov.cn:2001/Files/Weather/RAD/Static/XML/BEFZ_R_19_P1/1/0.5/BEFZ_R_19_P1_TOP10.xml",//气象雷达
+                      a3:"http://192.168.110.233:9995/api/mobilev1/rain/grade/getrainavgcount",//雨量下面的 数据列表
+                      a4:"http://192.168.110.233:9995/api/mobilev1/base/common/getdescripstat",//雨量下面的 描述语句
+                      a5:"data.json",//雨量旁边的条形图
+                      a6:"http://192.168.110.233:9995/RainfallIsoline/RainIsolineDataProvider.ashx?start=2014-1-1%2008:00&end=2014-1-1%2008:00&Isoline=true&IsolineArea=true#",//雨量等值面图
+                  }
+              });
+
+              avalon.scan();
+
+          });
+      })
+    </script>
+
+</body>
+</html>  

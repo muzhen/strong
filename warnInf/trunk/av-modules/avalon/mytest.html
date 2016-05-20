@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.4/css/bootstrap.min.css">
+    <script type="text/javascript" src="avalon.js"></script>
+    <script type="text/javascript" src="../jq/jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+            bindInput();
+        });
+        var gg = [
+            {"id": "1", "title": "公告标题1"},
+            {"id": "2", "title": "公告标题2"},
+            {"id": "3", "title": "公告标题3"}
+        ];
+        var bd = [
+            {"id": "1", "title": "报道标题1"},
+            {"id": "2", "title": "报道标题2"},
+            {"id": "3", "title": "报道标题3"}
+        ];
+
+        var vm3 = avalon.define({
+            $id: "box3",
+            morename: "gg",
+            moretext: "更多公告",
+            vgg: gg,
+            vbd: bd,
+            infolist: [],
+            chanUI: function (flag) {//鼠标移到"公告"标签上
+                if (flag) {
+                    vm3.morename = "gg";
+                    vm3.moretext = "更多公告";
+                    //vm3.infolist=[{"id": "2", "title": "test1"}];
+                    vm3.infolist = vm3.vgg.$model;
+                    //avalon.log(vm3.infolist.$model[0].title);
+                    avalon.log(vm3.infolist.$model[0].title+vm3.vgg[0].title+vm3.vbd[0].title);
+                }
+                else {//鼠标移到"媒体报道"标签上
+                    vm3.morename = "bd";
+                    vm3.moretext = "更多报道";
+                    //vm3.infolist=[{"id": "1", "title": "test2"}];
+                    vm3.infolist =vm3.vbd.$model;
+                    //avalon.log(vm3.infolist.$model[0].title);
+                    avalon.log(vm3.infolist.$model[0].title+vm3.vgg[0].title+vm3.vbd[0].title);
+                }
+            }
+        });
+
+        vm3.infolist=gg;
+        avalon.scan();
+
+        function bindInput(){
+            $("#mtext").change(function(e){
+                var hid=$("#mhidden");
+                hid.val($(this).val());
+                console.log(hid.val()+'1');
+
+            });
+            $("#mhidden").change(function(e){
+                console.log($(this).val()+'2');
+            });
+        }
+    </script>
+</head>
+<body>
+<div ms-controller="box3">
+    <span ms-mouseover="chanUI(true)">公告</span>
+    <span ms-mouseover="chanUI(false)">媒体报道</span>
+    <a ms-attr-href="'#!/'+morename">
+        {{moretext}}
+    </a>
+    <ul>
+        <li ms-repeat="infolist">
+            <a ms-attr-href="'#!/'+morename+'/'+el.id" ms-attr-title="el.title">
+                {{el.title}}
+            </a>
+        </li>
+    </ul>
+
+    <embed style="RIGHT: 10px; POSITION: absolute; TOP: 10px"
+           align="center" src="http://demo.sc.chinaz.com//Files/DownLoad/flash2/201603/flash4357.swf"
+           width="1024" height="580 "
+           type=application/x-shockwave-flash wmode="transparent" quality="high" >
+    </embed>
+
+    <input id="mtext" type="text" >
+    <input id="mhidden" type="hidden">
+</div>
+</body>
+</html>
