@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+    <title>test1</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://www.zhuhaihengxin.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://www.zhuhaihengxin.com/libs/datatables/1.10.4/js/jquery.dataTables.min.js"></script>
+    <style>
+        h1 {
+            margin-top: 35px
+        }
+
+        table {
+            font-size: 25px;
+            width: 80%;
+            margin: 25px auto;
+        }
+
+        table > thead {
+            font-size: 30px;
+        }
+
+        .table-bordered.table > tbody > tr > td {
+            font-size: 21px;
+            line-height: 2.7;
+        }
+    </style>
+    <script>
+
+        var startTime, endTime;
+
+        $(document).ready(function () {
+
+            createTalbe();
+
+            getData();
+
+            setINT();
+        });
+
+        function createTalbe() {
+            $('#example').DataTable({
+
+                "paging": false,//分页
+                "searching": false,//搜索
+                "bSort": false,//排序
+                "bInfo": false,//页脚信息
+                "columns":  [{ "sWidth": "10%" }, { "sWidth": "10%"}, { "sWidth": "20%"}, { "sWidth": "20%"}, { "sWidth": "10%"}, { "sWidth": "30%"}],
+                "aaData": []
+            });
+        }
+
+        function getData(_btm,_etm) {
+
+
+            if(!_btm){
+                realTime();
+
+                startTime = startTime.replace("年", "-").replace("月", "-").replace("日", " ") ;//2016-05-18   08:00
+                endTime = endTime.replace("年", "-").replace("月", "-").replace("日", " ") ;//2016-05-19  15:04
+
+
+                if(startTime){
+
+                    _btm = startTime;
+                    _etm = endTime;//2016-05-19  15:04
+                    //	console.log(_etm);
+                }
+            }
+
+            var dataSrc = "http://192.168.110.233:678/WebGis/AjaxHandler/GeneralDataHandler.ashx?",
+                    actionUrl = dataSrc + "sqlKey=Water.GetLEDRainAndWater_DZSK&params=BeginTime,EndTime&BeginTime="+ _btm +"&EndTime="+ _etm +"";
+            $.ajax({
+                type: 'POST',
+                url: actionUrl,
+                data: {},
+                dataType: 'json',
+                beforeSend: function (bs) {
+
+                },
+                complete: function (ce) {
+
+                },
+                error: function (er) {
+                    alert(er.responseText);
+                    //alert('提交请求出错。');
+                },
+                success: function (data) {
+                    data = eval(data);
+                    var tbID = '#example';
+                    var oTable = $(tbID).dataTable();
+                    oTable.fnClearTable();
+                    if (!data || data.length == 0) return;
+                    for (var i = 0; i < data.length; i++) {
+                        var d = [data[i].STNM , data[i].R, data[i].Z, data[i].W, data[i].FSLTDZ, data[i].ZTM];
+                        oTable.fnAddData(d);
+                    }
+                }
+            });
+        }
+
+        //时间处理
+        function GetCurrentTime(isDateFat, AddDayCount, dateObj) {
+
+            var myDate = new Date();
+            if (dateObj) {
+                myDate = dateObj;
+            }
+            myDate.setDate(myDate.getDate() + AddDayCount);
+            var year = myDate.getFullYear();
+            var month = (myDate.getMonth() + 1);
+            var hour = myDate.getHours();
+            var min = myDate.getMinutes();
+            var ss = myDate.getSeconds();
+            var day = myDate.getDate();
+
+            if (month < 10) {
+                month = "0" + month;
+            }
+            if (day < 10) {
+                day = "0" + day;
+            }
+
+            if (hour < 10) {
+                hour = "0" + hour;
+            }
+            if (min < 10) {
+                min = "0" + min;
+            }
+            if (ss < 10) {
+                ss = "0" + ss;
+            }
+            //var currenttime = year + "-" + month + "-" + day + " " + hour + ":" + min;
+
+
+            var currenttime = year + "年" + month + "月" + day + "日 " + hour + ":" + min;
+            //    var currenttime = year + "-" + month + "-" + day  + hour + ":" + min;
+
+            if (isDateFat) {
+                currenttime = year + "年" + month + "月" + day + "日 ";
+                //	 currenttime = year + "-" + month + "-" + day ;
+            }
+            return currenttime;
+        }
+
+
+
+        //5分钟刷新一次
+        function setINT(){
+            setInterval(function () {
+                        realTime();
+
+                        getData();
+                    },
+                    300000);
+        }
+
+        //时间和8点比较
+        function realTime() {
+
+            var stime =  "";
+            var etime =  "";
+
+            var addvcd = 440000,
+                    key = "yesteday led",
+                    currentTime = new Date(),
+                    currentTimeHours = new Date().getHours(),//用于和8点做比较
+                    formatCurrentTime = GetCurrentTime(false, 0, currentTime),//格式化时间,当前时间
+                    formatYesterday = GetCurrentTime(true, -1, currentTime),//格式化时间，前一天
+                    formatToday = GetCurrentTime(true, 0, currentTime);//格式化时间，今天
+
+            if (currentTimeHours <= 8) {
+                //8点属于昨天的
+                stime = formatYesterday + " 08:00";
+                etime = formatCurrentTime;
+                var str = "<h1 class='text-center'>讯请简报(" + stime + "至" + etime + ")</h1>";
+                $("#example_wrapper").before(str);
+                startTime = stime;
+                endTime = etime;
+            } else {
+                //大于8点属于今天
+                stime = formatToday + " 08:00";
+                etime = formatCurrentTime;
+                var str = "<h1 class='text-center'>讯请简报(" + stime + "至" + etime + ")</h1>";
+                $("#example_wrapper").before(str);
+                startTime = stime;
+                endTime = etime;
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+<table id="example" class=" table table-bordered text-right" cellspacing="0" width="80%">
+    <thead>
+    <tr class="active">
+        <th class="text-center" >站名</th>
+        <th class="text-center" >雨量</th>
+        <th class="text-center" >当前水位</th>
+        <th class="text-center" >当前库容</th>
+        <th class="text-center" >汛限水位</th>
+        <th class="text-center" >时间</th>
+    </tr>
+    </thead>
+    <tbody id="dutyTbody">
+    <tr>
+        <td>
+            &nbsp;
+        </td>
+        <td>
+            &nbsp;
+        </td>
+        <td>
+            &nbsp;
+        </td>
+        <td>
+            &nbsp;
+        </td>
+        <td>
+            &nbsp;
+        </td>
+        <td>
+            &nbsp;
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
