@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>avalon使用</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+<link href="../av-modules/bootstrap-3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body >
+
+<!--ms-controller="test" 定义avalon控制器为 test-->
+<div class="container-fluid pad-15"  ms-controller="test" >
+
+    <!--ms-controller="test" 定义avalon控制器的子控制器为 splitScreenPart-->
+    <!--ms-include-src="{{splitScreenViewTpl}}" 加载片段为一个链接文件 -->
+    <div ms-controller="splitScreenPart"   ms-include-src="{{splitScreenViewTpl}}">
+
+    </div>
+</div>
+
+<!--加载底层js-->
+<script type="text/javascript" src="../av-modules/require.js" ></script>
+
+<!--加载js文件路径-->
+<script type="text/javascript" src="../av-modules/require-helper.js"></script>
+<script>
+        //加载需要的插件名称
+    require(["avalon","warnInf"],function(avalon,partData){
+
+        avalon.ready(function(){
+
+            //定义一个Inf的vm
+            var Inf=avalon.define({
+                //绑定控制器的id
+                $id:"test",
+                //加载 html片段
+                splitScreenViewTpl: require.toUrl('splitScreenView')+'.tpl',
+
+                // Inf的cloudFun模块
+                cloudFun:function(){//卫星云图
+                    alert("卫星云图");
+                },
+
+                // Inf的typhoonFun模块
+                typhoonFun:function(){//台风路径
+                    alert("台风路径");
+                },
+
+                // Inf的 weatherFun模块
+                weatherFun:function(){//气象雷达
+                    alert("气象雷达");
+                },
+
+                // Inf的rainFun模块
+                rainFun:function(){//雨量
+                    alert("雨量");
+                }
+            });
+
+            var splitScreenView=partData.init({
+                clid:"splitScreenPart",
+                data:{
+                    a1:"http://wdy.fzqx.gov.cn:2001/Files/Weather/SAT/Static/XML/FY2D_WCN_L_DLCS_P1/1/FY2D_WCN_L_DLCS_P1_TOP10.xml",//卫星云图
+                    a2:"http://wdy.fzqx.gov.cn:2001/Files/Weather/RAD/Static/XML/BEFZ_R_19_P1/1/0.5/BEFZ_R_19_P1_TOP10.xml",//气象雷达
+                    a3:"http://192.168.110.233:9995/api/mobilev1/rain/grade/getrainavgcount",//雨量下面的 数据列表
+                    a4:"http://192.168.110.233:9995/api/mobilev1/base/common/getdescripstat",//雨量下面的 描述语句
+                    a5:"data.json",//雨量旁边的条形图
+                    //    a6:"http://192.168.110.233:9995/RainfallIsoline/RainIsolineDataProvider.ashx?start=2014-1-1%2008:00&end=2014-1-1%2008:00&Isoline=true&IsolineArea=true#",//雨量等值面图
+                    a6:"http://192.168.110.233:9995/RainfallIsoline/RainIsolineDataProvider.ashx",//雨量等值面图
+
+                }
+            });
+
+            avalon.scan();
+
+        });
+    })
+</script>
+
+</body>
+</html>  

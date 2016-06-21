@@ -72,8 +72,9 @@
                 }
             }
 
-            var dataSrc = "http://192.168.110.233:678/WebGis/AjaxHandler/GeneralDataHandler.ashx?",
-                    actionUrl = dataSrc + "sqlKey=Water.GetLEDRainAndWater_DZSK&params=BeginTime,EndTime&BeginTime="+ _btm +"&EndTime="+ _etm +"";
+//            var dataSrc = "http://192.168.110.233:678/WebGis/AjaxHandler/GeneralDataHandler.ashx?",
+//                     = dataSrc + "sqlKey=Water.GetLEDRainAndWater_DZSK&params=BeginTime,EndTime&BeginTime="+ _btm +"&EndTime="+ _etm +"";
+            var  actionUrl ="  rain-chang.txt";
             $.ajax({
                 type: 'POST',
                 url: actionUrl,

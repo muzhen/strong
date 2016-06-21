@@ -2,10 +2,9 @@
 require.config({
     baseUrl: "../av-modules",
     paths: {
-        "jquery": "Jquery/jquery-1.11.1.min",
-        "avalon": "avalon/avalon.mobile.shim",
-        "bootstrap": "bootstrap-3.3.4/js/bootstrap.min",
-        "warnInf":"src/warnInf",
+        "jquery": "Jquery/1.11.1/jquery-1.11.1.min",
+        "avalon": "avalon/1.5.5/avalon.mobile.shim",
+        "bootstrap": "bootstrap/3.3.4/bootstrap.min",
          "splitScreenView":"fourWin/splitScreenView"
 
     },
@@ -23,8 +22,8 @@ require.config({
             exports: "avalon"
         },
         "bootstrap": {
-            deps: ['jquery','css!bootstrap-3.3.4/css/bootstrap.css']
-        }
+            deps: ['jquery']
+        },
 
     }
 });

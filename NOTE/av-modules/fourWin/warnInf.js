@@ -1,21 +1,21 @@
-﻿define(["avalon", "jquery",'css!splitScreenView.css'], function (avalon, $) {
+﻿define(["avalon", "jquery",'css!warnInf.css'], function (avalon, $) {
     var warn = {
         options: {
             clid:"",
             data:"",
             vm:"",
-            conte:{}
-         },
+            conte:{},
+    },
 
         // 初始化数据
         init:function (options){
             warn.options=$.extend(warn.options,options);//传进来的参数和自己定义的参数
-            var vm=warn.conte();//调用conte模块
-            warn.getdata(warn.options);//调用getdata 数据模块，获得数据
-            warn.setINT();//调用setINT刷新模块，初始数据
+            var vm=warn.conte();//调vm模块
+            warn.getdata(warn.options);//调用数据模块，获得数据
+            warn.setINT();//调用刷新模块，初始数据
             return vm;
         },
-        //conte 模块
+        //vm模块
         conte:function(){
             var vm=avalon.define({
                 $id:warn.options.clid,
@@ -36,12 +36,11 @@
 
             return vm;
         },
-
-        //getdata 数据模块,初始化图片数据
+        //数据模块,初始化图片数据
         getdata:function(options) {
 
             //雨量下面的数据列表 数据options.data
-           // http://192.168.110.233:9995/api/mobilev1/rain/grade/getrainavgcount?addvcd=350121&include_self=false&time=(2016-03-28T08:00:00,2016-03-29T08:00:00]&stat_type=个镇
+         //   http://192.168.110.233:9995/api/mobilev1/rain/grade/getrainavgcount?addvcd=350121&include_self=false&time=(2016-03-28T08:00:00,2016-03-29T08:00:00]&stat_type=个镇
             var par_a3= realTime();
             $.getJSON(options.data.a3, par_a3,function (result) {
                 options.conte.cloudData = result.data;//获取的数据放在这里
@@ -66,7 +65,7 @@
             });
 
             //雨量等值面图
-            // http://192.168.110.233:9995/RainfallIsoline/RainIsolineDataProvider.ashx?start=2014-1-1%2008:00&end=2014-1-1%2008:00&Isoline=true&IsolineArea=true
+            //     http://192.168.110.233:9995/RainfallIsoline/RainIsolineDataProvider.ashx?start=2014-1-1%2008:00&end=2014-1-1%2008:00&Isoline=true&IsolineArea=true
             var par_a6= {
                 start: par_a3.stimeChart,
                 end: par_a3.etimeChart,
@@ -99,7 +98,7 @@
 
         },
 
-        //5分钟刷新一次
+        //1分钟刷新一次
         setINT:function (){
             setInterval(function () {
                     realTime();

@@ -1,0 +1,24 @@
+<DATAPACKET Version="2.0">
+    <FIELDS>
+        <FIELD FieldName="ID" FieldType="Decimal"/>
+        <FIELD FieldName="PRODUCTTIME" FieldType="DateTime"/>
+        <FIELD FieldName="PRODUCTDESC" FieldType="String"/>
+        <FIELD FieldName="TYPEDESC" FieldType="String"/>
+        <FIELD FieldName="MINLON" FieldType="Decimal"/>
+        <FIELD FieldName="MAXLON" FieldType="Decimal"/>
+        <FIELD FieldName="MINLAT" FieldType="Decimal"/>
+        <FIELD FieldName="MAXLAT" FieldType="Decimal"/>
+        <FIELD FieldName="SATNAME" FieldType="String"/>
+        <FIELD FieldName="PROJECTTYPE" FieldType="String"/>
+        <FIELD FieldName="CHANNEL" FieldType="String"/>
+        <FIELD FieldName="FILEPATH" FieldType="String"/>
+        <FIELD FieldName="FILESIZE" FieldType="Decimal"/>
+        <FIELD FieldName="FILEMD5CHECKSUM" FieldType="String"/>
+    </FIELDS>
+    <ROWDATA>
+        <ROW ID="8866" PRODUCTTIME="2016-06-02 15:45:00" PRODUCTDESC="is606020745" TYPEDESC="" MINLON="" MAXLON="" MINLAT="" MAXLAT="" SATNAME="" PROJECTTYPE="" CHANNEL="" FILEPATH="../av-modules/splitScreenView/static/img/IS606020745.JPG" FILESIZE="142253" FILEMD5CHECKSUM="666664674ac0880a692ca8bd213c440d"/>
+        <ROW ID="8865" PRODUCTTIME="2016-06-02 15:15:00" PRODUCTDESC="is606020715" TYPEDESC="" MINLON="" MAXLON="" MINLAT="" MAXLAT="" SATNAME="" PROJECTTYPE="" CHANNEL="" FILEPATH="../av-modules/splitScreenView/static/img/IS606020715.JPG" FILESIZE="141954" FILEMD5CHECKSUM="b31d96e86f32d8f353a34ba8b4e24fd3"/>
+        <ROW ID="8864" PRODUCTTIME="2016-06-02 15:00:00" PRODUCTDESC="is606020700" TYPEDESC="" MINLON="" MAXLON="" MINLAT="" MAXLAT="" SATNAME="" PROJECTTYPE="" CHANNEL="" FILEPATH="../av-modules/splitScreenView/static/img/IS606020700.JPG" FILESIZE="308487" FILEMD5CHECKSUM="cf1959e8608147c1239d2974c4ad1fd3"/>
+        <ROW ID="8863" PRODUCTTIME="2016-06-02 14:45:00" PRODUCTDESC="is606020645" TYPEDESC="" MINLON="" MAXLON="" MINLAT="" MAXLAT="" SATNAME="" PROJECTTYPE="" CHANNEL="" FILEPATH="../av-modules/splitScreenView/static/img/IS606020645.JPG" FILESIZE="309437" FILEMD5CHECKSUM="a1b727854aaf15944191e99e6f605e37"/>
+    </ROWDATA>
+</DATAPACKET>

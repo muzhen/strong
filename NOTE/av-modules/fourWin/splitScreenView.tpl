@@ -9,19 +9,19 @@
            <!--卫星云图 cloud -->
            <div class="com-sm-12   pad-15 pad-t-0"   style="height:30%; "  >
                <img ms-attr-src="{{cloudSrc}}" alt="" />
-               <div class="mark-icon top-15" ms-click="cloudFun"></div>
+               <div class="mark-icon top-15" ms-on-click="cloudFun"></div>
                <div class="latestTime top-15">{{showTime}}</div>
            </div>
            <!--台风路径typhoon -->
            <div class="col-sm-6  pad-15 pad-b-0" style="height:70%; " >
                <iframe src="http://www.istrongcloud.com:8001/release/index-lstf.html?popularize=false#route" height="100%" width="100%" frameborder="0"></iframe>
-               <div class="mark-icon right-35"  ms-click="typhoonFun"></div>
+               <div class="mark-icon right-35"  ms-on-click="typhoonFun"></div>
                <div class="latestTime left-35">{{showTime}}</div>
            </div>
            <!--气象雷达-->
            <div class="col-sm-6  pad-15 pad-b-0" style="height:70%; " >
                <img ms-attr-src="{{weatherSrc}}" alt=""/>
-                  <div class="mark-icon right-35"  ms-click="weatherFun"></div>
+                  <div class="mark-icon right-35"  ms-on-click="weatherFun"></div>
                   <div class="latestTime left-35">{{showTime}}</div>
            </div>
        </div>
@@ -51,7 +51,7 @@
              <p>{{rainText.str}}
              </p>
         </div>
-        <div class="mark-icon  "  ms-click="rainFun"></div>
+        <div class="mark-icon  "  ms-on-click="rainFun"></div>
         <div class="latestTime ">{{showTime}}</div>
 
     </div>

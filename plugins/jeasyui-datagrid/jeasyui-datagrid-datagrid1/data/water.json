@@ -1,0 +1,171 @@
+﻿{
+  "total": 28,
+
+  "footer":[
+  {"addvcd":19.80,"warn_stage":60.40,"new_stage":"Average:"},
+  {"addvcd":198.00,"warn_stage":604.00,"new_stage":"Total:"}
+],
+
+  "rows": [
+    {
+      "addvcd": "石头",
+      "warn_stage": "100",
+      "new_stage": "83",
+      "new_tm": "16点",
+      "max_stage": "8300",
+      "max_tm": "6点"
+    },
+    {
+      "addvcd": "萨法",
+      "warn_stage": "75",
+      "new_stage": "21",
+      "new_tm": "6点",
+      "max_stage": "83",
+      "max_tm": "8点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "120",
+      "new_stage": "83",
+      "new_tm": "6点",
+      "max_stage": "90",
+      "max_tm": "6点"
+    },
+    {
+      "addvcd": "打工三个",
+      "warn_stage": "90",
+      "new_stage": "45",
+      "new_tm": "6点",
+      "max_stage": "83",
+      "max_tm": "10点"
+    },
+    {
+      "addvcd": "按时",
+      "warn_stage": "100",
+      "new_stage": "83",
+      "new_tm": "16点",
+      "max_stage": "8300",
+      "max_tm": "6点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "75",
+      "new_stage": "21",
+      "new_tm": "6点",
+      "max_stage": "83",
+      "max_tm": "8点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "120",
+      "new_stage": "83",
+      "new_tm": "6点",
+      "max_stage": "90",
+      "max_tm": "6点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "90",
+      "new_stage": "45",
+      "new_tm": "6点",
+      "max_stage": "83",
+      "max_tm": "10点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "100",
+      "new_stage": "83",
+      "new_tm": "16点",
+      "max_stage": "8300",
+      "max_tm": "6点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "75",
+      "new_stage": "21",
+      "new_tm": "6点",
+      "max_stage": "83",
+      "max_tm": "8点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "100",
+      "new_stage": "83",
+      "new_tm": "16点",
+      "max_stage": "8300",
+      "max_tm": "6点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "75",
+      "new_stage": "21",
+      "new_tm": "6点",
+      "max_stage": "83",
+      "max_tm": "8点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "120",
+      "new_stage": "83",
+      "new_tm": "6点",
+      "max_stage": "90",
+      "max_tm": "6点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "90",
+      "new_stage": "45",
+      "new_tm": "6点",
+      "max_stage": "83",
+      "max_tm": "10点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "100",
+      "new_stage": "83",
+      "new_tm": "16点",
+      "max_stage": "8300",
+      "max_tm": "6点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "75",
+      "new_stage": "21",
+      "new_tm": "6点",
+      "max_stage": "83",
+      "max_tm": "8点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "120",
+      "new_stage": "83",
+      "new_tm": "6点",
+      "max_stage": "90",
+      "max_tm": "6点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "90",
+      "new_stage": "45",
+      "new_tm": "6点",
+      "max_stage": "83",
+      "max_tm": "10点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "100",
+      "new_stage": "83",
+      "new_tm": "16点",
+      "max_stage": "8300",
+      "max_tm": "6点"
+    },
+    {
+      "addvcd": "泰顺县",
+      "warn_stage": "75",
+      "new_stage": "21",
+      "new_tm": "6点",
+      "max_stage": "83",
+      "max_tm": "8点"
+    }
+  ]
+}

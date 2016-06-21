@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>jQuery EasyUI</title>
+    <link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/icon.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="http://www.jeasyui.net/Public/js/easyui/jquery.easyui.min.js"></script>
+</head>
+<body>
+
+<!--搜索栏-->
+<div id="tb" style="padding:3px">
+    <span>站名:</span>
+    <input id="addvcd" style="line-height:26px;border:1px solid #ccc">
+    <span>警戒水位:</span>
+    <input id="warn_stage" style="line-height:26px;border:1px solid #ccc">
+    <a href="#" class="easyui-linkbutton icon-search" plain="true" onclick="doSearch()">Search</a>
+</div>
+
+<!-- 表里的Footer数据显示 showFooter: true-->
+<table  id="tt" class="easyui-datagrid" style="width:700px;height:450px"
+       data-options="
+	   rownumbers:true,
+	   border:false,
+	   pagination: true,
+	   singleSelect:true,
+	   url:'data/water.json',
+	   method:'get',
+	   toolbar:toolbar,
+	   onLoadSuccess:onLoadSuccess,
+	   styler:cellStyler,
+	   showFooter: true
+	   ">
+
+    <!--<thead>
+    <tr>
+        <th data-options="field:'addvcd',width:80">Item ID</th>
+        <th data-options="field:'warn_stage',width:100">Product</th>
+        <th data-options="field:'new_stage',width:80,align:'right'">List Price</th>
+        <th data-options="field:'new_tm',width:80,align:'right'">Unit Cost</th>
+        <th data-options="field:'max_stage',width:240">Attribute</th>
+        <th data-options="field:'max_tm',width:60,align:'center'">Status</th>
+    </tr>
+    </thead>-->
+
+    <!--固定列的-->
+    <thead data-options="frozen:true">
+    <tr>
+        <th data-options="field:'addvcd',width:80">站名</th>
+        <th data-options="field:'warn_stage',formatter:formatPrice,resizable:false" width="15%">警戒水位</th>
+    </tr>
+    </thead>
+    <thead>
+    <tr>
+        <th data-options="field:'new_stage' ,align:'right',halign:'center',resizable:false" width="15%">最新水位</th>
+        <th data-options="field:'new_tm' ,align:'right',width:260">最新水位时间</th>
+        <th data-options="field:'max_stage' ,resizable:false" width="15%">最大水位</th>
+        <th data-options="field:'max_tm', align:'center',halign:'center',width:260,">最大水位时间</th>
+        <th data-options="field:'new_stage' ,align:'right',halign:'center',resizable:false" width="15%">最新水位</th>
+        <th data-options="field:'new_tm' ,align:'right',width:260" >最新水位时间</th>
+        <th data-options="field:'max_stage',resizable:false" width="15%">最大水位</th>
+        <th data-options="field:'max_tm',align:'center',halign:'center',width:260">最大水位时间</th>
+        <th data-options="field:'new_stage', align:'right',halign:'center',resizable:false" width="15%">最新水位</th>
+        <th data-options="field:'new_tm',width:180, align:'right'">最新水位时间</th>
+        <th data-options="field:'max_stage' ,resizable:false" width="15%">最大水位</th>
+        <th data-options="field:'max_tm',width:260,align:'center',halign:'center'">最大水位时间</th>
+    </tr>
+    </thead>
+
+    <!--表格标题合并-->
+    <!--<thead>
+    <tr>
+        <th data-options="field:'itemid',width:80" rowspan="2">Item ID</th>
+        <th data-options="field:'productid',width:100" rowspan="2">Product</th>
+        <th colspan="4">Item Details</th>
+    </tr>
+    <tr>
+        <th data-options="field:'listprice',width:80,align:'right'">List Price</th>
+        <th data-options="field:'unitcost',width:80,align:'right'">Unit Cost</th>
+        <th data-options="field:'attr1',width:240">Attribute</th>
+        <th data-options="field:'status',width:60,align:'center'">Status</th>
+    </tr>
+    </thead>
+-->
+
+
+</table>
+
+<script type="text/javascript">
+    //工具栏
+    var toolbar = [
+        {
+            text: 'Add',
+            iconCls: 'icon-add',
+            handler: function () {
+                alert('add')
+            }
+        }, '-', {
+            text: 'Cut',
+            iconCls: 'icon-cut',
+            handler: function () {
+                alert('cut')
+            }
+        }, '-', {
+            text: 'Save',
+            iconCls: 'icon-save',
+            handler: function () {
+                alert('save')
+            }
+        }, '-', {
+            text: 'search',
+            iconCls: 'icon-search',
+            handler: function () {
+                alert('search');
+            }
+        }
+    ];
+
+    //单元格内数据处理
+    function cellStyler(value, row, index) {
+        if (value < 30) {
+            return 'background-color:#ffee00;color:red;';
+        }
+    }
+    //某列的数据处理
+    function formatPrice(val, row) {
+        if (val > 30) {
+            return '<span style="color:pink;">(' + val + ')</span>';
+        } else {
+            return val;
+        }
+    }
+    //搜索栏
+   // 'load' 方法来加载新的数据网格（datagrid）数据。我们需要传递 'itemid' 和 'productid' 参数到服务器
+    function doSearch() {
+        $('#tt').datagrid('load', {
+            addvcd: $('#addvcd').val(),
+            productid: $('#addvcd').val()
+        });
+    }
+    //合并单元格的
+    function onLoadSuccess(data) {
+        var merges = [{
+            index: 2,
+            rowspan: 2
+        }, {
+            index: 5,
+            rowspan: 2
+        }, {
+            index: 7,
+            rowspan: 2
+        }];
+        for (var i = 0; i < merges.length; i++) {
+            $(this).datagrid('mergeCells', {
+                index: merges[i].index,
+                field: 'addvcd',
+                rowspan: merges[i].rowspan
+            });
+        }
+    }
+</script>
+
+</body>
+</html>
