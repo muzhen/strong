@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <style>
+        .red{
+            color: red;}
+    </style>
+</head>
+<body>
+
+
+<h3>   参考文档：http://www.ruanyifeng.com/blog/2015/07/flex-examples.html?bsh_bid=683103006，参考例子：http://codepen.io/LandonSchropp/pen/KpzzGo</h3>
+<h3>参考文档 :http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html</h3>
+<dl>
+    <dt><b class="red">flex-direction</b>: row | row-reverse | column | column-reverse;</dt>
+    <dd>row（默认值）：主轴为水平方向，起点在左端。</dd>
+    <dd>row-reverse：主轴为水平方向，起点在右端。</dd>
+    <dd>column：主轴为垂直方向，起点在上沿。</dd>
+    <dd>column-reverse：主轴为垂直方向，起点在下沿。</dd>
+</dl>
+
+<dl>
+    <dt> <b class="red">flex-wrap</b>: nowrap | wrap | wrap-reverse;</dt>
+    <dd>nowrap（默认）：不换行</dd>
+    <dd>wrap：换行，第一行在上方。</dd>
+    <dd>wrap-reverse：换行，第一行在下方。</dd>
+</dl>
+
+<dl>
+    <dt> flex-flow: flex-direction||    flex-wrap
+    </dt>
+    <dd>flex-flow属性是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap。</dd>
+</dl>
+
+<h3>水平方向</h3>
+<dl>
+    <dt><b class="red">justify-content</b>: flex-start | flex-end | center | space-between | space-around;</dt>
+    <dd>flex-start（默认值）： 左对齐</dd>
+    <dd>flex-end：水平方向 右对齐</dd>
+    <dd>center： 水平方向 居中</dd>
+    <dd>space-between：水平方向 两端对齐，项目之间的间隔都相等。</dd>
+    <dd>space-around：水平方向 每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。</dd>
+</dl>
+
+<h3>垂直方向</h3>
+<dl>
+    <dt><b class="red">align-items</b>: flex-start | flex-end | center | baseline | stretch;</dt>
+    <dd>flex-start：交叉轴的起点对齐。</dd>
+    <dd> flex-end：交叉轴的终点对齐。</dd>
+    <dd>center：交叉轴的中点对齐。</dd>
+    <dd>baseline: 项目的第一行文字的基线对齐。</dd>
+    <dd> stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。</dd>
+</dl>
+
+<dl>
+    <dt><b class="red"> align-content</b>: flex-start | flex-end | center | space-between | space-around | stretch;</dt>
+    <dd>flex-start：与交叉轴的起点对齐。  </dd>
+    <dd> flex-end：与交叉轴的终点对齐。</dd>
+    <dd>center：与交叉轴的中点对齐。</dd>
+    <dd> space-between：与交叉轴两端对齐，轴线之间的间隔平均分布。</dd>
+    <dd> space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。</dd>
+    <dd>  stretch（默认值）：轴线占满整个交叉轴。</dd>
+</dl>
+
+<br>
+
+
+<dl>
+    <dt>项目属性：order 、  flex-grow、    flex-shrink、  flex-basis、    flex、   align-self</dt>
+    <dd> <b class="red"> order</b>。数值越小，排列越靠前，默认为0； e.g:  order: 3 ;  </dd>
+    <dd><b class="red"> flex-grow</b>属性定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。
+        <pre>
+            .item {
+                 flex-grow: 3 /* default 0 */
+            }
+        </pre>
+    </dd>
+    <dd><b class="red"> flex-shrink</b>属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。</dd>
+    <dd><b class="red"> flex-basis</b>属性定义了在分配多余空间之前，项目占据的主轴空间（main size）。浏览器根据这个属性，计算主轴是否有多余空间。它的默认值为auto，即项目的本来大小。
+        <pre>
+            .item {
+                flex-basis:300px | auto; /* default auto */
+            }
+        </pre>
+    </dd>
+    <dd><b class="red"> flex</b>属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。
+        <pre>
+            .item {
+                  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+                }
+        </pre>
+    </dd>
+    <dd><b class="red"> align-self</b>属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
+        <pre>
+            .item {
+                  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+                }
+        </pre>
+    </dd>
+</dl>
+
+
+<div class="Grid">
+    <div class="Grid-cell">1...</div>
+    <div class="Grid-cell">2...</div>
+    <div class="Grid-cell">3...</div>
+</div>
+<style>
+
+    .Grid {
+        display: flex;
+
+        border:1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    .Grid-cell {
+        flex: 1;
+
+        border:1px solid #ccc;
+        box-sizing: border-box;
+        background: pink;
+    }
+
+    .Grid-cell.u-full {
+        flex: 0 0 100%;
+    }
+
+    .Grid-cell.u-1of2 {
+        flex: 0 0 50%;
+    }
+
+    .Grid-cell.u-1of3 {
+        flex: 0 0 33.3333%;
+    }
+
+    .Grid-cell.u-1of4 {
+        flex: 0 0 25%;
+    }
+</style>
+
+
+<div class="Grid">
+    <div class="Grid-cell u-1of4">25%...</div>
+    <div class="Grid-cell">...</div>
+    <div class="Grid-cell u-1of3">33.3%...</div>
+</div>
+</body>
+</html>
