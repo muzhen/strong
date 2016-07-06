@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>easyui 和 my97 的结合</title>
+    <link rel="stylesheet" type="text/css" href="resouse/easyui/easyui.css">
+    <link rel="stylesheet" type="text/css" href="resouse/src/demo.css">
+    <script type="text/javascript" src="resouse/easyui/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="resouse/easyui/jquery.easyui.min.js"></script>
+    <script  type="text/javascript" src="resouse/easyui/easyui-lang-zh_CN.js"></script>
+    <script language="javascript" type="text/javascript" src="resouse/my97/My97DatePicker/WdatePicker.js"></script>
+
+</head>
+<body>
+
+<!--搜索栏-->
+<div class="searchDiv"  >
+    <span class="col4">时间:</span>
+    <input    class="Wdate" onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})">
+    -
+    <input   class="Wdate Wdate2" onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})">
+
+    <a href="#" class="easyui-linkbutton  SearchBtn" plain="true" onclick="doSearch()"></a>
+</div>
+
+<!--工具栏-->
+<div class="toolDiv"><a class="TableToolItem tool_dc" onclick="dotool()"></a></div>
+
+<!-- 表里的Footer数据显示 showFooter: true-->
+<table id="tt" class="easyui-datagrid"
+       data-options="
+	   rownumbers:true,
+	   pagination: true,
+	   singleSelect:true,
+	   url:'data/rain.json',
+	   method:'get',
+	   fitColumns: true,
+	   	pageNumber: 1,
+	   pageSize: 20,
+	   pageList: [5, 10, 15, 20],
+	   ">
+
+    <!--固定列的-->
+    <thead >
+    <tr>
+        <th data-options="field:'name',align:'center',halign:'center',width:200">站名</th>
+        <th data-options="field:'new_stage',align:'center',halign:'center',width:150">雨量（mm）</th>
+        <th data-options=" field:'max_stage',align:'center',halign:'center',width:150 ">最大雨量（mm）</th>
+        <th data-options=" field:'average_stage',align:'center',halign:'center',width:150 ">平均雨量（mm）</th>
+        <th data-options="field:'address',align:'left',halign:'center',width:250">站址</th>
+    </tr>
+    </thead>
+
+</table>
+
+<script type="text/javascript">
+
+
+    //搜索栏
+    // 'load' 方法来加载新的数据网格（datagrid）数据。我们需要传递 'itemid' 和 'productid' 参数到服务器
+    function doSearch() {
+         var tm =  startTm() + endTm();
+        $('#tt').datagrid('load', {
+            new_tm:tm
+        });
+    }
+    function startTm( ){
+       var  start = $('.Wdate').val( );
+        //alert( start);
+        return start
+    }
+    function endTm( ){
+        var  end = $('.Wdate.Wdate2').val( );
+       // alert( end);
+        return end
+    }
+
+    //工具栏
+    // 'load' 方法来加载新的数据网格（datagrid）数据。我们需要传递 'itemid' 和 'productid' 参数到服务器
+    function dotool() {
+         alert("工具栏");
+    }
+
+    //页码
+    function pagerFilter(data){
+        if (typeof data.length == 'number' && typeof data.splice == 'function'){	// is array
+            data = {
+                total: data.length,
+                rows: data
+            }
+        }
+        var tt = $(this);
+        var opts = tt.datagrid('options');
+        var pager = tt.datagrid('getPager');
+        pager.pagination({
+            onSelectPage:function(pageNum, pageSize){
+                opts.pageNumber = pageNum;
+                opts.pageSize = pageSize;
+                pager.pagination('refresh',{
+                    pageNumber:pageNum,
+                    pageSize:pageSize
+                });
+                tt.datagrid('loadData',data);
+            }
+        });
+        if (!data.originalRows){
+            data.originalRows = (data.rows);
+        }
+        var start = (opts.pageNumber-1)*parseInt(opts.pageSize);
+        var end = start + parseInt(opts.pageSize);
+        data.rows = (data.originalRows.slice(start, end));
+        return data;
+    }
+
+    $(function(data){
+        $('#tt').datagrid({loadFilter:pagerFilter}).datagrid('loadData', data);
+    });
+
+</script>
+
+</body>
+</html>

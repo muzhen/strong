@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <style>
+        body{
+            padding:10px
+        }
+        a{
+            width:50px;height:30px;cursor: pointer;border:1px solid #2c2c2c; padding:10px 20px;
+        }
+    </style>
+</head>
+<body>
+<a data-href="two.html">跳转</a>
+
+<script type="text/javascript">
+
+$("a").click(function(){
+   var dataHref = $(this).attr("data-href");
+    jump(dataHref);
+})
+</script>
+</body>
+</html>

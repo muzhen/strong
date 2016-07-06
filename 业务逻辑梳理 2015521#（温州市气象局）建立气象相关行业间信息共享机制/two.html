@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>two</title>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var re = "1";
+            var us = "2";
+            $("#b01").click(function(){
+                htmlobj=$.ajax({
+                    url:"../data/ht/one.txt",
+                    data:{
+                        re:re,
+                        us:us
+                    },
+                    success:function(){
+                        alert("success");
+                    },
+                     async:false,//同步
+                    type:"get"
+                });
+                alert(htmlobj);
+
+                $("#myDiv").html(htmlobj.responseText);
+
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div id="myDiv"><h2>通过 AJAX 改变文本</h2></div>
+<button id="b01" type="button">改变内容</button>
+
+</body>
+</html>

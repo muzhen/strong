@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>手风琴效果</title>
+    <link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/icon.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="http://www.jeasyui.net/Public/js/easyui/jquery.easyui.min.js"></script>
+</head>
+<body>
+<table  id="dg"  class="easyui-datagrid" title="Basic DataGrid" style="width:700px;height:650px"
+       data-options="
+       singleSelect:true,
+       collapsible:true,
+        url:'data/water.json',
+        method:'get',
+         rownumbers:true,
+          pagination: true,
+        ">
+    <thead>
+    <tr>
+        <th data-options="field:'addvcd',width:80">站名</th>
+        <th data-options="field:'warn_stage',resizable:false" width="15%">警戒水位</th>
+        <th data-options="field:'new_stage' ,align:'right',halign:'center',resizable:false" width="15%">最新水位</th>
+        <th data-options="field:'new_tm' ,align:'right',width:260">最新水位时间</th>
+        <th data-options="field:'max_stage' ,resizable:false" width="15%">最大水位</th>
+        <th data-options="field:'max_tm', align:'center',halign:'center',width:260,">最大水位时间</th>
+    </tr>
+    </thead>
+</table>
+
+<script>
+    function pagerFilter(data){
+        if (typeof data.length == 'number' && typeof data.splice == 'function'){	// is array
+            data = {
+                total: data.length,
+                rows: data
+            }
+        }
+        var dg = $(this);
+        var opts = dg.datagrid('options');
+        var pager = dg.datagrid('getPager');
+        pager.pagination({
+            onSelectPage:function(pageNum, pageSize){
+                opts.pageNumber = pageNum;
+                opts.pageSize = pageSize;
+                pager.pagination('refresh',{
+                    pageNumber:pageNum,
+                    pageSize:pageSize
+                });
+                dg.datagrid('loadData',data);
+            }
+        });
+        if (!data.originalRows){
+            data.originalRows = (data.rows);
+        }
+        var start = (opts.pageNumber-1)*parseInt(opts.pageSize);
+        var end = start + parseInt(opts.pageSize);
+        data.rows = (data.originalRows.slice(start, end));
+        return data;
+    }
+
+    $(function(data){
+        $('#dg').datagrid({loadFilter:pagerFilter}).datagrid('loadData', data);
+    });
+</script>
+
+</body>
+</html>

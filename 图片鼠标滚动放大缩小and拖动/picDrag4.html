@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script>
+    var isDowm = false; //是否按下鼠标
+
+    //    鼠标按下
+    function mouseDown(obj, e) {
+        var e = e || window.event;
+        pic = document.getElementById("p1");
+        picX = pic.style.left;//对象的x轴 ，10
+        //  picX = e.offsetX;
+        picY = pic.style.top;//对象的y轴 ，10
+        broX = e.clientX;//相对浏览器窗口,点击时鼠标移到的坐标
+        broY = e.clientY;
+        isDowm = true;
+        pic.style.cursor = "move";
+    }
+    //相对于屏幕，鼠标移到的坐标，
+    //  document.onmousemove = function (e) {
+    //   getMousePosB()
+    // }
+
+    function mouseMove(e) {
+        var e = e || window.event;
+        //var pic = document.getElementById("p1");
+        var x = e.clientX;//相对浏览器窗口,目前鼠标移到的坐标
+        var y = e.clientY;
+        if (isDowm) {
+            pic.style.left = parseInt(x) - parseInt(broX) + parseInt(picX) + "px";// 目前鼠标移到的坐标 - 点击时鼠标移到的坐标 +对象的x轴(10)
+            pic.style.top = parseInt(y) - parseInt(broY) + parseInt(picY) + "px";
+            //   console.log("x:" + pic.style.top + " " + "y:" + pic.style.left)
+        }
+    }
+    //鼠标离开
+    function mouseUp(e) {
+        var e = e || window.event;
+        var x = e.clientX;//相对浏览器窗口,目前鼠标移到的坐标
+        var y = e.clientY;
+        if (isDowm) {
+            pic.style.left = parseInt(x) - parseInt(broX) + parseInt(picX) + "px";// 目前鼠标移到的坐标 - 点击时鼠标移到的坐标 +对象的x轴(10)
+            pic.style.top = parseInt(y) - parseInt(broY) + parseInt(picY) + "px";
+            broX = x;
+            broY = y;
+            pic.style.cursor = "default";
+            isDowm = false;
+        }
+    }
+
+
+    //相对于屏幕，鼠标移到的坐标，
+    function getMousePosP(e) {
+        e = e ? e : window.event; //event兼容IE和firefox
+        console.log("X:" + e.screenX + "Y:" + e.screenY);
+        return {'x': e.screenX, 'y': e.screenY}
+    }
+
+    //相对浏览器窗口,鼠标移到的坐标
+    function getMousePosB(e) {
+        var e = e || window.event;
+        console.log("X:" + e.clientX + "Y:" + e.clientY);
+        return {'x': e.clientX, 'y': e.clientY}
+    }
+//鼠标滚动放大
+    function  mousewheel(e){
+        var pic = document.getElementById("p1");
+        var e = e || window.event;
+        var oldWidth=pic.offsetWidth;
+        var oldHeight=pic.offsetHeight;
+        var oldLeft=pic.offsetLeft;
+        var oldTop=pic.offsetTop;
+        var scaleX=(e.clientX-oldLeft)/oldWidth;//比例
+        var scaleY=(e.clientY-oldTop)/oldHeight;
+
+        var down = event.wheelDelta/120 ;//wheelDelta返回的值，均为120 的倍数,正值说明滚轮是向上滚动，如果是负值说明滚轮是向下滚动;火狐detail; -1 向下滚动
+        console.log(down);
+        if (down < 0 ){
+            pic.style.width = pic.offsetWidth*0.9+"px";
+            pic.style.height = pic.offsetHeight*0.9+"px";
+            console.log("向下滚动");
+        }else{
+            pic.style.width=pic.offsetWidth*1.1+"px";
+            pic.style.height=pic.offsetHeight*1.1+"px";
+           console.log("向上滚动,放大");
+        }
+        var newWidth=pic.offsetWidth;
+        var newHeight=pic.offsetHeight;
+
+        pic.style.left=oldLeft-scaleX*(newWidth-oldWidth)+"px";
+        pic.style.top=oldTop-scaleY*(newHeight-oldHeight)+"px";
+    }
+
+
+
+</script>
+<style>
+    #p1 {
+        background: url("http://www.codefans.net/jscss/demoimg/wall7.jpg");
+        position: absolute;background-size: cover;
+    }
+</style>
+<body>
+
+<div id="p1" onmousedown="mouseDown()" onmousemove="mouseMove()" onmouseup="mouseUp()" onmousewheel="mousewheel()" style="
+        top: 100px;
+        left: 100px;
+         width: 200px;
+         height:150px;">
+
+</div>
+</body>
+</html>

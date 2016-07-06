@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动触发</title>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+
+</head>
+<body>
+
+<button id="btn" >
+    点击我
+</button>
+<script type="text/javascript">
+
+
+
+    $("#btn").click(function(){
+        alert("自动触发点击事件")
+    })
+    $('#btn').trigger("click");
+   // $('#btn').click();
+
+</script>
+</body>
+</html>

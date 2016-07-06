@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>鼠标滚动放大缩小图片</title>
+
+    <style type="text/css">
+        img{
+            position: absolute;
+            left:400px;
+            top: 100px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        window.onload=function (){
+            var oImg=document.getElementsByTagName("img")[0];
+
+            fnWheel(oImg,function (down,oEvent){
+
+                var oldWidth=this.offsetWidth;
+                var oldHeight=this.offsetHeight;
+                var oldLeft=this.offsetLeft;
+                var oldTop=this.offsetTop;
+
+                var scaleX=(oEvent.clientX-oldLeft)/oldWidth;//比例
+                var scaleY=(oEvent.clientY-oldTop)/oldHeight;
+
+                if (down){
+                    this.style.width=this.offsetWidth*0.9+"px";
+                    this.style.height=this.offsetHeight*0.9+"px";
+                }
+                else{
+                    this.style.width=this.offsetWidth*1.1+"px";
+                    this.style.height=this.offsetHeight*1.1+"px";
+                }
+
+                var newWidth=this.offsetWidth;
+                var newHeight=this.offsetHeight;
+
+                this.style.left=oldLeft-scaleX*(newWidth-oldWidth)+"px";
+                this.style.top=oldTop-scaleY*(newHeight-oldHeight)+"px";
+            });
+        }
+
+        function fnWheel(obj,fncc)
+        {
+            obj.onmousewheel = fn;
+            if(obj.addEventListener)
+            {
+                obj.addEventListener('DOMMouseScroll',fn,false);
+            }
+
+            function fn(ev)
+            {
+                var oEvent = ev || window.event;
+                var down = true;
+
+                if(oEvent.detail)
+                {
+                    down = oEvent.detail > 0
+                }
+                else
+                {
+                    down = oEvent.wheelDelta < 0
+                }
+
+                if(fncc)
+                {
+                    fncc.call(this,down,oEvent);
+                }
+
+                if(oEvent.preventDefault)
+                {
+                    oEvent.preventDefault();
+                }
+
+                return false;
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+
+<img src="http://www.codefans.net/jscss/demoimg/wall7.jpg" alt="">
+</body>
+</html>

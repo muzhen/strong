@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>通过鼠标滚轮放大缩小图片</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <style type="text/css">
+        <!--
+        .style1 {
+            color: #FF0000;
+            font-size: 16px;
+        }
+        -->
+    </style>
+</head>
+<script language="javascript">
+    function bigimg(i)
+    {
+        var zoom = parseInt(i.style.zoom,10)||100;
+        zoom += event.wheelDelta / 12;//wheelDelta返回的值，均为120 的倍数,正值说明滚轮是向上滚动，如果是负值说明滚轮是向下滚动;火狐detail
+        if(zoom > 0 )
+            i.style.zoom=zoom+'%';
+        return false;
+    }
+</script>
+<body>
+
+<center>
+    <a href="http://www.codefans.net">
+        <img src="http://www.codefans.net/jscss/demoimg/wall7.jpg" width="461" height="277" border="1" onmousewheel="return bigimg(this)">
+    </a>
+</center>
+</body>
+</html>
