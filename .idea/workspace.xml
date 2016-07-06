@@ -2,606 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5617c5df-8abe-4480-8d01-e3a92f1f7784" name="Default" comment="">
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\img\capacity.PNG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\img\rain.PNG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\img\temp.PNG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\img\tide.PNG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\img\typhoon.PNG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\img\water.PNG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\img\wind.PNG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\map_capacity.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\map_rain.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\map_temp.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\map_tide.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\map_typhoon.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\map_water.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\html\map_wind.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\Jquery\1.11.1\jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\avalon\1.5.5\avalon.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\avalon\1.5.5\avalon.mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\avalon\1.5.5\avalon.mobile.shim.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\avalon\1.5.5\mmPromise.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\avalon\1.5.5\mmRequest.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\bootstrap\3.3.4\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\bootstrap\3.3.4\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\bootstrap\3.3.4\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\bootstrap\3.3.4\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\bootstrap\3.3.4\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\bootstrap\3.3.4\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\bootstrap\3.3.4\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\css.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\fourWin\splitScreenView.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\fourWin\splitScreenView.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\fourWin\splitScreenView.tpl" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\fourWin\static\img\bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\fourWin\static\img\bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\fourWin\static\img\right.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\fourWin\static\img\sea.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\require-helper.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\av-modules\require.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\examples\data.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\examples\rain.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\examples\splitScreenView.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\package.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView - 副本\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\Jquery\1.11.1\jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\avalon\1.5.5\avalon.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\avalon\1.5.5\avalon.mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\avalon\1.5.5\avalon.mobile.shim.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\avalon\1.5.5\mmPromise.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\avalon\1.5.5\mmRequest.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\bootstrap\3.3.4\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\bootstrap\3.3.4\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\bootstrap\3.3.4\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\bootstrap\3.3.4\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\bootstrap\3.3.4\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\bootstrap\3.3.4\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\bootstrap\3.3.4\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\css.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\require-helper.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\require.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\splitScreenView.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\splitScreenView.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\splitScreenView.tpl" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\20140101080000.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\IS606020700.JPG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\IS606020715.JPG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\IS606020745.JPG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\IS606020800.JPG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\R_19_P1_5160602160835000.PNG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\R_19_P1_5160602161428000.PNG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\R_19_P1_5160602162020000.PNG" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\right.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\av-modules\splitScreenView\static\img\sea.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\examples\data\cloud.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\examples\data\data.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\examples\data\rain.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\examples\data\rainPic.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\examples\data\rainTable.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\examples\data\rainTxt.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\examples\data\weather.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\examples\splitScreenView.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\package.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\splitScreenView\trunk\readme.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2016004#漳州市微信+wap建设项目 动态简报 源码/readme.md" afterPath="$PROJECT_DIR$/2016004#漳州市微信+wap建设项目 动态简报 源码/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\data\datagrid_data.json" afterPath="$PROJECT_DIR$/plugins/easyui/data/datagrid_data.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\data\datagrid_data2.json" afterPath="$PROJECT_DIR$/plugins/easyui/data/datagrid_data2.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\data\rain.json" afterPath="$PROJECT_DIR$/plugins/easyui/data/rain.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\data\sea.json" afterPath="$PROJECT_DIR$/plugins/easyui/data/sea.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\data\water.json" afterPath="$PROJECT_DIR$/plugins/easyui/data/water.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\easyui 和 my97 的结合.html" afterPath="$PROJECT_DIR$/plugins/easyui/easyui 和 my97 的结合.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\1.3.1\easyui-lang-zh_CN.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/1.3.1/easyui-lang-zh_CN.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\1.3.1\easyui.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/1.3.1/easyui.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\1.3.1\jquery-1.7.1.min.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/1.3.1/jquery-1.7.1.min.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\1.3.1\jquery-1.8.0.min.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/1.3.1/jquery-1.8.0.min.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\1.3.1\jquery.easyui.min.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/1.3.1/jquery.easyui.min.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\1.3.1\jquery.easyui.min1.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/1.3.1/jquery.easyui.min1.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\changelog.txt" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/changelog.txt" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\accordion.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/accordion.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\calendar.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/calendar.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\combo.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/combo.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\combobox.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/combobox.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\combobox_data.json" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/combobox_data.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\combogrid.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/combogrid.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\combotree.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/combotree.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\datagrid.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/datagrid.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\datagrid2.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/datagrid2.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\datagrid3.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/datagrid3.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\datagrid4.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/datagrid4.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\datagrid5.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/datagrid5.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\datagrid_data.json" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/datagrid_data.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\datagrid_data2.json" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/datagrid_data2.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\datagrid_data3.json" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/datagrid_data3.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\datebox.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/datebox.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\datetimebox.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/datetimebox.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\demo.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/demo.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\dialog.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/dialog.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\draggable.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/draggable.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\droppable.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/droppable.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\droppable1.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/droppable1.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\droppable2.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/droppable2.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\easyloader.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/easyloader.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\form.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/form.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\form_data.json" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/form_data.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\layout.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/layout.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\layout1.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/layout1.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\layout2.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/layout2.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\linkbutton.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/linkbutton.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\menu.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/menu.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\menubutton.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/menubutton.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\messager.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/messager.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\numberbox.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/numberbox.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\numberbox2.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/numberbox2.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\numberspinner.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/numberspinner.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\pagination.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/pagination.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\panel.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/panel.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\panel2.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/panel2.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\progressbar.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/progressbar.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\propertygrid.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/propertygrid.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\propertygrid_data.json" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/propertygrid_data.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\resizable.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/resizable.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\searchbox.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/searchbox.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\slider.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/slider.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\splitbutton.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/splitbutton.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\tabs.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/tabs.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\tabs_href_test.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/tabs_href_test.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\timespinner.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/timespinner.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\tree.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/tree.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\tree2.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/tree2.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\tree_data.json" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/tree_data.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\treegrid.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/treegrid.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\treegrid2.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/treegrid2.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\treegrid3.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/treegrid3.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\treegrid_data.json" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/treegrid_data.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\treegrid_data2.json" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/treegrid_data2.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\treegrid_data3.json" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/treegrid_data3.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\treegrid_subdata.json" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/treegrid_subdata.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\validatebox.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/validatebox.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\demo\window.html" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/demo/window.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\easyloader.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/easyloader.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\easyui-lang-zh_CN.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/easyui-lang-zh_CN.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\easyui.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/easyui.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\Thumbs.db" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/Thumbs.db" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\accordion_collapse.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/accordion_collapse.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\accordion_expand.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/accordion_expand.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\blank.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/blank.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\button_a_bg.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/button_a_bg.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\button_plain_hover.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/button_plain_hover.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\button_span_bg.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/button_span_bg.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\calendar_nextmonth.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/calendar_nextmonth.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\calendar_nextyear.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/calendar_nextyear.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\calendar_prevmonth.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/calendar_prevmonth.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\calendar_prevyear.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/calendar_prevyear.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\combo_arrow.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/combo_arrow.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\datagrid_header_bg.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/datagrid_header_bg.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\datagrid_row_collapse.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/datagrid_row_collapse.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\datagrid_row_expand.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/datagrid_row_expand.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\datagrid_sort_asc.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/datagrid_sort_asc.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\datagrid_sort_desc.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/datagrid_sort_desc.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\datagrid_title_bg.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/datagrid_title_bg.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\datebox_arrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/datebox_arrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\layout_arrows.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/layout_arrows.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\menu.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/menu.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\menu_downarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/menu_downarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\menu_rightarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/menu_rightarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\menu_sep.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/menu_sep.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\menu_split_downarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/menu_split_downarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\messager_error.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/messager_error.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\messager_info.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/messager_info.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\messager_question.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/messager_question.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\messager_warning.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/messager_warning.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\pagination_first.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/pagination_first.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\pagination_last.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/pagination_last.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\pagination_load.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/pagination_load.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\pagination_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/pagination_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\pagination_next.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/pagination_next.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\pagination_prev.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/pagination_prev.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\panel_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/panel_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\panel_title.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/panel_title.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\panel_tools.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/panel_tools.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\searchbox_button.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/searchbox_button.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\slider_handle.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/slider_handle.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\spinner_arrow_down.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/spinner_arrow_down.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\spinner_arrow_up.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/spinner_arrow_up.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tabs_active.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tabs_active.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tabs_close.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tabs_close.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tabs_enabled.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tabs_enabled.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tabs_leftarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tabs_leftarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tabs_rightarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tabs_rightarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tree_arrows.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tree_arrows.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tree_checkbox_0.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tree_checkbox_0.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tree_checkbox_1.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tree_checkbox_1.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tree_checkbox_2.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tree_checkbox_2.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tree_dnd_no.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tree_dnd_no.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tree_dnd_yes.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tree_dnd_yes.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tree_elbow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tree_elbow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tree_file.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tree_file.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tree_folder.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tree_folder.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tree_folder_open.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tree_folder_open.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\tree_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/tree_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\validatebox_pointer.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/validatebox_pointer.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\images\validatebox_warning.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/images/validatebox_warning.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\jquery-1.7.1.min.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/jquery-1.7.1.min.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\jquery-1.8.0.min.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/jquery-1.8.0.min.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\jquery.easyui.min.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/jquery.easyui.min.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\licence_gpl.txt" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/licence_gpl.txt" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\license_commercial.txt" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/license_commercial.txt" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-af.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-af.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-bg.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-bg.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-ca.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-ca.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-cs.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-cs.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-cz.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-cz.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-da.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-da.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-de.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-de.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-en.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-en.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-es.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-es.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-fr.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-fr.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-it.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-it.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-nl.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-nl.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-pt_BR.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-pt_BR.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-ru.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-ru.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-tr.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-tr.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-zh_CN.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-zh_CN.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\locale\easyui-lang-zh_TW.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/locale/easyui-lang-zh_TW.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.accordion.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.accordion.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.calendar.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.calendar.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.combo.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.combo.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.combobox.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.combobox.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.combogrid.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.combogrid.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.combotree.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.combotree.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.datagrid.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.datagrid.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.datebox.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.datebox.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.datetimebox.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.datetimebox.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.dialog.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.dialog.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.draggable.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.draggable.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.droppable.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.droppable.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.form.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.form.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.layout.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.layout.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.linkbutton.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.linkbutton.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.menu.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.menu.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.menubutton.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.menubutton.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.messager.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.messager.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.numberbox.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.numberbox.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.numberspinner.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.numberspinner.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.pagination.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.pagination.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.panel.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.panel.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.parser.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.parser.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.progressbar.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.progressbar.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.propertygrid.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.propertygrid.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.resizable.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.resizable.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.searchbox.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.searchbox.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.slider.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.slider.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.spinner.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.spinner.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.splitbutton.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.splitbutton.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.tabs.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.tabs.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.timespinner.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.timespinner.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.tree.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.tree.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.treegrid.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.treegrid.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.validatebox.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.validatebox.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\plugins\jquery.window.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/plugins/jquery.window.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\readme.txt" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/readme.txt" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\easyloader.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/easyloader.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.accordion.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.accordion.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.calendar.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.calendar.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.combobox.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.combobox.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.datebox.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.datebox.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.draggable.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.draggable.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.droppable.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.droppable.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.form.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.form.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.linkbutton.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.linkbutton.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.menu.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.menu.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.parser.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.parser.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.progressbar.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.progressbar.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.propertygrid.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.propertygrid.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.resizable.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.resizable.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.slider.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.slider.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.tabs.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.tabs.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\src\jquery.window.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/src/jquery.window.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\accordion.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/accordion.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\calendar.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/calendar.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\combo.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/combo.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\combobox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/combobox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\datagrid.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/datagrid.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\datebox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/datebox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\dialog.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/dialog.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\easyui.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/easyui.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\Thumbs.db" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/Thumbs.db" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\accordion_collapse.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/accordion_collapse.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\accordion_expand.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/accordion_expand.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\blank.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/blank.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\button_a_bg.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/button_a_bg.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\button_plain_hover.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/button_plain_hover.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\button_span_bg.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/button_span_bg.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\calendar_nextmonth.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/calendar_nextmonth.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\calendar_nextyear.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/calendar_nextyear.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\calendar_prevmonth.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/calendar_prevmonth.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\calendar_prevyear.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/calendar_prevyear.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\combo_arrow.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/combo_arrow.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\datagrid_header_bg.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/datagrid_header_bg.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\datagrid_row_collapse.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/datagrid_row_collapse.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\datagrid_row_expand.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/datagrid_row_expand.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\datagrid_sort_asc.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/datagrid_sort_asc.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\datagrid_sort_desc.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/datagrid_sort_desc.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\datagrid_title_bg.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/datagrid_title_bg.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\datebox_arrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/datebox_arrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\layout_arrows.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/layout_arrows.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\menu.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/menu.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\menu_downarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/menu_downarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\menu_rightarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/menu_rightarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\menu_sep.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/menu_sep.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\menu_split_downarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/menu_split_downarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\messager_error.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/messager_error.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\messager_info.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/messager_info.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\messager_question.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/messager_question.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\messager_warning.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/messager_warning.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\pagination_first.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/pagination_first.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\pagination_last.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/pagination_last.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\pagination_load.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/pagination_load.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\pagination_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/pagination_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\pagination_next.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/pagination_next.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\pagination_prev.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/pagination_prev.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\panel_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/panel_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\panel_title.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/panel_title.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\panel_tools.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/panel_tools.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\searchbox_button.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/searchbox_button.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\slider_handle.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/slider_handle.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\spinner_arrow_down.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/spinner_arrow_down.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\spinner_arrow_up.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/spinner_arrow_up.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tabs_active.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tabs_active.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tabs_close.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tabs_close.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tabs_enabled.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tabs_enabled.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tabs_leftarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tabs_leftarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tabs_rightarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tabs_rightarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tree_arrows.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tree_arrows.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tree_checkbox_0.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tree_checkbox_0.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tree_checkbox_1.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tree_checkbox_1.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tree_checkbox_2.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tree_checkbox_2.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tree_dnd_no.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tree_dnd_no.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tree_dnd_yes.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tree_dnd_yes.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tree_elbow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tree_elbow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tree_file.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tree_file.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tree_folder.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tree_folder.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tree_folder_open.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tree_folder_open.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\tree_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/tree_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\validatebox_pointer.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/validatebox_pointer.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\images\validatebox_warning.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/images/validatebox_warning.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\layout.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/layout.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\linkbutton.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/linkbutton.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\menu.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/menu.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\menubutton.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/menubutton.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\messager.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/messager.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\pagination.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/pagination.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\panel.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/panel.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\progressbar.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/progressbar.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\propertygrid.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/propertygrid.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\searchbox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/searchbox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\slider.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/slider.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\spinner.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/spinner.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\splitbutton.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/splitbutton.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\tabs.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/tabs.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\tree.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/tree.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\validatebox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/validatebox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\default\window.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/default/window.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\accordion.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/accordion.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\calendar.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/calendar.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\combo.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/combo.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\combobox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/combobox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\datagrid.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/datagrid.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\datebox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/datebox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\dialog.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/dialog.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\easyui.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/easyui.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\Thumbs.db" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/Thumbs.db" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\accordion_collapse.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/accordion_collapse.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\accordion_expand.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/accordion_expand.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\blank.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/blank.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\button_a_bg.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/button_a_bg.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\button_plain_hover.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/button_plain_hover.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\button_span_bg.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/button_span_bg.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\calendar_nextmonth.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/calendar_nextmonth.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\calendar_nextyear.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/calendar_nextyear.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\calendar_prevmonth.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/calendar_prevmonth.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\calendar_prevyear.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/calendar_prevyear.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\combo_arrow.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/combo_arrow.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\datagrid_header_bg.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/datagrid_header_bg.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\datagrid_row_collapse.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/datagrid_row_collapse.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\datagrid_row_expand.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/datagrid_row_expand.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\datagrid_sort_asc.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/datagrid_sort_asc.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\datagrid_sort_desc.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/datagrid_sort_desc.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\datagrid_title_bg.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/datagrid_title_bg.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\datebox_arrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/datebox_arrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\layout_arrows.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/layout_arrows.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\menu.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/menu.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\menu_downarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/menu_downarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\menu_rightarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/menu_rightarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\menu_sep.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/menu_sep.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\menu_split_downarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/menu_split_downarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\messager_error.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/messager_error.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\messager_info.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/messager_info.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\messager_question.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/messager_question.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\messager_warning.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/messager_warning.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\pagination_first.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/pagination_first.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\pagination_last.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/pagination_last.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\pagination_load.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/pagination_load.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\pagination_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/pagination_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\pagination_next.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/pagination_next.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\pagination_prev.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/pagination_prev.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\panel_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/panel_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\panel_title.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/panel_title.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\panel_tools.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/panel_tools.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\searchbox_button.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/searchbox_button.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\slider_handle.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/slider_handle.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\spinner_arrow_down.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/spinner_arrow_down.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\spinner_arrow_up.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/spinner_arrow_up.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tabs_close.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tabs_close.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tabs_enabled.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tabs_enabled.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tabs_leftarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tabs_leftarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tabs_rightarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tabs_rightarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tree_arrows.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tree_arrows.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tree_checkbox_0.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tree_checkbox_0.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tree_checkbox_1.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tree_checkbox_1.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tree_checkbox_2.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tree_checkbox_2.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tree_dnd_no.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tree_dnd_no.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tree_dnd_yes.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tree_dnd_yes.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tree_elbow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tree_elbow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tree_file.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tree_file.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tree_folder.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tree_folder.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tree_folder_open.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tree_folder_open.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\tree_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/tree_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\validatebox_pointer.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/validatebox_pointer.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\images\validatebox_warning.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/images/validatebox_warning.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\layout.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/layout.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\linkbutton.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/linkbutton.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\menu.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/menu.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\menubutton.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/menubutton.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\messager.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/messager.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\pagination.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/pagination.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\panel.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/panel.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\progressbar.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/progressbar.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\propertygrid.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/propertygrid.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\searchbox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/searchbox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\slider.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/slider.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\spinner.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/spinner.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\splitbutton.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/splitbutton.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\tabs.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/tabs.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\tree.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/tree.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\validatebox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/validatebox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\gray\window.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/gray/window.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icon.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icon.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\back.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/back.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\blank.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/blank.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\cancel.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/cancel.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\cut.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/cut.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\edit_add.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/edit_add.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\edit_remove.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/edit_remove.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\filesave.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/filesave.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\help.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/help.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\mini_add.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/mini_add.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\mini_edit.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/mini_edit.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\mini_refresh.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/mini_refresh.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\no.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/no.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\ok.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/ok.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\pencil.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/pencil.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\print.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/print.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\redo.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/redo.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\reload.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/reload.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\search.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/search.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\sum.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/sum.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\tip.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/tip.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\icons\undo.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/icons/undo.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\accordion.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/accordion.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\calendar.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/calendar.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\combo.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/combo.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\combobox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/combobox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\datagrid.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/datagrid.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\datebox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/datebox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\dialog.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/dialog.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\easyui.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/easyui.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\accordion_collapse.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/accordion_collapse.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\accordion_expand.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/accordion_expand.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\blank.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/blank.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\calendar_nextmonth.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/calendar_nextmonth.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\calendar_nextyear.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/calendar_nextyear.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\calendar_prevmonth.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/calendar_prevmonth.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\calendar_prevyear.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/calendar_prevyear.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\combo_arrow.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/combo_arrow.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\datagrid_row_collapse.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/datagrid_row_collapse.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\datagrid_row_expand.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/datagrid_row_expand.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\datagrid_sort_asc.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/datagrid_sort_asc.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\datagrid_sort_desc.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/datagrid_sort_desc.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\datebox_arrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/datebox_arrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\layout_arrows.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/layout_arrows.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\menu_downarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/menu_downarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\menu_rightarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/menu_rightarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\menu_sep.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/menu_sep.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\menu_split_downarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/menu_split_downarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\messager_error.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/messager_error.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\messager_info.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/messager_info.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\messager_question.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/messager_question.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\messager_warning.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/messager_warning.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\pagination_first.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/pagination_first.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\pagination_last.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/pagination_last.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\pagination_load.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/pagination_load.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\pagination_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/pagination_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\pagination_next.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/pagination_next.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\pagination_prev.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/pagination_prev.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\panel_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/panel_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\panel_tools.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/panel_tools.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\searchbox_button.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/searchbox_button.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\slider_handle.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/slider_handle.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tabs_close.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tabs_close.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tabs_leftarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tabs_leftarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tabs_rightarrow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tabs_rightarrow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tree_arrows.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tree_arrows.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tree_checkbox_0.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tree_checkbox_0.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tree_checkbox_1.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tree_checkbox_1.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tree_checkbox_2.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tree_checkbox_2.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tree_dnd_no.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tree_dnd_no.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tree_dnd_yes.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tree_dnd_yes.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tree_elbow.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tree_elbow.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tree_file.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tree_file.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tree_folder.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tree_folder.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tree_folder_open.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tree_folder_open.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\tree_loading.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/tree_loading.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\images\validatebox_warning.png" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/images/validatebox_warning.png" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\layout.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/layout.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\linkbutton.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/linkbutton.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\menu.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/menu.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\menubutton.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/menubutton.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\messager.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/messager.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\pagination.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/pagination.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\panel.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/panel.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\progressbar.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/progressbar.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\propertygrid.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/propertygrid.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\searchbox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/searchbox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\slider.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/slider.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\splitbutton.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/splitbutton.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\tabs.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/tabs.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\tree.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/tree.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\validatebox.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/validatebox.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\easyui\themes\metro\window.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/easyui/themes/metro/window.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\My97DatePicker.htm" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/My97DatePicker.htm" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\WdatePicker.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/WdatePicker.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\calendar.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/calendar.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\config.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/config.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\lang\en.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/lang/en.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\lang\zh-cn.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/lang/zh-cn.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\lang\zh-tw.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/lang/zh-tw.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\skin\WdatePicker.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/skin/WdatePicker.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\skin\datePicker.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/skin/datePicker.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\skin\default\datepicker.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/skin/default/datepicker.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\skin\default\img.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/skin/default/img.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\skin\whyGreen\bg.jpg" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/skin/whyGreen/bg.jpg" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\skin\whyGreen\datepicker.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/skin/whyGreen/datepicker.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\skin\whyGreen\img.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/skin/whyGreen/img.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\开发包\lang\en.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/开发包/lang/en.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\开发包\lang\zh-cn.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/开发包/lang/zh-cn.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\开发包\lang\zh-tw.js" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/开发包/lang/zh-tw.js" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\开发包\readme.txt" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/开发包/readme.txt" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\开发包\skin\WdatePicker.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/开发包/skin/WdatePicker.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\开发包\skin\datePicker.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/开发包/skin/datePicker.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\开发包\skin\default\datepicker.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/开发包/skin/default/datepicker.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\开发包\skin\default\img.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/开发包/skin/default/img.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\开发包\skin\whyGreen\bg.jpg" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/开发包/skin/whyGreen/bg.jpg" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\开发包\skin\whyGreen\datepicker.css" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/开发包/skin/whyGreen/datepicker.css" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\My97DatePicker\开发包\skin\whyGreen\img.gif" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/My97DatePicker/开发包/skin/whyGreen/img.gif" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\resouse\my97\demo.htm" afterPath="$PROJECT_DIR$/plugins/easyui/resouse/my97/demo.htm" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\web.config" afterPath="$PROJECT_DIR$/plugins/easyui/web.config" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\基础的效果.html" afterPath="$PROJECT_DIR$/plugins/easyui/基础的效果.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\左侧起几列左右滚动时固定不动.html" afterPath="$PROJECT_DIR$/plugins/easyui/左侧起几列左右滚动时固定不动.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\easyui\手风琴效果.html" afterPath="$PROJECT_DIR$/plugins/easyui/手风琴效果.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\plugins\jeasyui-datagrid\jeasyui-datagrid-datagrid1\data\datagrid_data.json" afterPath="$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/data/datagrid_data.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\plugins\jeasyui-datagrid\jeasyui-datagrid-datagrid1\data\datagrid_data2.json" afterPath="$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/data/datagrid_data2.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\plugins\jeasyui-datagrid\jeasyui-datagrid-datagrid1\data\water.json" afterPath="$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/data/water.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\plugins\jeasyui-datagrid\jeasyui-datagrid-datagrid1\data\water2.json" afterPath="$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/data/water2.json" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\plugins\jeasyui-datagrid\jeasyui-datagrid-datagrid1\datagrid.html" afterPath="$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\plugins\jeasyui-datagrid\jeasyui-datagrid-datagrid1\datagrid1.html" afterPath="$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid1.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\plugins\jeasyui-datagrid\jeasyui-datagrid-datagrid1\datagrid2.html" afterPath="$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid2.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\plugins\jeasyui-datagrid\jeasyui-datagrid-datagrid1\datagrid3.html" afterPath="$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid3.html" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\plugins\jeasyui-datagrid\jeasyui-datagrid-datagrid1\readme.txt" afterPath="$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/readme.txt" />
-      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\plugins\jeasyui-datagrid\jeasyui-datagrid-datagrid1\web.config" afterPath="$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/web.config" />
     </list>
     <list id="facecbad-ee52-4f1f-a925-06a049cc8cd2" name="Rejected commit: Default" comment="20160520整理" />
     <ignored path="strong.iws" />
@@ -626,7 +28,7 @@
       <file leaf-file-name="picDrag.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="13.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -636,7 +38,7 @@
       <file leaf-file-name="picDrag2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.678571">
+            <state vertical-scroll-proportion="0.0">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
@@ -646,17 +48,27 @@
       <file leaf-file-name="datagrid3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datagrid.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="datagrid.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0070422">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2016004#漳州市微信+wap建设项目 动态简报 源码/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -723,6 +135,7 @@
         <option value="$PROJECT_DIR$/图片放大缩小/map1.html" />
         <option value="$PROJECT_DIR$/图片拖拽/picDrag5.html" />
         <option value="$PROJECT_DIR$/图片拖拽/picDrag2.html" />
+        <option value="$PROJECT_DIR$/2016004#漳州市微信+wap建设项目 动态简报 源码/readme.md" />
       </list>
     </option>
   </component>
@@ -762,6 +175,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -808,9 +222,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2016004#漳州市微信+wap建设项目 动态简报 源码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -910,9 +337,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17348008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17348008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.040126715" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -952,6 +379,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/东张水库/demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1010,7 +469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1020,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,13 +486,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.022300469">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.678571">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
@@ -1050,7 +507,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0070422">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2016004#漳州市微信+wap建设项目 动态简报 源码/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5539906">
+          <caret line="48" column="70" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2016004#漳州市微信+wap建设项目 动态简报 源码/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>

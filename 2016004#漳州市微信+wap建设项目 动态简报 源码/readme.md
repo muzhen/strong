@@ -1,52 +1,66 @@
+过程碰到的知识点：
+1、JavaScript push() 方法
+--该方法会改变数组的长度。
+---arrayObject.push(newelement1,newelement2,....,newelementX)
+----arr.push("James") //往数组arr[]增加元素James；
+
+2、JavaScript indexOf() 方法
+--indexOf() 方法可返回某个指定的字符串值在字符串中首次出现的位置。
+--stringObject.indexOf(searchvalue,fromindex)
+--注释：indexOf() 方法对大小写敏感！
+  注释：如果要检索的字符串值没有出现，则该方法返回 -1。
+--var str="Hello world!"
+  document.write(str.indexOf("gg"))// -1
 
 
+3、for in
+var arr = new Array("first", "second", "third")
+for(var item in arr) {
+document.write(arr[item]+",");
+}
 
-图片-菜单数据格式如下：
-[
-     $id:options.clid,
-                lbimg:[],//存放轮播图片
-                jcfb:[],//存放所有菜单
-                show:[],//存放需要呈现的菜单
-                list:[],//存放叶签内容
-        
-                /*
-                初始化数据函数参数
-                options--传人参数，例如:轮播图片数据、实时监测、防汛发布数据
-                */
-                init:function(options){//页面加载时要初始化的数据，如：轮播图片、实时监测菜单
-                      
-                },
-        
-                /*
-                  点击页签时显示相应的菜单并控制下方小三角图片的显示与隐藏
-                  参数id:页签实时监测或防汛发布的id号
-                  */
-                onclick:function(id){
-                  
-                         
-                },
-                tubiao:function(){//页面加载时控制页签下方的小三角图标的显示
-                   $('#0').children("h4").css({"visibility":"visible"});
+4、样式设置
+$("p").css({ "margin-left": "10px", "background-color": "blue" });
 
-                },
-                title_list:function(){//筛选获取所有的页签内容
-                    
-                 },
-                swiperFun:function(){//实现图片轮播功能
-                    
-                },
-                swiperFun2:function(){//实现页签显示的展示效果
-                   
-                }
- 
-]
--------------------------------------------------------------------------------
-json数据：
-{"data":
-     [
-        {"image_path":"../av-modules/src/static/img/1.jpg"},
-        {"image_path":"../av-modules/src/static/img/2.jpg"},
-        {"image_path":"../av-modules/src/static/img/3.jpg"}
-                                                                                                   
-     ]
-   }
+5、JavaScript slice() 方法
+---返回一个新的数组，包含从 start 到 end （不包括该元素）的 arrayObject 中的元素。
+slice() 方法可从已有的数组中返回选定的元素。
+
+6、JavaScript Switch 语句
+switch(n)
+{
+case 1:
+  执行代码块 1
+  break;
+case 2:
+  执行代码块 2
+  break;
+default:
+  n 与 case 1 和 case 2 不同时执行的代码
+}
+7、偏移量
+var p = $("p:last");
+var offset = p.offset();
+p.html("left: " + offset.left + ", top: " + offset.top);
+
+
+var p = $("p:first");
+var position = p.position();
+$("p:last").html("left: " + position.left + ", top: " + position.top);
+
+8、html5新特性data_*自定义属性使用
+<div id="content" data-age="18">html5 data-*自定义属性 age</div>
+//js获取
+var content= document.getElementById('content');
+alert(content.dataset.age)
+//jquery获取
+$('#content').data('age');//读
+
+9、jQuery 中bind(),live(),delegate(),on() 区别
+---参考：http://blog.csdn.net/panfang/article/details/21705681
+$('a').bind('click', function() { alert("That tickles!") });
+$( "#members li a" ).bind( "click", function( e ) {} );
+
+10、去重
+http://blog.csdn.net/chengxuyuan20100425/article/details/8497277
+http://www.cnblogs.com/sosoft/archive/2013/12/08/3463830.html
