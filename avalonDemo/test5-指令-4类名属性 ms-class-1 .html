@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>test5-指令-4类名属性</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/avalon.modern.js"></script>
+
+    <script>
+        var vm = avalon.define({
+            $id: "ms-class",
+            toggle: true,
+            click: function(e) {
+                vm.toggle = !vm.toggle
+            }
+        });
+    </script>
+    <style>
+        .test {
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            color: red;
+            -webkit-user-select: none;
+            /* Chrome all / Safari all */
+            -moz-user-select: none;
+            /* Firefox all */
+            -ms-user-select: none;
+            /* IE 10+ */
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        .aaa {
+            color: blue;
+            border: 1px solid blue;
+        }
+    </style>
+
+</head>
+
+<body>
+<div class="well" ms-controller="ms-class">
+    <!--新风格只需要 ms-class="{{toggle? 'btn-success':'btn-danger'}}" -->
+
+    <!--旧版写法-->
+    <!--  <button type="button" class="btn" ms-click="click" ms-class-btn-success="toggle" ms-class-btn-danger="!toggle">点我</button>-->
+    <!--新版写法-->
+    <div class="test" ms-class="aaa:toggle" ms-click="click">点我</div>
+    <div ms-class="aaa" ms-class-1="bbb" ms-class-2="ccc"> 它的名类是aaa bbb ccc </div>
+    <div ms-class-2="aaa" ms-class="bbb" ms-class-1="ccc"> 它的名类是bbb ccc aaa </div>
+    <div ms-class="bbb" ms-class-1="aaa" ms-class-2="ccc"> 它的名类是bbb aaa ccc </div>
+    <div ms-class="xxx yyy zzz"> 它的名类是xxx yyy zzz </div>
+    <div ms-class="XXX YYY ZZZ:true"> 它的名类是XXX YYY ZZZ </div>
+
+</div>
+</body>
+
+</html>

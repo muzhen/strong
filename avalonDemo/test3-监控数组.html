@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>监控数据</title>
+    <script src="js/avalon.modern.js"></script>
+    <script src="js/test3.js"></script>
+</head>
+
+<body>
+
+<ol>
+    <li>pushArray(el), 要求传入一数组，然后将它里面的元素全部到当前数组的末端。</li>
+    <li>remove(el), 要求传入一元素，通过全等于比较进行移除。</li>
+    <li>removeAt(index), 要求传入一数字，会移除对应位置的元素。</li>
+    <li>removeAll(arrayOrFunction), 有三种用法，如果是一个函数，则过滤比较后得到真值的元素，
+        如果是一数组，则将此数组中与原数组相等于的元素全部移除；如果没有任何参数，则全部清空。
+    </li>
+    <li>clear()，相当于removeAll()的第三种方法，清空数组的所有元素。由于需要同步视图的缘故，不能通过vm.array.length = 0的方法来清空元素。</li>
+    <li>ensure(el)，只有当数组不存在此元素时，只添加此元素。</li>
+    <li>size()，返回数组的长度。由于length属性是固有属性，无法hack，也就无法实现双向绑定，因此请用它来代替length。</li>
+    <li>set(index, el)，用于更新某一索引位置中的元素，因为简单数组元素的数组，是不会转换它的元素。</li>
+</ol>
+<fieldset ms-controller="array">
+    <legend>示例一</legend>
+    <ul>
+        <li ms-repeat="array">数组的第{{$index+1}}个元素为{{el}}</li>
+    </ul>
+    <div>对数组进行push操作，并回车
+        <input ms-keypress="push">
+    </div>
+    <div>对数组进行unshift操作，并回车
+        <input ms-keypress="unshift">
+    </div>
+    <div>对数组进行ensure操作，并回车
+        <input ms-keypress="ensure">
+        <br/> (只有数组不存在此元素才push进去)
+    </div>
+    <div>对数组进行remove操作，并回车
+        <input ms-keypress="remove">
+    </div>
+    <div>对数组进行removeAt操作，并回车
+        <input ms-keypress="removeAt">
+    </div>
+    <div>
+        <button type="button" ms-click="sort">对数组进行sort操作</button>
+    </div>
+    <div>
+        <button type="button" ms-click="reverse">对数组进行reverse操作</button>
+    </div>
+    <div>
+        <button type="button" ms-click="shift">对数组进行shift操作</button>
+    </div>
+    <div>
+        <button type="button" ms-click="pop">对数组进行pop操作</button>
+    </div>
+    <div>当前数组的长度为<span style="color:red">{{array.size()}}</span></div>
+</fieldset>
+
+<fieldset ms-controller="c-collection2">
+    <legend>示例二</legend>
+    <p>
+        <select ms-duplex="selected">
+            <option ms-repeat="options">{{el}}</option>
+        </select>
+        <select ms-duplex="trend">
+            <option value="1">up</option>
+            <option value="-1">down</option>
+        </select>
+    </p>
+    <table width="500px" border="1">
+        <tbody>
+        <tr ms-repeat="data">
+            <td>{{el.name}}</td>
+            <td>{{el.size}}</td>
+            <td>{{el.date}}</td>
+        </tr>
+        </tbody>
+    </table>
+</fieldset>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>test5-指令-7双工绑定</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/avalon.modern.js"></script>
+
+    <script>
+        avalon.ready(
+
+        )
+        var vm = avalon.define({
+            $id:"test1",
+            sex: "女",
+            lang: [ "c#","html"],
+            fruit:[]
+
+        });
+        var model = avalon.define({
+            $id: "test2",
+            text: "xxx",
+            textcb: "",
+            textchange: function(a) {
+                model.textcb = a
+            },
+            radio: "radio",
+            radiocb: "",
+            radiochange: function(a) {
+                model.radiocb = a
+            },
+            select: "2222",
+            selectcb: "",
+            selectchange: function(a) {
+                model.selectcb = a
+            }
+        });
+        var test3 =  avalon.define({
+            $id: "test3",
+            selected: [],
+            array: [{
+                name: "小明",
+                id: 132213213
+            }, {
+                name: "小三",
+                id: 576576657
+            }, {
+                name: "小红",
+                id: 354435435
+            }, {
+                name: "小白",
+                id: 354435435
+            }],
+            textarea: {
+                get: function() {
+                    return this.selected.join("\n")
+                }
+            }
+        })
+
+    </script>
+
+</head>
+
+<body>
+    <h4>test1:</h4>
+    <div ms-controller="test1">
+        <div>
+            <input type="radio" ms-duplex-string="sex" value="男"/>男
+            <input type="radio" ms-duplex-string="sex" value="女"/>女
+        </div>
+        <div>
+            <input type="checkbox" ms-duplex-string="lang" value="js"/>js
+            <input type="checkbox" ms-duplex-string="lang" value="c#"/>c#
+            <input type="checkbox" ms-duplex-string="lang" value="ruby"/>ruby
+            <input type="checkbox" ms-duplex-string="lang" value="html"/>html
+        </div>
+        <div>
+            <select multiple="true" ms-duplex="fruit">
+                <option value="apple0">apple0</option>
+                <option value="apple1">apple1</option>
+                <option value="apple2">apple2</option>
+            </select>
+        </div>
+        <div>{{sex}} {{lang}}
+            <p>水果：{{fruit}}</p>
+        </div>
+    </div>
+
+    <h4>test2:</h4>
+    <div ms-controller="test2">
+        <h3>data-duplex-changed回调</h3>
+        <h5>ms-duplex拥有一个叫data-duplex-changed的辅助指令，要求属性值对应VM中的一个函数，注意只能是函数名，不能写括号，不能传参。 它们将当前转换好的element.value传给你（如ms-duplex-number会将值转换为数字），this对应当前元素节点</h5>
+        <h5>data-duplex-changed，用于ms-duplex绑定，值改变后触发(不建议使用了，avalon1.3.7使用ms-duplex2的拦截器)
+            参数：当前元素的值</h5>
+        <div>
+            <input ms-duplex="text" data-duplex-changed="textchange">{{textcb}}</div>
+        <div>
+            <input ms-duplex-checked="radio" type="radio" data-duplex-changed="radiochange">{{radiocb}}</div>
+        <div>
+            <select ms-duplex="select" data-duplex-changed="selectchange">
+                <option>1111</option>
+                <option>2222</option>
+                <option>3333</option>
+                <option>4444</option>
+            </select>
+            {{selectcb}}
+        </div>
+    </div>
+
+    <h4>test3:</h4>
+    <div ms-controller="test3">
+        <ul>
+            <li ms-repeat="array">
+                <input  type="checkbox" ms-duplex-string="selected" ms-attr-value="el.name">{{el.name}} {{el.id}}
+            </li>
+            <!--浏览器生成的html片段-->
+           <!-- <li>
+                <input type="checkbox" value="小红">小红 354435435
+            </li>-->
+        </ul>
+        <textarea ms-attr-value="textarea" placeholder="这里只能单向同步" style="height:100px;">
+
+        </textarea>
+    </div>
+
+
+</body>
+
+</html>

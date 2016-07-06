@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/avalon.modern.js"></script>
+
+    <script>
+        var vm = avalon.define({
+            $id: "test",
+            a: 1,
+
+        })
+    </script>
+</head>
+<body>
+<div ms-controller="test">
+    <p>{{a}}不会变</p>
+</div>
+</body>
+</html>

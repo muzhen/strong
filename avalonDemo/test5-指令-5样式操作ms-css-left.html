@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>test5-指令-5样式操作</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/avalon.modern.js"></script>
+
+    <script>
+         var vm = avalon.define({
+             $id: "test",
+             bgcolor: "yellow"
+         })
+        vm.$watch("bgcolor",function(v){
+            vm.bgcolor = v
+        })
+    </script>
+
+</head>
+
+<body>
+    <div ms-controller="test">
+        <div style="width: 200px; height: 100px;" ms-css-background="bgcolor"></div>
+        <select ms-duplex="bgcolor">
+            <option value="green">绿</option>
+            <option value="red">红</option>
+            <option value="yellow">黄</option>
+        </select>
+    </div>
+</body>
+
+</html>
