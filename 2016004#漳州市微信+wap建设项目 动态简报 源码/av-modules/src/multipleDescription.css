@@ -1,0 +1,58 @@
+
+li {
+    list-style: none
+}
+
+
+body {
+    font-size: 14px;
+}
+
+ul, h3, p {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+.pad-b-15{
+    padding-bottom: 15px;
+}
+.text-red{
+    color:#FF0000;
+}
+.loading{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+}
+.rain-chart{
+    position: relative;
+    bottom: 0 ;
+    right: 0;
+    height: 247px;
+}
+.rain-chart >ul{
+    position: absolute;
+    bottom:  0 ;
+    right:0;
+}
+
+.rain-chart >ul>li>div{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    border: 0;
+}
+.rain-chart >ul>li>span{
+    position: relative;
+    bottom:  10px;
+}
+
+.river,.rsvrevs{
+    display: none;
+    width: 100%;
+}
