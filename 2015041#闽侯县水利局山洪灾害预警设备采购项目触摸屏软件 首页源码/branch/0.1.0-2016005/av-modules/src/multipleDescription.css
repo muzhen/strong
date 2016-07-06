@@ -1,0 +1,58 @@
+
+li {
+    list-style: none
+}
+
+body {
+    font-size: 14px;
+}
+
+ul, h3, p {
+    padding: 0;
+    margin: 0;
+}
+
+.width-50 {
+    width: 50px;
+}
+
+.bor-b-0 {
+    border-bottom: 0 !important;
+}
+
+.pad-b-15 {
+    padding-bottom: 15px;
+}
+
+th {
+    text-align: center;
+}
+
+input {
+    border-width: 0 0 1px 0;
+    border-color: transparent transparent #ccc transparent;
+}
+
+.obliqueLine{
+    content: " ";
+}
+.obliqueLine:before {
+    content: "";
+    position: absolute;
+    width: 110%;
+    border-top: 1px solid #ccc;
+    transform:rotate(24deg) translate(-74px,22px);
+}
+.obliqueLine:after {
+    content: "项目";
+    position: absolute;
+    width: 110%;
+    top: 20px;
+    left: 15px;
+/*border-top: 1px solid #ccc;*/
+ /* transform: rotate(24deg) translate(-82px,27px);*/
+}
+/*input:focus {*/
+/*border-width: 0 0 1px 0;*/
+/*border-color: transparent transparent #F1CA7E transparent;*/
+/*}*/

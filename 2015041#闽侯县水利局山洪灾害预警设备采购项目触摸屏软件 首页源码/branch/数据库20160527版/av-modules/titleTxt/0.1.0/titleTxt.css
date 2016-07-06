@@ -1,0 +1,21 @@
+
+.tit{
+    font-family: 微软雅黑;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #000;
+}
+.tim{
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    display: inline;
+    color: #828282;
+}
+.txt{
+   /* word-break: break-all;*/
+    text-indent: 2em;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: #000;
+}

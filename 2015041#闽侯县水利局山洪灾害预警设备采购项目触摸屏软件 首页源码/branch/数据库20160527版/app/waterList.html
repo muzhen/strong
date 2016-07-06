@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+   <meta charset="utf-8">
+    <title>实时水情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+</head>
+<body style="background-color:white;">
+
+   <div class="container-fluid"  ms-controller="test">
+        <div class="row">
+           <div ms-controller="mytest"  ms-include-src="{{tpl}}"  data-include-rendered="clicktest">
+                  
+           </div>
+       </div>
+   </div>
+ 
+   <script type="text/javascript" src="../av-modules/require.js" ></script>
+    <script type="text/javascript" src="../av-modules/require-helper.js"></script>
+    <script>
+        require(["avalon","waterList","flexible","flexible_Css"],function(avalon,waterList){
+
+            avalon.ready(function(){
+              
+                var at=avalon.define({
+                    $id:"test",
+                    tpl:require.toUrl('waterList')+'.tpl',
+                    clicktest:function(){
+							         list.swiperAllFunc();
+                     }
+                });
+
+             var list=waterList.init({
+                  clid:"mytest",
+                  //dataurl:"hedao.json",
+                  dataurl:"../../api/mobilev1/water/collection/searchinfo",
+                  //shuiku:"shuiku.json",
+                  //lbimg:"lbimg.json",
+				  lbimg:"../../api/mobilev1/image/exhibition/getimageinfo",
+				  lbpa: {sig:"",title: "实时监测", type: "lbimg"},
+                  hedaotab:[{head:"流域",wid:"20%",val:"bsnm"},
+                            {head:"名称",wid:"20%",val:"stnm"},
+                            {head:"时间",wid:"28%",val:"tm"},
+                            {head:"水位",wid:"20%",val:"z"},
+                            {head:"水势",wid:"12%",val:"wptn"}
+                            ],
+                  yeqian:[{id:"all",name:"全部"},{id:"river",name:"河道"},{id:"rsvrevs",name:"水库"}]
+                });
+                avalon.scan();
+                
+            });
+        })
+    </script>
+
+</body>
+</html>  

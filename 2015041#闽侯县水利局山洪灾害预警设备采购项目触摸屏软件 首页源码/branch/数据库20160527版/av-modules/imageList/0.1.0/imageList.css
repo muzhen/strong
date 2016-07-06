@@ -1,0 +1,176 @@
+
+.swiper-container {
+    width: 100%;
+    height: 50%;
+    
+}
+.swiper-container1 {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+    
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.imghw{
+    width: 100%;
+    height: 170px;
+    min-height: 150px;
+}
+.xtb{
+   
+    margin-top: 1px;
+    margin-right: 9px;
+}
+.xt{
+    overflow: hidden;
+}
+.minimg{ 
+    width: 2.1rem;
+    height: 100%;
+    border-radius: 7px;
+}
+.lf{
+    float: left;
+}
+.rf{
+    float: right;
+}
+.blo{
+    display:block;
+}
+.bfc{
+    display:block;
+    font-size: 18px;
+}
+.sec{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 1;
+    width: 7%;
+}
+.tup{
+    width: 100%;
+    margin-top: 25px;
+}
+.bti{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.bti1{
+    width: 100%;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.pad{
+     padding-left: 7px;
+    padding-right: 7px;
+}
+.padd{
+    padding-top:35px !important;
+}
+.fw{
+    width:10%;
+    height:80px;
+    text-align: right;
+    padding-top:7px;
+}
+.font{
+    height: 70%;
+    padding-left: 5px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 12px;
+    height: 52px;
+}
+.tim{
+    padding-left: 5px;
+    font-family: 微软雅黑;
+    color: #000;
+    font-size: 14px;
+}
+.tit{
+    display: inline-block;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #000;
+    padding-left: 12px;
+}
+.tit1{
+    display: inline-block;
+    font-size: 19px;
+    font-family: 微软雅黑;
+    color: #000;
+    padding-left: 12px;
+}
+.black_overlay{ 
+        display: none; 
+        position: absolute; 
+        top: 0%; 
+        left: 0%; 
+        width: 100%;
+        height: 100%; 
+        background-color: black; 
+        z-index:1001;  -moz-opacity: 0.8;
+        opacity:.80; 
+        filter: alpha(opacity=80);
+}  
+.white_content { 
+        display: none; 
+        position: absolute;
+        top: 25%;  
+       /* left: 25%; 
+        width: 100%; 
+        height: 40%; */
+        padding: 16px; 
+        border: 1px solid orange; 
+        background-color: white;
+        z-index:1002; 
+        overflow: auto;
+		padding-top: 3px;
+}  
+.disp{
+   visibility: hidden;
+}
+.disp1{
+    display: none;
+}
+.bgco{
+    background-color:white;
+}
+.bor{
+
+    border: 1px solid #BDCAD2;
+    border-left-style: none;
+    border-right-style: none;
+}
+.over{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

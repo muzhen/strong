@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+   <meta charset="utf-8">
+    <title>实时雨情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+  
+    <!-- Link Swiper's CSS 
+    <link rel="stylesheet" href="../av-modules/swiper/3.3.1/swiper.min.css">-->
+</head>
+<body style="background-color:white">
+
+   <div class="container-fluid"   ms-controller="test">
+        <div class="row">
+           <div ms-controller="mytest"  ms-include-src="{{tpl}}"  data-include-rendered="clicktest">
+                  
+           </div>
+       </div>
+   </div>
+ 
+ <script type="text/javascript" src="../av-modules/require.js" ></script>
+ <!--<script type="text/javascript" src="../av-modules/Jquery/1.10.1/jquery-1.9.1.min.js" ></script>-->
+    <script type="text/javascript" src="../av-modules/require-helper.js"></script>
+    <script>
+        require(["avalon","rainList","flexible","flexible_Css"],function(avalon,rainList){
+
+            avalon.ready(function(){
+                var at=avalon.define({
+                    $id:"test",
+                    tpl:require.toUrl('rainList')+'.tpl',
+                    clicktest:function(){
+                      list.swiperAllFunc();
+              
+                  }
+                });
+
+              //var list=rainList.init({clid:"mytest"});
+            var list=rainList.init({
+                  clid:"mytest",
+                  /*ylxx:"ylxx.json",
+                  yltj:"yltj.json",
+                  qyzd:"qyzd.json",
+                  pjyl:"pjyl.json",
+				  lbimg:"lbimg.json",*/
+				  ylxx:"../../api/mobilev1/rain/grade/searchinfo",
+				  yltj:"../../api/mobilev1/rain/grade/searchcountinfo",
+				  qyzd:"../../api/mobilev1/rain/extrema/searchmaxinfo",
+				  pjyl:"../../api/mobilev1/rain/average/searchavginfo",
+				  lbimg:"../../api/mobilev1/image/exhibition/getimageinfo",
+				  lbpa: {sig:"",title: "实时监测", type: "lbimg"},
+                  ylxxtite:["区域","站名","昨日雨量","今日雨量"],
+                  yltjtite:["量级","站点数"],
+                  qyzdtite:["区域","站名","最大雨量"],
+                  pjyltite:["区域","站点数","平均雨量"],
+                  inftab:[{head:"区域",wid:"25%",val:"adnm"},
+                          {head:"站名",wid:"25%",val:"stnm"},
+                          {head:"昨日雨量",wid:"25%",val:"yestsumdrp"},
+                          {head:"今日雨量",wid:"25%",val:"todaysumdrp"}
+                         ],
+                  countab:[{head:"量级",wid:"50%",val:"omgn"},
+                          {head:"站点数",wid:"50%",val:"counts"}
+                         ],
+                  areatab:[{head:"区域",wid:"33%",val:"adnm"},
+                          {head:"站名",wid:"33%",val:"stnm"},
+                          {head:"最大雨量",wid:"34%",val:"maxdrp"}
+                         ],
+                  avgetab:[{head:"区域",wid:"33%",val:"adnm"},
+                          {head:"站点数",wid:"33%",val:"counts"},
+                          {head:"平均雨量",wid:"34%",val:"avgdrp"}
+                          ],
+                  smyeq:[{id:"yltj2",name:"雨量统计"},{id:"qyzd",name:"区域最大"},{id:"pjyl",name:"平均雨量"}],
+                  yeqian:[{id:"ylxx",name:"雨量信息"},{id:"yltj",name:"雨量统计"}]
+                });
+              
+                avalon.scan();
+                
+            });
+        })
+    </script>
+
+</body>
+</html>  

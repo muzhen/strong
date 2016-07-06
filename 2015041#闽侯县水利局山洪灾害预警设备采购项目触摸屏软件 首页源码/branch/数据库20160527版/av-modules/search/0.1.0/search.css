@@ -1,0 +1,30 @@
+.inp{
+	display: inline;
+    width: 45%;
+}
+.inptm{
+	display: inline;
+    width: 100%;
+}
+.secl{
+	width: 100%;
+    height: 34px;
+    border-style: solid;
+    border-radius: 4px;
+}
+.marbo{
+   margin-bottom: 10px;
+}
+.pad{
+	padding: 0;
+}
+.pato{
+	padding-top: 6px;
+	
+}
+.clos{
+	text-align: right;
+    color: #5bc0de;
+    font-size: 25px;
+    padding-right: 0;
+}

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>雷达</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+</head>
+<body style="background-color:white">
+
+ <div class="container-fluid"   ms-controller="test">
+      <div class="row">
+           <div ms-controller="sateUrl"  ms-include-src="{{tpl}}"  data-include-rendered="func" >
+            
+           </div>
+     </div>
+</div>
+
+<script type="text/javascript" src="../av-modules/require.js" ></script>
+
+<script type="text/javascript" src="../av-modules/require-helper.js"></script>
+<script>
+require(["avalon","imageView"],function(avalon,imageView){
+
+    avalon.ready(function(){
+              
+                  var tm=avalon.define({
+                      $id:"test",
+                      tpl:require.toUrl('imageView')+'_Radar.tpl',
+                      func:function(){
+                        sateUrl.swiperFun();
+                        sateUrl.bordersty(); 
+                        sateUrl.posistart();
+                        sateUrl.resetElement(); 
+                       }
+                  });
+
+                  var sateUrl=imageView.init({
+                        clid:"sateUrl",
+                        url:"../../api/v1/images/realtime", 
+                        urltest:"lbimg.json",
+                        titleType:"漳州雷达",
+                        dataType:"json",
+                        form:true,
+                        AllTitle:["漳州雷达"]
+                  });
+                  
+                avalon.scan();
+                
+            });   
+      })
+</script>
+
+</body>
+</html>  

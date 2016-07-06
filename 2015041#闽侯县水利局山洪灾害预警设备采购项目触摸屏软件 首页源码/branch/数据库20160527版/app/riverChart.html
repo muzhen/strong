@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>河道报图表格</title>
+     <meta charset="utf-8" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta content="maximum-dpr=1" name="flexible" />
+    <meta content="modeName=750-12" name="grid" />
+    <style>
+        body{
+            height: 16.7rem;
+        }
+    </style>
+</head>
+<body>
+<div ms-class="container-fluid" ms-controller="test">
+    <div ms-controller="myUrl" ms-include-src="tpl" data-include-rendered="func" >
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src="../av-modules/require.js"></script>
+<script type="text/javascript" src="../av-modules/require-helper.js"></script>
+<script type="text/javascript">
+    require(['jquery', 'avalon', 'chartTable','bootstrap','flexible','flexible_Css'], function ($, avalon, chartTable) {
+        avalon.ready(function () {
+
+            var test = avalon.define({
+                $id: 'test',
+                tpl: require.toUrl('chartTable') + 'River.tpl',
+                func: function () {
+                    myUrl.renderVm();
+					myUrl.datemiscroll();
+                }
+            });
+            //avalon.log(require.toUrl('flexible_Css'));
+            var myUrl = chartTable.init({
+                clid: "myUrl",
+                url:"../../api/mobilev1/water/collection/river/",//require.toUrl('chartTable') + 'River.json',
+                urlType:{chart:"searchdata",info:"getoneinfo"},
+                currentDK:{curz:"当前水位",curtm:"当前时间",wrz:"警戒水位",maxz:"最高水位",maxtm:"时间",minz:"最低水位",mintm:"时间"},
+                //isShowDetail:false,
+                chartOptions:{type:"line",name:"水位"},
+                chartColumn:["tm","z"],
+                tableColumn:["tm","z"],
+                tableHead:["时间","水位（m）"]
+
+            });
+
+            avalon.scan();
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>详情</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ 
+
+
+
+
+</script>
+</head>
+<body>
+
+  <div class="container-fluid"  ms-controller="test">
+      <div class="row">
+             <div ms-controller="txtUrl"  ms-include-src="{{tpl}}" data-include-rendered="func">
+                  
+           </div>
+      </div>
+  </div>
+ <script type="text/javascript" src="../av-modules/require.js" ></script>
+ <script type="text/javascript" src="../av-modules/require-helper.js"></script>
+     <script>
+        require(["avalon","titleTxt","flexible","flexible_Css"],function(avalon,titleTxt){
+
+            avalon.ready(function(){
+
+                  var txt=avalon.define({
+                        $id:"test",
+                        tpl:require.toUrl('titleTxt')+'.tpl',
+                        func:function(){
+                          //txtUrl.load();
+                        }
+                  });
+
+                 var txtUrl=titleTxt.init({
+                      clid:"txtUrl",
+                      url:"../../api/mobilev1/news/information/searchdata",
+					   //pa:{briefing_id:""},
+					   pa:{usednews_id:""},
+                      type:"简报"
+                 });
+
+                avalon.scan();
+               
+            });
+        })
+    </script>
+</body>
+</html>

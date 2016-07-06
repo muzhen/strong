@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>漳州</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+</head>
+<body >
+
+<!--ms-controller="test" 定义avalon控制器为 test-->
+<div class="container-fluid "  ms-controller="test" >
+
+    <!--ms-controller="test" 定义avalon控制器的子控制器为 multipleDescriptionPart-->
+    <!--ms-include-src="{{splitScreenViewTpl}}" 加载片段为一个链接文件   data-include-rendered="func"-->
+    <div ms-controller="multipleDescriptionPart"   ms-include-src="{{multipleDescriptionTpl}}">
+
+    </div>
+</div>
+
+<!--加载底层js-->
+<script type="text/javascript" src="../av-modules/require.js" ></script>
+
+<!--加载js文件路径-->
+<script type="text/javascript" src="../av-modules/require-helper.js"></script>
+
+<script>
+    //加载需要的插件名称
+    require(["avalon","multipleDescription"],function(avalon,muldescridata){
+
+        //avalonjs的初始化
+        avalon.ready(function(){
+
+            //定义一个Inf的vm
+            var Inf=avalon.define({
+                //绑定控制器的id
+                $id:"test",
+                //加载 html片段
+                multipleDescriptionTpl: require.toUrl('multipleDescription')+'.tpl',
+                func:function(){
+                    multipleDescription.loadrain();
+                }
+            });
+
+            //multipleDescription js的初始化
+            var multipleDescription=muldescridata.init({
+                clid:"multipleDescriptionPart",
+                url:"data/data_rain.json",
+                data:{
+                    a1:"data/data_rain.json",//雨量 table的数据
+                   // a2:"../../api/mobilev1/base/common/getdescripstat",//雨情 table下面的描述语句
+				    a2:"http://192.168.110.233:9995/api/mobilev1/base/common/getdescripstat",//雨情 table下面的描述语句
+                    a3:"http://192.168.110.233:9995/RainfallIsoline/RainIsolineDataProvider.ashx",//雨量 等值面图
+				    //a3:"../../../RainfallIsoline/RainIsolineDataProvider.ashx",//雨量 等值面图
+                    a4:"data/data.json",//雨量 等值面图旁的条例图
+                    a5:"data/data_water.json",//水量 table的数据  河道超警戒
+                    a6:"data/water_reservoir.json",//水量 table的数据  水库超汛限  reservoir
+                    a7:"data/weather_forecast.json",//天气预告
+
+                },
+
+                rainTitle:["量级（mm）", "市县数量", "乡镇数量"],//雨情 表头
+                waterTitle:["河道名称", "水位", "警戒水位","时间"],//水情 表头 河道超警戒
+                reservoirTitle:["站点名称", "水位", "汛限水位","时间"]//水情 表头 水库超汛限 reservoir
+            });
+
+            avalon.scan();
+
+        });
+    })
+</script>
+
+</body>
+</html>  

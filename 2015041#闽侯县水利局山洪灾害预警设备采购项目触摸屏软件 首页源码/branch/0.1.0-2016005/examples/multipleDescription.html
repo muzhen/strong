@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>漳州市渔船渔业转移情况</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+</head>
+<body >
+
+
+<!--ms-controller="test" 定义avalon控制器为 test-->
+<div class="container-fluid "  ms-controller="test" >
+
+    <!--ms-controller="test" 定义avalon控制器的子控制器为 multipleDescriptionPart-->
+    <!--ms-include-src="{{splitScreenViewTpl}}" 加载片段为一个链接文件   data-include-rendered="func"-->
+    <div ms-controller="multipleDescriptionPart"   ms-include-src="{{multipleDescriptionTpl}}">
+
+    </div>
+</div>
+
+<!--加载底层js-->
+<script type="text/javascript" src="../av-modules/require.js" ></script>
+
+<!--加载js文件路径-->
+<script type="text/javascript" src="../av-modules/require-helper.js"></script>
+
+<script>
+    //加载需要的插件名称
+    require(["avalon","multipleDescription"],function(avalon,muldescridata){
+
+        //avalonjs的初始化,将回调延迟到DOM树后才执行
+        avalon.ready(function(){
+
+            var Inf=avalon.define({
+                $id:"test",
+                multipleDescriptionTpl: require.toUrl('multipleDescription')+'.tpl',
+                func:function(){
+                    multipleDescription.loadrain();
+                }
+            });
+
+            //multipleDescription js的初始化
+            var multipleDescription=muldescridata.init({
+                clid:"multipleDescriptionPart",
+                data:{
+                    a1:"data_add.json",
+                    a2:"form_name.json"
+
+                },
+            });
+
+            avalon.scan();
+
+        });
+    })
+</script>
+
+</body>
+</html>  

@@ -1,0 +1,38 @@
+#demo_dummy,#show{
+	display: none;
+}
+.font{
+	font-size: 17px;
+	font-family: "微软雅黑";
+	color: #515151;
+	font-weight: normal;
+	height: 30px;
+}
+.borqh{
+  border: 1px solid rgba(141, 141, 141, 0.33);
+  border-left-style: none;
+  border-bottom-style: none;
+  border-top-style: none;
+  border-radius: 0;
+  width: 100%;
+  text-align: center;
+}
+.borno{
+   border-style: none;
+    width: 100%;
+   text-align: center;
+}
+.pa{
+   padding:0;
+}
+.dwl{
+   line-height: 30px;
+    height: 30px;
+    top: -30px;
+    left: 0;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    width: 100%;
+    font-size: 20px !important;
+}

@@ -1,0 +1,34 @@
+﻿{
+  "data": [
+    {
+      "level_name": "特大暴雨",
+      "level_num": "250以上",
+      "value": "0个"
+    },
+    {
+      "level_name": "大暴雨",
+      "level_num": "(100-250)",
+      "value": "0个"
+    },
+    {
+      "level_name": "暴雨",
+      "level_num": "(50-100)",
+      "value": "0个"
+    },
+    {
+      "level_name": "大雨",
+      "level_num": "(25-50)",
+      "value": "2个"
+    },
+    {
+      "level_name": "中雨",
+      "level_num": "(10-25)",
+      "value": "2个"
+    },
+    {
+      "level_name": "小雨",
+      "level_num": "(0-10)",
+      "value": "0个"
+    }
+  ]
+}
