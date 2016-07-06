@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function say(){
+            alert("调用父页面的函数");
+        }
+        function callChild(){
+            myFrame.window.say();
+            myFrame.window.document.getElementById("button").value="调用结束";//父页面调用子页面方法：FrameName.window.childMethod();
+        }
+    </script>
+</head>
+<body>
+
+<input id="button" type="button" value="调用子页面的say()函数" onclick="callChild()"/><br/><br/>
+
+<iframe name="myFrame" src="child.html">
+
+</iframe>
+
+<pre>
+    ps:
+    要确保在iframe加载完成后再进行操作，如果iframe还未加载完成就开始调用里面的方法或变量，会产生错误。判断iframe是否加载完成有两种方法：
+        1. iframe上用onload事件
+        2. 用document.readyState=="complete"来判断
+</pre>
+</body>
+</html>

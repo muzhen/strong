@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function say(){
+            alert("调用子页面的函数 ");
+        }
+        function callParent(){
+            parent.say();
+            parent.window.document.getElementById("button").value="调用结束";//子页面调用父页面方法：parent.window.parentMethod();
+        }
+    </script>
+</head>
+<body>
+<p>child.html</p>
+<input id="button" type="button" value="调用父页面中的say()函数" onclick="callParent()"/>
+</body>
+</html>

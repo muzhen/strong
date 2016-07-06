@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title> main window </title>
+    <style>
+        .hidden{display:none;}
+    </style>
+
+    <script type="text/javascript">
+
+        // a页面的函数
+        function fMain(){
+            console.log('a页面内的函数调用');
+        }
+
+        // 跨域过度
+        function exec_iframe(){
+            if(typeof(exec_obj)=='undefined'){
+                exec_obj = document.createElement('iframe');
+                exec_obj.name = 'tmp_frame';
+                exec_obj.src = 'http://192.168.116.246:4501/execB.html';
+                exec_obj.style.display = 'none';
+                document.body.appendChild(exec_obj);
+            }else{
+                exec_obj.src = 'http://192.168.116.246:4501/execB.html?' + Math.random();
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+<h4>参考文档：http://blog.csdn.net/fdipzone/article/details/17619673</h4>
+<p>A.html main</p>
+
+<input type="button" value="跨域 调b.html页面的函数" onclick="exec_iframe()">
+
+<!--ifram的名字是 myframe 嵌套b的页面  -->
+<iframe src="http://192.168.116.246:4501/b.html" width="1000" height="500" name="myframe">
+
+</iframe>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title> iframe window </title>
+
+    <script type="text/javascript">
+
+
+        // b页面的函数
+        function fIframe(){
+            console.log('b页面内的函数调用');
+        }
+        function sameDomainFn(){ //调 c页面的
+            var win = window.frames[0].document;
+            var ines = win.getElementsByTagName('td')[0];
+         //   var fIframe = win.fIframe();
+            console.log('c页面内的文本：' );
+            console.log(  ines);
+        //    alert(fIframe);
+        }
+
+        // exec iframe function
+        function exec_iframe(){//调子页面c的函数
+            window.sunzi.fcframe();
+        }
+
+        // exec main function
+        function exec_main(){
+            if(typeof(exec_obj)=='undefined'){
+                exec_obj = document.createElement('iframe');
+                exec_obj.name = 'tmp_frame';
+               // exec_obj.src = 'http://192.168.116.6:8020/ycyb/app/ycyb-main/execA.html';
+                exec_obj.src = 'http://192.168.116.246:4500/execA.html';
+
+                exec_obj.style.display = 'none';
+                document.body.appendChild(exec_obj);
+            }else{
+               // exec_obj.src = 'http://192.168.116.6:8020/ycyb/app/ycyb-main/execA.html?' + Math.random();
+                exec_obj.src = 'http://192.168.116.246:4500/execA.html?' + Math.random();
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+<p>B.html iframe</p>
+<input type="button" value="跨域获取a.html函数" onclick="exec_main()">
+<input type="button" value="同域获取c.html页面的id" onclick="sameDomainFn()">
+<input type="button" value="同域获取c.html函数" onclick="exec_iframe()">
+<br/>
+<br/>
+<iframe src="http://192.168.116.246:4501/c.html" name="sunzi" width="500" height="150" id="signMap">
+
+</iframe>
+
+
+</body>
+</html>
