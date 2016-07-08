@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/avalon.modern.js"></script>
+    <script>
+        var model = avalon.define({
+            $id: "test",
+            data: [
+                {
+                    checked: false//复选的
+                },
+                {
+                    checked: false
+                },
+                {
+                    checked: false
+                }
+            ],
+            allchecked: false,//全选
+            checkAll: function () {
+                var bool = this.checked
+                model.data.forEach(function (el) {
+                    el.checked = bool
+                })
+            },
+            checkOne: function () {
+                if (!this.checked) {
+                    model.allchecked = false
+                } else {//avalon已经为数组添加了ecma262v5的一些新方法
+                    model.allchecked = model.data.every(function (el) {
+                        return el.checked
+                    })
+                }
+            }
+        })
+    </script>
+</head>
+<body>
+<table ms-controller="test" border="1">
+    <tr><!-- ms-duplex- 会监听用户行为，当复选框的状态发生改变时，就会触发data-duplex-change回调-->
+        <td><input type="checkbox" ms-duplex-radio="allchecked" data-duplex-changed="checkAll"/>全选</td>
+    </tr>
+    <tr ms-repeat="data">
+        <td><input type="checkbox" ms-duplex-radio="el.checked" ms-data-index=$index data-duplex-changed="checkOne"/>xxxxxxxxxxxx
+        </td>
+    </tr>
+</table>
+</body>
+</html>
