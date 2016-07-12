@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>静止气象卫星产品</title>
+    <link rel="stylesheet" type="text/css" href="css/ybcp.css">
+    <script src="js/my97/My97DatePicker/WdatePicker.js"></script>
+
+</head>
+<body ms-controller="shvm">
+    <div class="top">
+        <img ms-attr-src="{{logoImg}}">
+    </div>
+    <div class="navbar">
+        <div class="navWrap">
+            <ul>
+                <li ms-repeat-li="liList" data-repeat-rendered="navActive">{{li}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div class="box">
+            <div class="box_left">
+                <div class="box_left_top"></div>
+                <!--侧边栏菜单-->
+                <div class="box_left_listDiv">
+                    <div class="second_list second_active" ms-click="secondListClick(1)"><span>{{cgyb}}</span></div>
+                    <div class="cgyb_list" ms-visible="thirdListView==1">
+                        <ul>
+                            <li ms-repeat-cg="cgybList" ms-click="cgybListClick($index)">
+                                <i></i>
+                                <span>{{cg.text}}</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="second_list second_normal" ms-click="secondListClick(2)"><span>{{szyb}}</span></div>
+                    <div class="szyb_list" ms-visible="thirdListView==2">
+                        <ul>
+                            <li ms-repeat-sz="szybList" ms-click="szybListClick($index)">
+                                <i></i>
+                                <span>{{sz.text}}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--静止气象卫星产品-->
+            <div   class="box_right" ms-visible="currentIndex === 0">
+                <div class="box_right_top">
+                    <span>{{dqwz}}</span>
+                    <span ms-click="linkSY" class="pointer">{{sy}}</span>
+                    <span>{{gt}}</span>
+                    <span ms-click="linkNews" class="pointer">{{ybcp}}</span>
+                    <span>{{gt}}</span>
+                    <span class="pointer">{{yulx}}</span>
+                    <span>{{gt}}</span>
+                    <span class="box_right_top_last pointer">{{xxyb}}</span>
+                </div>
+                <div>
+                    <div >
+                        <img  ms-attr-src="{{staticimgurl[0]}}" alt="" class="imgsrc"/>
+                    </div>
+                </div>
+                <aside>
+                   <header>{{xxyb}}</header>
+                    <form action="">
+
+                        <ul class="type">
+                            <li  ms-repeat-statics="staticList">
+                                <input type="radio"  ms-duplex-string="staticselect" ms-attr-value="statics"/>  {{statics}}
+                            </li>
+                        </ul>
+                        <div>
+                              时间：
+                            <select    ms-duplex="staticyearselect" >
+                                <option  ms-repeat-staticyear="staticyearlist">{{staticyear}}</option>
+                            </select>
+                            <select   ms-duplex="staticmonthselect" >
+                                <option  ms-repeat-staticmonth="staticmonthlist">{{staticmonth}}</option>
+                            </select>
+                        </div>
+                        <div class="btn">
+                            <div class="bg-orange">更新</div>
+                            <div class="bg-green" ms-click="playFn(1)">播放</div>
+                        </div>
+                        <div class="center">
+                            播放间隔：
+                            <select  ms-duplex="select" data-duplex-changed="selectchange" >
+                                <option>0.5秒</option>
+                                <option>1秒</option>
+                                <option>2秒</option>
+                                <option>3秒</option>
+                            </select>
+                        </div>
+                        <div>
+                            <ul  class="imgpath" >
+                                <li ms-repeat-img="staticimg"    ms-click="imgchange()" ms-attr-alt="{{staticimgurl[$index]}}">{{img}}</li>
+                            </ul>
+                        </div>
+                    </form>
+                </aside>
+            </div>
+            <!--MODIS产品-->
+            <div class="box_right"  ms-visible="currentIndex === 1">
+                <div class="box_right_top">
+                    <span>{{dqwz}}</span>
+                    <span ms-click="linkSY" class="pointer">{{sy}}</span>
+                    <span>{{gt}}</span>
+                    <span ms-click="linkNews" class="pointer">{{ybcp}}</span>
+                    <span>{{gt}}</span>
+                    <span class="pointer">{{yulx}}</span>
+                    <span>{{gt}}</span>
+                    <span class="box_right_top_last pointer">{{modistitle}}</span>
+                </div>
+                <div>
+                    <div>
+                        <img ms-attr-src="{{modisimgurl[0]}}" alt="" class="imgsrc"/>
+                    </div>
+                </div>
+
+                <aside>
+                    <header>{{modistitle}}</header>
+                    <form  >
+                        <ul class="type">
+                            <li  ms-repeat-modiss="modisList">
+                                <input type="radio"  ms-duplex-string="modisselect" ms-attr-value="modiss"/>  {{modiss}}
+                            </li>
+                        </ul>
+                        <div>
+                            时间：
+                            <select    ms-duplex="modisyearselect" data-duplex-changed="modisyearchange" >
+                                <option  ms-repeat-modisyeall="modisyearlist">{{modisyeall}}</option>
+                            </select>
+                            <select   ms-duplex="modismonthselect" data-duplex-changed="modismonthchange" >
+                                <option  ms-repeat-modismonth="modismonthlist">{{modismonth}}</option>
+                            </select>
+                        </div>
+                        <div class="btn">
+                            <div class="bg-orange">更新</div>
+                            <div class="bg-green" ms-click="playFn(2)">播放</div>
+                        </div>
+                        <div class="center">
+                            播放间隔：
+                            <select  ms-duplex="select" data-duplex-changed="selectchange" >
+                                <option>0.5秒</option>
+                                <option>1秒</option>
+                                <option>2秒</option>
+                                <option>3秒</option>
+                            </select>
+                        </div>
+                        <div>
+                            <ul  class="imgpath">
+                                <li  ms-repeat-img="modisimg"  ms-on-click="imgchange()" ms-attr-alt="{{modisimgurl[$index]}}">{{img}}</li>
+                            </ul>
+                        </div>
+                    </form>
+                </aside>
+            </div  >
+            <!--卫星云图-->
+            <div  class="box_right"  ms-visible="currentIndex === 2">
+                <div class="box_right_top">
+                    <span>{{dqwz}}</span>
+                    <span ms-click="linkSY" class="pointer">{{sy}}</span>
+                    <span>{{gt}}</span>
+                    <span ms-click="linkNews" class="pointer">{{ybcp}}</span>
+                    <span>{{gt}}</span>
+                    <span class="pointer">{{oceanWeather}}</span>
+                    <span>{{gt}}</span>
+                    <span class="box_right_top_last pointer">{{satelliteCloudImage}}</span>
+                </div>
+                <div>
+                    <div>
+                        <img ms-attr-src="{{cloudimgurl[0]}}" alt="" class="imgsrc"/>
+                    </div>
+                </div>
+                <aside>
+                    <header>{{satelliteCloudImage}}</header>
+                    <form action="">
+                        <fieldset ms-repeat-cloudimage1="cloudImageList1">
+                            <legend>{{cloudimage1.title}}</legend>
+                            <ul class="type">
+                                <li  ms-repeat-cloudimagelist="cloudimage1.list">
+                                    <input type="radio" ms-duplex-string="cloudimageselect" ms-attr-value="cloudimagelist"/>  {{ cloudimagelist}}
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <fieldset ms-repeat-cloudimage2="cloudImageList2">
+                            <legend>{{cloudimage2.title}}</legend>
+                          <!--  {{cloudimageselect}}-->
+                            <ul class="type">
+                                <li  ms-repeat-cloudimagelist="cloudimage2.list">
+                                    <input type="radio" ms-duplex-string="cloudimageselect" ms-attr-value="cloudimagelist+1"/>  {{cloudimagelist}}
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <div class="center">
+                            时间：<input   class="Wdate Wdate95" type="text" onClick="WdatePicker()"    ms-duplex-string="cloudimagetime">
+                        </div>
+                        <div class="btn">
+                            <div class="bg-orange">更新</div>
+                            <div class="bg-green" ms-click="playFn(3)">播放</div>
+                        </div>
+                        <div class="center">
+                            播放间隔：
+                            <select  ms-duplex="select" data-duplex-changed="selectchange" >
+                                <option>0.5秒</option>
+                                <option>1秒</option>
+                                <option>2秒</option>
+                                <option>3秒</option>
+                            </select>
+                        </div>
+                        <div>
+                            <ul  class="imgpath">
+                                <li  ms-repeat-img="cloudimg"  ms-on-click="imgchange()" ms-attr-alt="{{cloudimgurl[$index]}}">{{img}}</li>
+                            </ul>
+                        </div>
+                    </form>
+                </aside>
+            </div>
+            <!--天气图-->
+            <div class="box_right"  ms-visible="currentIndex === 3">
+                <div class="box_right_top">
+                    <span>{{dqwz}}</span>
+                    <span ms-click="linkSY" class="pointer">{{sy}}</span>
+                    <span>{{gt}}</span>
+                    <span ms-click="linkNews" class="pointer">{{ybcp}}</span>
+                    <span>{{gt}}</span>
+                    <span class="pointer">{{oceanWeather}}</span>
+                    <span>{{gt}}</span>
+                    <span class="box_right_top_last pointer">{{weathertitle}}</span>
+                </div>
+                <div>
+                    <div>
+                        <img ms-attr-src="{{weatherimgurl[0]}}" alt="" class="imgsrc"/>
+                    </div>
+                </div>
+                <aside>
+                    <header>{{weathertitle}}</header>
+                    <form action="">
+                        <fieldset ms-repeat-weather1="weatherList1">
+                            <legend>{{weather1.title}}</legend>
+                            <ul class="type">
+                                <li  ms-repeat-weatherlist="weather1.list">
+                                    <input type="radio" ms-duplex-string="weatherselect"  ms-attr-value="weatherlist"/>  {{weatherlist}}
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <fieldset ms-repeat-weather2="weatherList2">
+                            <legend>{{weather2.title}}</legend>
+                          <!-- {{weatherselect}}-->
+                            <ul class="type">
+                                <li  ms-repeat-weatherlist="weather2.list">
+                                    <input type="radio" ms-duplex-string="weatherselect" ms-attr-value="weatherlist+1"/>  {{weatherlist}}
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <div class="center">
+                            时间：<input class="Wdate Wdate95" type="text"  onClick="WdatePicker()"  ms-duplex-string="weathertime">
+                        </div>
+                        <div class="btn">
+                            <div class="bg-orange">更新</div>
+                            <div class="bg-green" ms-click="playFn(4)">播放</div>
+                        </div>
+                        <div class="center">
+                            播放间隔：
+                            <select  ms-duplex="select" data-duplex-changed="selectchange" >
+                                <option>0.5秒</option>
+                                <option>1秒</option>
+                                <option>2秒</option>
+                                <option>3秒</option>
+                            </select>
+                        </div>
+                        <div>
+                            <ul  class="imgpath">
+                                <li  ms-repeat-img="weatherimg"  ms-click="imgchange()" ms-attr-alt="{{weatherimgurl[$index]}}">{{img}}</li>
+                            </ul>
+                        </div>
+                    </form>
+                </aside>
+            </div>
+            <!--台风路径-->
+            <div class="box_right"  ms-visible="currentIndex === 4">
+                <div class="box_right_top">
+                    <span>{{dqwz}}</span>
+                    <span ms-click="linkSY" class="pointer">{{sy}}</span>
+                    <span>{{gt}}</span>
+                    <span ms-click="linkNews" class="pointer">{{ybcp}}</span>
+                    <span>{{gt}}</span>
+                    <span class="pointer">{{yulx}}</span>
+                    <span>{{gt}}</span>
+                    <span class="box_right_top_last pointer">{{typhoontitle}}</span>
+                </div>
+                <div>暂无</div>
+            </div>
+        </div>
+        <div class="foot">
+            <p><span>{{dz}}</span><span>{{cz}}</span><span>{{dh}}</span><span>{{xx}}</span></p>
+            <p><span>{{syr}}</span></p>
+            <p>{{bei}}</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/avalon.js"></script>
+    <script type="text/javascript" src="js/ybcp.js"></script>
+</body>
+</html>
