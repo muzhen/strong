@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event</title>
+
+    <style>
+
+        body{
+            font-size: 13px;
+            color: #00F;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: "Lucida Console", Consolas, Monaco;
+        }
+        dl{
+            border: 2px dashed #ddd;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        pre{
+            padding: 10px;
+            margin-bottom: 5px;
+            background: #eee;
+            background-color: rgba(0, 0, 0, .07);
+            border: 1px dashed #ccc;
+        }
+        code{
+            background: pink;
+            margin: 0;
+            display: block;
+            box-sizing: border-box;
+            line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+<h4>event对象的属性如下：</h4>
+<dl>
+    <dt>target属性:(显示哪个 DOM 元素触发了事件)</dt>
+    <dd>event.target.nodeName：触发事件的节点名称</dd>
+</dl>
+<p>js代码：</p>
+<pre>
+  $("button").click(function(event){
+    $("div").html("点击事件由一个 " + event.target.nodeName + " 元素触发");
+  });
+</pre>
+<p>html代码：</p>
+<pre>
+    <button>这是一个按钮</button>
+</pre>
+<p>结果输出：</p>
+<pre>
+    点击事件由一个 BUTTON 元素触发
+</pre>
+
+<code>
+    ps:IE下,event对象有srcElement属性,但是没有target属性;Firefox下,event对象有target属性,但是没有srcElement属性.但他们的作用是相当的;<br/>
+    即：firefox 下的 event.target = IE 下的 event.srcElement
+</code>
+
+<dl>
+    <dt>getElementById属性：（id）</dt>
+    <dd>var x=document.getElementById("myHeader")</dd>
+</dl>
+<dl>
+    <dt>getElementsByName属性：（name属性）</dt>
+    <dd> var x=document.getElementsByName("myInput");</dd>
+</dl>
+<dl>
+    <dt>getElementsByTagName属性：(标签)</dt>
+    <dd>var x=document.getElementsByTagName("input");</dd>
+</dl>
+</body>
+</html>

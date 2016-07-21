@@ -17,6 +17,9 @@
     {
         var zoom = parseInt(i.style.zoom,10)||100;
         zoom += event.wheelDelta / 12;//wheelDelta返回的值，均为120 的倍数,正值说明滚轮是向上滚动，如果是负值说明滚轮是向下滚动;火狐detail
+      //  event.detail / 3;
+
+
         if(zoom > 0 )
             i.style.zoom=zoom+'%';
         return false;

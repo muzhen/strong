@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>通过鼠标滚轮放大缩小图片</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+    <script type="text/javascript" src="resouse/jquery-1.7.1.min.js"></script>
+    <style type="text/css">
+        .wrap {
+            position: relative;
+            top: 10px;
+            background: pink;
+            width: 500px;
+            height: 500px;
+            overflow: hidden;
+        }
+
+        .demo {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -50px;
+            margin-top: -50px;
+        }
+
+        .demo img {
+            width: 100%;
+        }
+    </style>
+</head>
+<script language="javascript">
+    var bigimg = function (e) {
+        var i =$("#sd");
+        var zoomval = i.css("zoom")*100;
+        var zoom = parseInt(zoomval, 10) || 100;
+
+        e = e || window.event;
+
+        var t1=document.getElementById("wheelDelta");
+        var t2=document.getElementById("detail");
+
+
+        if (e.wheelDelta) {//IE/Opera/Chrome
+            console.log("先"+zoom);
+            zoom =zoom+ e.wheelDelta / 12;////wheelDelta返回的值，均为120 的倍数,正值说明滚轮是向上滚动，如果是负值说明滚轮是向下滚动;火狐detail
+            console.log("后"+zoom);
+            t1.value=e.wheelDelta;
+
+        } else if (e.detail) {//Firefox 向上滚动 缩小
+
+            if(e.detail>0){
+                var down = -( e.detail);
+                zoom += down / 0.3;
+                console.log("下"+ zoom);
+                t2.value=down;
+
+            }else{
+                var up =  -( e.detail);
+                zoom += up / 0.3;
+                console.log("上"+ zoom);
+                t2.value=up;
+            }
+        }
+
+        if (zoom > 0)
+            i.css("zoom",zoom+ '%') ;
+        return false;
+    }
+
+
+
+    /*Firefox注册事件*/
+    if (document.addEventListener) {
+        document.addEventListener('DOMMouseScroll', bigimg, false);
+    }
+    /*IE注册事件*/
+    if (document.attachEvent) {
+        document.attachEvent('onmousewheel', bigimg);
+    }
+    window.onmousewheel = document.onmousewheel = bigimg;//IE/Opera/Chrome
+</script>
+<body>
+
+
+
+<div class="wrap">
+    <div id="sd" class="demo"  style="zoom:100%">
+        <img src="http://www.codefans.net/jscss/demoimg/wall7.jpg" border="1">
+    </div>
+</div>
+
+
+<p><label for="wheelDelta">  滚动值:</label>(IE/Opera)<input type="text" id="wheelDelta" /></p>
+<p><label for="detail"> 滚动值:(Firefox)</label><input type="text" id="detail" /></p>
+
+</body>
+</html>

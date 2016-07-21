@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>下拉长度控制</title>
+
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+
+    <style type="text/css">
+        .select{border:1px solid #ccc;line-height:22px;color:#666;margin:-1px;padding:4px 3px;font-size:13px;width:93px;*width:85px;}
+
+        .select_border{*background:#fff;*border:1px solid #ccc;*padding:4px;width:83px;}
+
+        .container{*border:0;*position:relative;*width:83px;*height:18px;*overflow:hidden;*background:#fff;}
+
+    </style>
+
+</head>
+<body>
+<h3>正常的</h3>
+<select name=""  >
+    <option selected="selected">区域不限</option>
+    <option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+    <option>重庆</option>
+    <option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+    <option>重庆</option><option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+    <option>重庆</option><option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+    <option>重庆</option><option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+    <option>重庆</option>
+    <option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+
+</select>
+<br/>
+<h3>size---	规定下拉列表中可见选项的数目。</h3>
+<select name=""  size="10">
+    <option selected="selected">区域不限</option>
+    <option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+    <option>重庆</option>
+    <option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+    <option>重庆</option><option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+    <option>重庆</option><option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+    <option>重庆</option><option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+    <option>重庆</option>
+    <option>北京</option>
+    <option>天津</option>
+    <option>上海</option>
+
+</select>
+
+<h3>demo1--增加空白option</h3>
+<script type="text/javascript">
+    var n = 5;
+    function append()
+    {
+        for(i = 0;i < n;i ++)
+        {
+            document.getElementById("a").appendChild(document.createElement("option"));
+        }
+    }
+    window.onload = append;
+</script>
+<label>
+    <select id="a">
+        <option>你到底想要多高？</option>
+        <option>这样够嘛？</option>
+        <option>不够你就说嘛？</option>
+        <option>你不说我怎么知道呢？</option>
+        <option>你说了我肯定会给你的嘛！</option>
+        <option>你到底想要多高？</option>
+        <option>这样够嘛？</option>
+        <option>不够你就说嘛？</option>
+        <option>你不说我怎么知道呢？</option>
+        <option>你说了我肯定会给你的嘛！</option>
+        <option>你到底想要多高？</option>
+        <option>这样够嘛？</option>
+        <option>不够你就说嘛？</option>
+        <option>你不说我怎么知道呢？</option>
+        <option>你说了我肯定会给你的嘛！</option>
+        <option>不够你就说嘛？</option>
+        <option>你不说我怎么知道呢？</option>
+        <option>你说了我肯定会给你的嘛！</option>
+        <option>你到底想要多高？</option>
+        <option>这样够嘛？</option>
+        <option>不够你就说嘛？</option>
+        <option>你不说我怎么知道呢？</option>
+        <option>你说了我肯定会给你的嘛！</option>
+    </select>
+
+
+<h3>demo2---下拉菜单select高度（兼容IE6/IE7/IE8/火狐等主流浏览器）</h3>
+<div class="select_border">
+    <div class="container">
+        <select name="" class="select">
+            <option selected="selected">区域不限</option>
+            <option>北京</option>
+            <option>天津</option>
+            <option>上海</option>
+            <option>重庆</option>
+            <option>北京</option>
+            <option>天津</option>
+            <option>上海</option>
+            <option>重庆</option><option>北京</option>
+            <option>天津</option>
+            <option>上海</option>
+            <option>重庆</option><option>北京</option>
+            <option>天津</option>
+            <option>上海</option>
+            <option>重庆</option><option>北京</option>
+            <option>天津</option>
+            <option>上海</option>
+            <option>重庆</option>
+            <option>北京</option>
+            <option>天津</option>
+            <option>上海</option>
+            <option>重庆</option>
+
+        </select>
+    </div>
+</div>
+<br/>
+<h3>demo3-----onmouseover</h3>
+    <!--<select id=tt name=tt  onmousedown="this.size='4';" onmouseup="this.size='1';">-->
+     <select id=tt name=tt  onmouseover="this.size='4';" onmouseout="this.size='1';">
+        <option>北京</option>
+        <option>上海</option>
+        <option>天津</option>
+        <option>重庆</option>
+        <option>河北</option>
+        <option>山西</option>
+        <option>内蒙古</option>
+        <option>北京</option>
+        <option>上海</option>
+        <option>天津</option>
+        <option>重庆</option>
+        <option>河北</option>
+        <option>山西</option>
+        <option>内蒙古</option>  <option>北京</option>
+        <option>上海</option>
+        <option>天津</option>
+        <option>重庆</option>
+        <option>河北</option>
+        <option>山西</option>
+        <option>内蒙古</option>
+    </select>
+
+    <h3>demo4-----click</h3>
+    <!--<select id=tt name=tt  onmousedown="this.size='4';" onmouseup="this.size='1';">-->
+    <script>
+        $("#clisss").click(function(){
+            $(this).attr("size","4");
+        })
+
+    </script>
+    <select id="clisss" name=tt   >
+        <option>北京</option>
+        <option>上海</option>
+        <option>天津</option>
+        <option>重庆</option>
+        <option>河北</option>
+        <option>山西</option>
+        <option>内蒙古</option>
+        <option>北京</option>
+        <option>上海</option>
+        <option>天津</option>
+        <option>重庆</option>
+        <option>河北</option>
+        <option>山西</option>
+        <option>内蒙古</option>  <option>北京</option>
+        <option>上海</option>
+        <option>天津</option>
+        <option>重庆</option>
+        <option>河北</option>
+        <option>山西</option>
+        <option>内蒙古</option>
+    </select>
+
+</body>
+</html>

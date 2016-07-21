@@ -14,21 +14,24 @@
 
 
         function fcframe(){//同域情况下可以这样夸页面调函数
-            console.log('c页面内的函数');
+            console.log('c页面内的函数 父级');
         }
 
-        function  cfn(){
+        function  cfn(){//调b.html的函数
             window.parent.frames.fIframe();
+        }
+        function  dfn(){//调d.html的函数
+            window.dfreme.fdframe();
         }
     </script>
 
 </head>
 
 <body>
-<p>c.html iframe；和b.html同域；a.html跨域</p>
-<p><input type="button" value="同域 跨页面 调b的函数" onclick="cfn()"></p>
+<p>c.html iframe；和b.html同域 </p>
+<p><input type="button" value="同域 跨页面 调b的函数(父级)" onclick="cfn()"></p>
 
-<input type="button"  onclick="fun2()" value="跨域 跨页面 调a.html的函数" >
+<input type="button"   value="同域 跨页面 调d.html的函数（子级）" onclick="dfn()" >
 
 <table>
     <tr>
@@ -36,7 +39,7 @@
     </tr>
 </table>
 
-<iframe src="http://192.168.116.246:4501/d.html" name="sunzi" width="500" height="200"  >
+<iframe src="http://192.168.116.246:4513/d.html" name="dfreme" width="500" height="200"  >
 
 </iframe>
 

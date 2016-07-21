@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+
+    <style>
+        pre {
+            padding: 10px;
+            margin: 5px 0;
+            font-size: 13px;
+            background: #eee;
+            background-color: rgba(0, 0, 0, .07);
+            border: 1px dashed #ccc;
+            color: #00F;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: "Lucida Console", Consolas, Monaco;
+        }
+    </style>
+</head>
+<body>
+<h4>document对象的属性如下：</h4>
+<dl>
+    <dt>cookie属性:</dt>
+    <dd> 有效值（会话期间，单位秒，）、作用域（path属性，domain属性）</dd>
+    <dd>读取：document.cookie</dd>
+</dl>
+<pre>
+    // 返回一个对象形式的cookie
+    //存储cookie时 用encodeURIComponent()函数进行编码.
+    function getCookies() {
+        var cookies = {};           // 定义一个对象
+        var all = document.cookie;  // 获取cookie； e.g：AreaCode=330300; UserName=guest; IsRememberUser=1; username=guest; password=123456;
+        if (all === "")             // 判断cookie是否为空
+         {
+               return cookies;//是的话 返回空的cookie
+         }
+        var list = all.split(";"); // 按“；”划分 cookie； e.g：AreaCode=330300", " UserName=guest", " IsRememberUser=1", " username=guest", " password=123456"
+        for(var i = 0; i < list.length; i++) {  // 遍历cookie
+            var cookie = list[i];
+            var p = cookie.indexOf("=");        // Find the first = sign
+            var name = cookie.substring(0,p);   // Get cookie name
+            var value = cookie.substring(p+1);  // Get cookie value
+            value = decodeURIComponent(value);  // cookie值 解码
+            cookies[name] = value;              // 将名/值存到对象里
+        }
+        return cookies;//返回对象格式的cookie
+    }
+</pre>
+
+<dl>
+    <dt>getElementById属性：（id）</dt>
+    <dd>var x=document.getElementById("myHeader")</dd>
+</dl>
+<dl>
+    <dt>getElementsByName属性：（name属性）</dt>
+    <dd> var x=document.getElementsByName("myInput");</dd>
+</dl>
+<dl>
+    <dt>getElementsByTagName属性：(标签)</dt>
+    <dd>var x=document.getElementsByTagName("input");</dd>
+</dl>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<html>
+<HEAD>
+    <title>鼠标拖动图片</title>
+    <style type="text/css">
+
+        .demo {
+            position: relative;
+            top:0;
+            left:0;
+            width: 500px;
+            height: 375px;
+        }
+       .dragme{
+            position: absolute;
+           top:0;
+           left:10px;
+            width:100px;
+            height:100px;
+        }
+        img{
+            width:100%;
+            height:100%;
+        }
+
+    </style>
+    <script type="text/javascript">
+     //   var ie = document.all;
+     //   var nn6 = document.getElementById && !document.all;//document.getElementById可用 而且 浏览器不是IE 则返回 true ，赋值给变量nn6
+   //  var nn6 = true;
+        var isdrag = false;
+        var x, y;
+        var dobj;
+
+        function movemouse(e) {
+            if (isdrag) {//如果有拖动
+                dobj.style.left =  tx + e.clientX - x;
+                dobj.style.top =  ty + e.clientY - y;
+                console.log("  dobj.style.left:"+  dobj.style.left+",tx:"+tx+ ",e.clientX:"+  e.clientX+",x:"+x);
+                return false;
+            }
+        }
+
+        function selectmouse(e) {
+            //兼容检测target属性规定在何处打开页面
+            var fobj =  e.target;//确定哪个 DOM 元素触发了该事件 img
+            var topelement =  "HTML";
+            //判断拖动图片
+             while (fobj.tagName != topelement && fobj.className != "dragme") {
+                //如果是，判断是不是节点
+                 fobj =  fobj.parentNode ;//div.dragme
+           }
+
+            if (fobj.className == "dragme") {  //如果是
+                isdrag = true;
+                dobj = fobj;
+                tx = parseInt(dobj.style.left + 0);
+                ty = parseInt(dobj.style.top + 0);
+                x =  e.clientX ;
+                y = e.clientY;
+                //去确认鼠标的位置,执行鼠标移动事件
+                document.onmousemove = movemouse;
+                return false;
+            }
+
+        }
+        document.onmousedown = selectmouse;////当鼠标按下的瞬间所做的事件
+        document.onmouseup = new Function("isdrag=false");//如果鼠标停止，则停止图片移动事件
+
+    </script>
+</HEAD>
+<BODY>
+<div align="center" class="demo">
+    <div class="dragme">
+        <img src="sea.jpg">
+    </div>
+</div>
+</body>
+</html>

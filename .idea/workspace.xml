@@ -2,9 +2,562 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5617c5df-8abe-4480-8d01-e3a92f1f7784" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/图片拖拽/resouse/sea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/resouse/sea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cross-domain/test1/c/b.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cross-domain/test1/c/c.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cross-domain/test1/c/d.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cross-domain/test1/c/execB.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/图片拖拽/resouse/jquery-1.7.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/resouse/jquery-1.7.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cross-domain/test1/c/jquery-1.8.0.min.js" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090000fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090015fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090030fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090045fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090100fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090115fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090130fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090145fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090200fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090215fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090230fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090245fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090300fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090315fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090330fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090345fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090400fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090415fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090430fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090445fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090500fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090515fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090530fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090545fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090600fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090615fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090630fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090645fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090700fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090715fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090730fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090745fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090800fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090815fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090830fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090845fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090900fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090915fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090930fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607090945fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091000fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091015fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091030fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091045fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091100fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091115fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091130fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091145fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091200fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091215fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091230fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091245fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091300fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091315fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091330fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091345fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091400fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091415fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091430fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091445fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091500fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091515fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091530fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091545fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091600fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091615fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091630fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091645fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091700fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091715fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091730fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091745fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091800fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091815fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091830fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091845fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091900fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091915fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091930fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607091945fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092000fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092015fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092030fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092045fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092100fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092115fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092130fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092145fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092200fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092215fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092230fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092245fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092300fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092315fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092330fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607092345fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100000fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100015fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100030fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100045fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100100fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100115fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100130fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100145fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100200fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100215fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100230fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100245fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100300fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100315fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100330fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100345fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100400fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100415fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100430fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100445fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100500fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100515fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100530fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100545fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100600fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100615fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100630fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100645fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100700fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100715fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100730fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100745fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100800fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100815fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100830fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100845fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100900fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100915fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100930fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607100945fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101000fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101015fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101030fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101045fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101100fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101115fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101130fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101145fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101200fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101215fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101230fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101245fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101300fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101315fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101330fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101345fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101400fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101415fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101430fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101445fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101500fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101515fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101530fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101545fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101600fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101615fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101630fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101645fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101700fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101715fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101730fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101745fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101800fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101815fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101830fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101845fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101900fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101915fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101930fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607101945fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102000fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102015fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102030fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102045fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102100fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102115fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102130fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102145fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102200fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102215fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102230fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102245fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102300fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102315fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102330fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607102345fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607110000fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607110015fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607110030fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607110045fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607110100fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607110115fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607110130fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607110145fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607110200fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\20160711\sevp_nsmc_wxcl_asc_fff_achn_ffff_py_201607110215fffff.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141031\20141031020000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141031\20141031080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141031\20141031140000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141031\20141031200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141101\20141101020000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141101\20141101080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141101\20141101140000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141101\20141101200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141102\20141102020000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141102\20141102080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141102\20141102140000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141102\20141102200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141103\20141103020000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141103\20141103080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141103\20141103140000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141103\20141103200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141104\20141104020000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141104\20141104080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141104\20141104140000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141104\20141104200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141105\20141105020000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141105\20141105080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141105\20141105140000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141105\20141105200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141106\20141106020000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\实况\20141106\20141106080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014103000\20141031080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014103000\20141031200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014103000\20141101080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014103000\20141101200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014103100\20141101080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014103100\20141101200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014103100\20141102080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014103100\20141102200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110100\20141102080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110100\20141102200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110100\20141103080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110100\20141103200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110200\20141103080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110200\20141103200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110200\20141104080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110200\20141104200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110300\20141104080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110300\20141104200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110300\20141105080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110300\20141105200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110400\20141105080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110400\20141105200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110400\20141106080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110400\20141106200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110500\20141106080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110500\20141106200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110500\20141107080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110500\20141107200000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110600\20141107080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\日本天气图\预报\2014110600\20141108080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\实况\20160709\20160709080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\实况\20160709\20160709200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\实况\20160710\20160710080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\实况\20160710\20160710200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\实况\20160711\20160711080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160708110000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160708140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160708170000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160708200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160708230000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160709020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160709050000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160709080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160709140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160709200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160710020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160710080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160710140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160710200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160711020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160711080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160711140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160711200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160712080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160712200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160713080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160713200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160714080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160714200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160715080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160715200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160716080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160716200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160717080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160717200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070808\20160718080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160708230000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160709020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160709050000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160709080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160709110000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160709140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160709170000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160709200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160710020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160710080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160710140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160710200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160711020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160711080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160711140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160711200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160712020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160712080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160712200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160713080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160713200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160714080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160714200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160715080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160715200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160716080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160716200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160717080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160717200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160718080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070820\20160718200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160709110000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160709140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160709170000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160709200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160709230000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160710020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160710050000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160710080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160710140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160710200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160711020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160711080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160711140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160711200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160712020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160712080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160712140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160712200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160713080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160713200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160714080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160714200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160715080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160715200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160716080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160716200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160717080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160717200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160718080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160718200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070908\20160719080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160709230000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160710020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160710050000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160710080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160710110000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160710140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160710170000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160710200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160711020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160711080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160711140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160711200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160712020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160712080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160712140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160712200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160713020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160713080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160713200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160714080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160714200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160715080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160715200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160716080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160716200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160717080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160717200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160718080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160718200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160719080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016070920\20160719200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160710110000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160710140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160710170000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160710200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160710230000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160711020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160711050000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160711080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160711140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160711200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160712020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160712080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160712140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160712200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160713020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160713080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160713140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160713200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160714080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160714200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160715080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160715200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160716080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160716200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160717080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160717200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160718080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160718200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160719080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160719200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071008\20160720080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160710230000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160711020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160711050000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160711080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160711110000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160711140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160711170000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160711200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160712020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160712080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160712140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160712200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160713020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160713080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160713140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160713200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160714020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160714080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160714200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160715080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160715200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160716080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160716200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160717080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160717200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160718080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160718200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160719080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160719200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160720080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071020\20160720200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160711110000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160711140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160711170000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160711200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160711230000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160712020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160712050000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160712080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160712140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160712200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160713020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160713080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160713140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160713200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160714020000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160714080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160714140000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160714200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160715080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160715200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160716080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160716200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160717080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160717200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160718080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160718200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160719080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160719200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160720080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160720200000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\天气图\韩国天气图\预报\2016071108\20160721080000.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711000000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711003000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711010000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711013000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711020000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711023000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711030000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711033000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711040000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711043000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711050000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711053000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711060000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711063000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711070000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711073000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711083000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711090000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711093000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711100000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711103000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711110000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711113000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711120000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711123000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711130000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\visible\20160711\20160711133000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711000000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711003000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711010000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711013000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711020000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711023000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711030000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711033000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711040000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711043000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711050000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711053000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711060000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711063000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711070000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711073000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711080000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711083000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711090000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711093000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711100000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711103000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711110000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711113000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711120000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711123000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711130000.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\！林珠珠_材料\strong\20160707上海市海洋环境监测预报中心\img\日本卫星云图\watervapor\20160711\20160711133000.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cross-domain/test1/a/a.html" afterPath="$PROJECT_DIR$/cross-domain/test1/a/a.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cross-domain/test1/b/b.html" afterPath="$PROJECT_DIR$/cross-domain/test1/b/b.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cross-domain/test1/b/c.html" afterPath="$PROJECT_DIR$/cross-domain/test1/b/c.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/图片鼠标滚动放大缩小/demo1.html" afterPath="$PROJECT_DIR$/图片鼠标滚动放大缩小/demo1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cross-domain/test1/a/execA.html" afterPath="$PROJECT_DIR$/cross-domain/test1/a/execA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/图片拖拽/picDrag.html" afterPath="$PROJECT_DIR$/图片拖拽/picDrag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag4.html" afterPath="$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag4.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avalonDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/avalonDemo/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/图片鼠标滚动放大缩小/zoom方式.html" afterPath="$PROJECT_DIR$/图片鼠标滚动放大缩小/zoom方式.html" />
+      <change type="MOVED" beforePath="F:\！林珠珠_材料\strong\图片拖拽\picDrag2.html" afterPath="$PROJECT_DIR$/图片拖拽/picDrag-html5.html" />
     </list>
     <list id="facecbad-ee52-4f1f-a925-06a049cc8cd2" name="Rejected commit: Default" comment="20160520整理" />
     <ignored path="strong.iws" />
@@ -25,31 +578,7 @@
     <favorites_list name="strong" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="demo.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/My97DatePicker/demo.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins/My97DatePicker/common.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53223914">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-              <folding>
-                <element signature="n#style#0;n#input#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,56 +600,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/东张水库/demo/index.html" />
-        <option value="$PROJECT_DIR$/splitScreenView/trunk/av-modules/fourWin/splitScreenView.tpl" />
-        <option value="$PROJECT_DIR$/splitScreenView/trunk/examples/splitScreenView.html" />
-        <option value="$PROJECT_DIR$/splitScreenView/trunk/av-modules/fourWin/splitScreenView.css" />
-        <option value="$PROJECT_DIR$/splitScreenView/trunk/av-modules/fourWin/splitScreenView.js" />
-        <option value="$PROJECT_DIR$/splitScreenView/trunk/av-modules/require-helper.js" />
-        <option value="$PROJECT_DIR$/splitScreenView/av-modules/require-helper.js.bak" />
-        <option value="$PROJECT_DIR$/splitScreenView/examples/rainData.json" />
-        <option value="$PROJECT_DIR$/splitScreenView/examples/rainTxt.json" />
-        <option value="$PROJECT_DIR$/splitScreenView/examples/rainPic.json.js" />
-        <option value="$PROJECT_DIR$/splitScreenView/examples/cloud.xml" />
-        <option value="$PROJECT_DIR$/splitScreenView/av-modules/fourWin/splitScreenView.tpl" />
-        <option value="$PROJECT_DIR$/splitScreenView/av-modules/fourWin/splitScreenView.js" />
-        <option value="$PROJECT_DIR$/splitScreenView/examples/data/rainPic.json" />
-        <option value="$PROJECT_DIR$/splitScreenView/av-modules/splitScreenView/splitScreenView.css" />
-        <option value="$PROJECT_DIR$/splitScreenView/examples/data/cloud.xml" />
-        <option value="$PROJECT_DIR$/splitScreenView/examples/data/weather.xml" />
-        <option value="$PROJECT_DIR$/splitScreenView/av-modules/splitScreenView/splitScreenView.js" />
-        <option value="$PROJECT_DIR$/splitScreenView/av-modules/require-helper.js" />
-        <option value="$PROJECT_DIR$/splitScreenView/examples/splitScreenView.html" />
-        <option value="$PROJECT_DIR$/splitScreenView/av-modules/splitScreenView/splitScreenView.tpl" />
-        <option value="$PROJECT_DIR$/easyui/201606221011.html" />
-        <option value="$PROJECT_DIR$/easyui/201606221017.html" />
-        <option value="$PROJECT_DIR$/easyui/左侧起几列左右滚动时固定不动.html" />
-        <option value="$PROJECT_DIR$/easyui/datagrid2.html" />
-        <option value="$PROJECT_DIR$/easyui/rain.html" />
-        <option value="$PROJECT_DIR$/easyui/sea.html" />
-        <option value="$PROJECT_DIR$/easyui/water.html" />
-        <option value="$PROJECT_DIR$/easyui/201606221024.html" />
-        <option value="$PROJECT_DIR$/后台链接/two.html" />
-        <option value="$PROJECT_DIR$/后台链接/main.html" />
-        <option value="$PROJECT_DIR$/后台链接/login.html" />
-        <option value="$PROJECT_DIR$/自动触发/test1.html" />
-        <option value="$PROJECT_DIR$/图片放大缩小/sea.html" />
-        <option value="$PROJECT_DIR$/图片放大缩小/resouse/src/sea.js" />
-        <option value="$PROJECT_DIR$/图片放大缩小/demo1.html" />
-        <option value="$PROJECT_DIR$/图片放大缩小/map1.html" />
-        <option value="$PROJECT_DIR$/图片拖拽/picDrag5.html" />
-        <option value="$PROJECT_DIR$/图片拖拽/picDrag2.html" />
-        <option value="$PROJECT_DIR$/2016004#漳州市微信+wap建设项目 动态简报 源码/readme.md" />
-        <option value="$PROJECT_DIR$/avalonDemo/js/复杂的ms-duplex.html" />
-        <option value="$PROJECT_DIR$/avalonDemo/复杂的ms-duplex.html" />
-        <option value="$PROJECT_DIR$/avalonDemo/复选duplex.html" />
-        <option value="$PROJECT_DIR$/avalonDemo/tmpl.html" />
-        <option value="$PROJECT_DIR$/avalonDemo/test5-指令-10模板引用 ms-include .html" />
-        <option value="$PROJECT_DIR$/avalonDemo/复选duplex2.html" />
-        <option value="$PROJECT_DIR$/avalonDemo/复选duplex3  表格排序.html" />
-        <option value="$PROJECT_DIR$/avalonDemo/复选duplex3  三级联动.html" />
         <option value="$PROJECT_DIR$/avalonDemo/复选duplex4  三级联动.html" />
         <option value="$PROJECT_DIR$/plugins/My97DatePicker/common.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小/demo1.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag4.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag1.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag201607121940.html" />
+        <option value="$PROJECT_DIR$/下拉长度/个性下拉.html" />
+        <option value="$PROJECT_DIR$/下拉长度/下拉长度控制.html" />
+        <option value="$PROJECT_DIR$/图片拖拽/picDrag2.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小/offset方式2.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小/offset方式3.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小/scale.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小/offset方式4.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小/offset方式5--屏幕中心.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小/offset方式5--屏幕中心2.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小/zoom方式.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小/zoom方式3-火狐.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小/zoom方式2.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小/zoom方式4-火狐谷歌.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag_Ok.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag201607121939.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag_my.html" />
+        <option value="$PROJECT_DIR$/js 数据/自动补全小数.html" />
+        <option value="$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag_my_ok.html" />
+        <option value="$PROJECT_DIR$/复制.html" />
+        <option value="$PROJECT_DIR$/复制粘贴/demo.html" />
+        <option value="$PROJECT_DIR$/复制粘贴/window.clipboardData.html" />
+        <option value="$PROJECT_DIR$/复制粘贴/window.clipboardData 兼容.html" />
+        <option value="$PROJECT_DIR$/复制粘贴/onselect.html" />
+        <option value="$PROJECT_DIR$/复制粘贴/onselect2.html" />
+        <option value="$PROJECT_DIR$/复制粘贴/兼容火狐.html" />
+        <option value="$PROJECT_DIR$/复制粘贴/demo2.html" />
+        <option value="$PROJECT_DIR$/复制粘贴/demo3.html" />
+        <option value="$PROJECT_DIR$/复制粘贴/点击复制ok.html" />
+        <option value="$PROJECT_DIR$/图片拖拽/picDrag3.html" />
+        <option value="$PROJECT_DIR$/图片拖拽/picDrag-html5.html" />
+        <option value="$PROJECT_DIR$/图片拖拽/picDrag-html5-2.html" />
+        <option value="$PROJECT_DIR$/other/event - 副本.html" />
+        <option value="$PROJECT_DIR$/other/document.html" />
+        <option value="$PROJECT_DIR$/图片拖拽/picDrag.html" />
+        <option value="$PROJECT_DIR$/other/疑问点.html" />
+        <option value="$PROJECT_DIR$/other/event.html" />
+        <option value="$PROJECT_DIR$/other/DOM.html" />
+        <option value="$PROJECT_DIR$/cross-domain/test1/a/a.html" />
+        <option value="$PROJECT_DIR$/cross-domain/test1/a/execA.html" />
+        <option value="$PROJECT_DIR$/cross-domain/test1/b/d.html" />
+        <option value="$PROJECT_DIR$/cross-domain/test1/b/c.html" />
+        <option value="$PROJECT_DIR$/cross-domain/test1/b/b.html" />
+        <option value="$PROJECT_DIR$/cross-domain/test1/c/b.html" />
+        <option value="$PROJECT_DIR$/cross-domain/test1/c/c.html" />
+        <option value="$PROJECT_DIR$/cross-domain/test1/c/d.html" />
       </list>
     </option>
   </component>
@@ -132,10 +662,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="477" />
+    <option name="y" value="119" />
+    <option name="width" value="1260" />
+    <option name="height" value="889" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -160,7 +690,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,11 +718,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="cross-domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="My97DatePicker" />
+              <option name="myItemId" value="test2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,12 +736,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="cross-domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cross-domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cross-domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -222,21 +800,23 @@
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\！林珠珠_材料\strong\avalonDemo" />
-      <recent name="F:\！林珠珠_材料\strong\图片放大缩小\resouse\src" />
-      <recent name="F:\！林珠珠_材料\strong\图片放大缩小" />
-      <recent name="F:\！林珠珠_材料\strong\图片放大缩小\resouse" />
-      <recent name="F:\！林珠珠_材料\strong\自动触发" />
+      <recent name="F:\！林珠珠_材料\strong\cross-domain\test1" />
+      <recent name="F:\！林珠珠_材料\strong\cross-domain\test1\b" />
+      <recent name="F:\！林珠珠_材料\strong\cross-domain\test1\a" />
+      <recent name="F:\！林珠珠_材料\strong\other" />
+      <recent name="F:\！林珠珠_材料\strong\图片拖拽" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\！林珠珠_材料\strong\复制粘贴" />
       <recent name="F:\！林珠珠_材料\strong\avalonDemo" />
       <recent name="F:\！林珠珠_材料\strong\plugins" />
       <recent name="F:\！林珠珠_材料\strong\鼠标滚动放大缩小图片and拖动图片" />
       <recent name="F:\！林珠珠_材料\strong" />
-      <recent name="F:\！林珠珠_材料\strong\splitScreenView\av-modules\splitScreenView\static\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -312,27 +892,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="477" y="119" width="1260" height="889" extended-state="1" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17041801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.03907075" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.041025642" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -351,369 +931,379 @@
     <option name="LAST_COMMIT_MESSAGE" value="20160520整理" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/avalonDemo/复选duplex3  表格排序.html">
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小/offset方式2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5261283">
+          <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小/offset方式3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.785715">
+          <caret line="115" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小/scale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4793578">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小/offset方式.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="17" />
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/复选duplex4  三级联动.html">
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小/offset方式5--屏幕中心.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="27" />
+          <caret line="96" column="16" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cross-domain/test2/a/parent.html">
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小/zoom方式.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.13364595">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/test5-指令-10模板引用 ms-include .html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/基于html5的排版布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/复杂的ms-duplex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/test5-指令-7双工绑定 ms-duplex-string .html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="131" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/基于html5的排版布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/复杂的ms-duplex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/test5-指令-7双工绑定 ms-duplex-string .html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="131" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/基于html5的排版布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2016004#漳州市微信+wap建设项目 动态简报 源码/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/东张水库/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/东张水库/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/东张水库/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2491349">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/easyui/data/datagrid_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/easyui/基础的效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49061033">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/easyui/左侧起几列左右滚动时固定不动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40140846">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/easyui/手风琴效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.022300469">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/easyui/easyui 和 my97 的结合.html">
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小/offset方式4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.071429">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="65" />
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/My97DatePicker/My97DatePicker/My97DatePicker.htm">
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小/zoom方式3-火狐.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.642857">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小/zoom方式2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.60714287">
+          <caret line="62" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小/offset方式5--屏幕中心2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.392857">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小/zoom方式4-火狐谷歌.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.362069">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="81" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag_Ok.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.964285">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-73.28571">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 数据/自动补全小数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.674685">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/复制粘贴/jquery-1.7.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2016004#漳州市微信+wap建设项目 动态简报 源码/readme.md">
+    <entry file="file://$PROJECT_DIR$/图片鼠标滚动放大缩小and拖动/picDrag_my_ok.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5539906">
-          <caret line="48" column="70" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
+        <state vertical-scroll-proportion="-0.43986255">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2016004#漳州市微信+wap建设项目 动态简报 源码/package.json">
+    <entry file="file://$PROJECT_DIR$/复制粘贴/onselect.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jeasyui-datagrid-datagrid1/datagrid3.html">
+    <entry file="file://$PROJECT_DIR$/复制粘贴/onselect2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/复制粘贴/兼容火狐.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/复制粘贴/demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/复制粘贴/window.clipboardData.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/复制粘贴/window.clipboardData 兼容.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/复制粘贴/自动选择文本框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/复制粘贴/复制.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.25">
+          <caret line="62" column="67" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/复制粘贴/点击复制ok.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.178572">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3324937">
+          <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag2.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25587466">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片拖拽/sea.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.392858">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag-html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18146214">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag-html5-2.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/event - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.392857">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/document.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/图片拖拽/picDrag.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layout/基于html5的排版布局.html">
+    <entry file="file://$PROJECT_DIR$/other/event.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/demo.html">
+    <entry file="file://$PROJECT_DIR$/other/疑问点.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/test5-指令-7双工绑定 ms-duplex-string .html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.035714">
-          <caret line="100" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/复杂的ms-duplex.html">
+    <entry file="file://$PROJECT_DIR$/other/DOM.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.022274327">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/test5-指令-10模板引用 ms-include .html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44314185">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/复选duplex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/复选duplex2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/复选duplex3  表格排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalonDemo/复选duplex4  三级联动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cross-domain/test2/a/parent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/My97DatePicker/demo.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/My97DatePicker/common.html">
+    <entry file="file://$PROJECT_DIR$/cross-domain/test1/a/jquery-1.8.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53223914">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#input#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test1/a/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test2/b/b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test1/b/execB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test1/a/execA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.142858">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test1/a/a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9285714">
+          <caret line="14" column="9" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test1/b/d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4949349">
+          <caret line="18" column="9" selection-start-line="16" selection-start-column="7" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test1/b/c.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38494936">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test1/b/b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.678571">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test2/a/parent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19247468">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test2/a/child.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19247468">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test1/c/b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.321429">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test1/c/c.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.785714">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross-domain/test1/c/d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.934877">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

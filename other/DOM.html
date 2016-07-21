@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dom</title>
+
+    <style>
+
+        body {
+            font-size: 13px;
+            color: #00F;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: "Lucida Console", Consolas, Monaco;
+        }
+
+        dl {
+            border: 2px dashed #ddd;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        pre {
+            padding: 10px;
+            margin: 0;
+            background: #eee;
+            background-color: rgba(0, 0, 0, .07);
+            border: 1px dashed #ccc;
+        }
+
+        p {
+            margin-bottom: 0
+        }
+
+        code {
+            background: pink;
+            margin: 0;
+            display: block;
+            box-sizing: border-box;
+            line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h4>dom对象的属性如下：</h4>
+    <dl>
+        <dt>tagName 属性</dt>
+        <dd>获得元素的标签名,返回值始终是大写的。</dd>
+    </dl>
+    <p>js代码：</p>
+    <pre>
+    function myFunction()
+    {
+         var x=document.getElementById("demo");
+          x.innerHTML=x.tagName;
+    }
+    </pre>
+    <p>html代码：</p>
+    <pre>
+        <p id="demo">点击按钮来显示此元素的标签名。</p>
+    </pre>
+    <p>结果输出：</p>
+    <pre>
+       P
+    </pre>
+    <dl>
+        <dt>className属性：（id）</dt>
+        <dd>设置或返回元素的 class 属性。</dd>
+    </dl>
+    <p>js代码：</p>
+    <pre>
+         document.write(document.getElementById('myid').className);
+    </pre>
+    <p>html代码：</p>
+    <pre>
+        <button id="myid" class="mystyle"></button>
+    </pre>
+    <p>结果输出：</p>
+    <pre>
+           button CSS class: mystyle
+    </pre>
+</body>
+</html>

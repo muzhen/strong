@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script>
+        $(function(){
+            copy();
+        })
+
+        //获取剪贴板数据方法
+        function getClipboardText(event){
+       var clipboardData = event.clipboardData || window.clipboardData;
+        return clipboardData.getData("text");
+        };
+
+
+        //设置剪贴板数据
+        function setClipboardText(event, value){
+       if(event.clipboardData){
+           return event.clipboardData.setData("text/plain", value);
+               }else if(window.clipboardData){
+           return window.clipboardData.setData("text", value);
+           }
+        };
+
+
+        function copy(){
+            var oInp = document.getElementById("inp");
+            oInp.addEventListener('paste',function(event){
+                var event = event || window.event;//是为了兼容FF等MOZ浏览器,event代表事件的状态，只在事件发生的过程中才有效。
+                var text = getClipboardText(event);
+                console.log(text);
+                if(!/^\d+$/.test(text)){
+                    event.preventDefault();
+                }
+            }, false);
+        }
+/*
+        function getClipboardText(event){
+            var clipboardData = event.clipboardData || window.clipboardData;
+            console.log(clipboardData);
+            return clipboardData.getData("text");
+        };*/
+
+
+    </script>
+</head>
+<body>
+
+<input type="text" value="123" id="inp"/>
+<button value="copy"  id="cont" onclick="copy()">copy</button>
+</body>
+</html>

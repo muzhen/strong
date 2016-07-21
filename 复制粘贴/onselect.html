@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<form>
+    <p>内容被剪切时，会弹出一个信息提示框：</p>
+    <input type="text" value="文字内容" oncut="alert('文本已被选中！')" />
+    <br /><br />
+    <p>容向文本域粘贴时，会触发 onpaste 事件。 </p>
+    <input type="text" value="文字内容" onpaste="alert('文本域粘贴时，会触发 onpaste 事件！')" />
+    <br /><br />
+    单行文本：<input type="text" value="Hello world!" onselect="alert('文本已被选中！')" />
+    <br /><br />
+    多行文本：<textarea cols="20" rows="5" onselect="alert('文本已被选中！')">Hello world!</textarea>
+    <br /><br />
+</form>
+
+</body>
+</html>

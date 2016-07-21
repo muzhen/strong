@@ -1,0 +1,140 @@
+<html>
+<HEAD>
+    <title>鼠标拖动图片</title>
+    <meat charset="UTF-8"></meat>
+
+    <script type="text/javascript" src="resouse/jquery-1.7.1.min.js"></script>
+    <style type="text/css">
+
+        .imgPart {
+            padding: 20px;
+            box-sizing: border-box;
+            overflow: hidden;
+            position: relative;
+            top: 0;
+            border: 1px solid #ddd;
+            margin: 20px auto;
+            width: 1000px;
+            height: 675px;
+            background: lightpink;
+            padding-top: 250px;
+        }
+
+        .dragme {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            min-width: 200px;
+            min-height: 200px;
+        }
+
+        .wheel {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -100px;
+            margin-top: -100px;
+            width: 200px;
+            height: 200px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+    </style>
+    <script type="text/javascript">
+        ie = document.all;
+        nn6 = document.getElementById && !document.all;
+        isdrag = false;
+        x = 0;
+        y = 0;
+        dobj = {};
+
+
+        //鼠标滚动放大
+        var bigimg = function (e) {
+            var i = $(".wheel");
+            var zoomval = i.css("zoom") * 100;
+            var zoom = parseInt(zoomval, 10) || 100;
+            var zoomvalff = i.css("width");
+            console.log("1、" + zoomvalff);
+            var zoomff = parseInt(zoomvalff, 10) || 100;
+            e = e || window.event;
+            if (e.wheelDelta) {//IE/Opera/Chrome
+                zoom = zoom + e.wheelDelta / 12;////wheelDelta返回的值，均为120 的倍数,正值说明滚轮是向上滚动，如果是负值说明滚轮是向下滚动;火狐detail
+                if (zoom > 100) {
+                    i.css("zoom", zoom + '%');
+                }
+
+            } else if (e.detail) {//Firefox 向上滚动 缩小
+
+                var dowm = -(e.detail);
+                zoomff = zoomff + dowm / 0.3;
+                if (zoomff > 100) {
+                    i.css("width", zoomff);
+                    i.css("height", zoomff);
+                    i.css("margin-left", -zoomff/2 );
+                    i.css("margin-top",-zoomff/2 );
+                }
+
+            }
+            return false;
+        };
+
+        /*拖动图片*/
+        function movemouse(e) {
+            if (isdrag) {
+                var left = nn6 ? tx + e.clientX - x : tx + event.clientX - x;
+                var top = nn6 ? ty + e.clientY - y : ty + event.clientY - y;
+                $(".dragme").css({
+                    "left": left,
+                    "top": top
+                });
+
+                return false;
+            }
+        }
+        function selectmouse(e) {
+            var fobj = nn6 ? e.target : event.srcElement;
+            var topelement = nn6 ? "HTML" : "BODY";
+            while (fobj.tagName != topelement && fobj.className != "dragme") {
+                fobj = nn6 ? fobj.parentNode : fobj.parentElement;
+            }
+            if (fobj.className == "dragme") {
+                isdrag = true;
+                dobj = fobj;
+                tx = parseInt(dobj.style.left + 0);
+                ty = parseInt(dobj.style.top + 0);
+                x = nn6 ? e.clientX : event.clientX;
+                y = nn6 ? e.clientY : event.clientY;
+                document.onmousemove = movemouse;
+                return false;
+            }
+
+        }
+        document.onmousedown = selectmouse;////当鼠标按下的瞬间所做的事件
+        document.onmouseup = new Function("isdrag=false");//如果鼠标停止，则停止图片移动事件
+
+        /*Firefox注册事件*/
+        if (document.addEventListener) {
+            document.addEventListener('DOMMouseScroll', bigimg, false);
+        }
+        /*IE注册事件*/
+        if (document.attachEvent) {
+            document.attachEvent('onmousewheel', bigimg);
+        }
+        window.onmousewheel = document.onmousewheel = bigimg;//IE/Opera/Chrome
+
+    </script>
+</HEAD>
+<BODY>
+<div align="center" class="imgPart">
+    <div class="dragme">
+        <div class="wheel" style="zoom:100%; ">
+            <img src="sea.jpg">
+        </div>
+    </div>
+</div>
+</body>
+</html>

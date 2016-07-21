@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>picDrag-html5-2</title>
+    <style type="text/css">
+
+        #div1 {
+            width: 600px;
+            height: 400px;
+            padding: 10px;
+            border: 1px solid #aaaaaa;
+        }
+        #drag1{
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+        function allowDrop(ev) {
+            // 默认地，无法将数据/元素放置到其他元素中。如果需要设置允许放置，我们必须阻止对元素的默认处理方式。
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            //dataTransfer.setData() 方法设置被拖数据的数据类型和值：
+            //数据类型是 "Text"，值是可拖动元素的 id ("drag1")。
+            ev.dataTransfer.setData("Text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();//调用 preventDefault() 来避免浏览器对数据的默认处理（drop 事件的默认行为是以链接形式打开）
+            var data = ev.dataTransfer.getData("Text");
+            ev.target.appendChild(document.getElementById(data));
+
+        }
+    </script>
+</head>
+<body>
+
+<!--用 ondragover 事件的 event.preventDefault() 方法-->
+<!--ondragover 事件规定在何处放置被拖动的数据。-->
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<br/>
+
+<!--使元素可拖动 draggable="true"-->
+<!--ondragstart 属性调用了一个函数，drag(event)，它规定了被拖动的数据。-->
+<div>
+    <img src="sea.jpg"  id="drag1" ondragstart="drag(event)"  draggable="true" />
+</div>
+
+</body>
+</html>

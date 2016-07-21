@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    function copyUrl2()
+    {
+        var Url2=document.getElementById("biao1");
+        Url2.select(); // 选择对象
+        var copword =document.execCommand("Copy"); // 执行浏览器复制命令
+        console.log(copword)
+        $(".css").innerHTML(copword);
+        alert("已复制好，可贴粘。");
+    }
+</script>
+<h4>参考：http://www.cnblogs.com/tylerdonet/p/4533782.html</h4>
+<h4>http://www.jsann.com/post/JS_execCommand_method.html</h4>
+<textarea cols="20" rows="10" id="biao1">用户定义的代码区域</textarea>
+<input type="button" onClick="copyUrl2()" value="点击复制代码" />
+<p>复制的文字：<span class="css"></span></p>
+</body>
+</html>

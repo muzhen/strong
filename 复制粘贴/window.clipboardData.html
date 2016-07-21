@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title> 复制到剪贴板功能 </title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="Miracle">
+    <script>
+//        将文本复制到剪贴板
+        function CopyToClipboard(){
+            var inputTxt = document.getElementById("toClipboard");
+           window.clipboardData.setData("Text",inputTxt.value);//ie
+          //  event.clipboardData.setData("MIME",inputTxt.value);//Chrome、Safari
+        }
+//显示剪贴板中的文本数据
+        function ShowClipboardContent(){
+           alert(window.clipboardData.getData("Text"));//getData()方法用于从剪贴板中获取数据,’text”和”URL”
+            // alert(event.clipboardData.getData("MIME"));//getData()方法用于从剪贴板中获取数据,用”text”代表”text/plain”。
+        }
+//清除文本数据从剪贴板
+        function ClearClipboard(){
+            window.clipboardData.clearData("Text");
+        }
+    </script>
+</head>
+<body>
+<input id="toClipboard" value="text to clipboard"/>
+<button onclick='CopyToClipboard()'>将文本复制到剪贴板</button>
+<br /><br />
+<button onclick='ShowClipboardContent();'>显示剪贴板中的文本数据</button>
+<button onclick='ClearClipboard();'>清除文本数据从剪贴板</button>
+<p>提供了对剪贴板的访问。</p>
+<p>三个方法</p>
+<p>1.clearData(sDataFormat) 删除剪贴板中指定格式的数据。</p>
+<p>2.getData(sDataFormat) 从剪贴板获取指定格式的数据。</p>
+<p>3.setData(sDataFormat, sData) 给剪贴板赋予指定格式的数据。返回 true 表示操作成功。</p>
+<p>例子：</p>
+<a href="javascript:void(0);" onclick="copy(window.location.href)">复制地址栏网址window.location.href</a>
+<script>
+
+    function copy(text){
+        if (window.clipboardData)
+        {
+            window.clipboardData.setData("Text",text);
+        }
+        else{
+            alert('您的浏览器不支持复制功能，请手动copy：' + text);
+            return false;
+        }
+        alert("复制成功");
+    }
+</script>
+<p>例子2：</p>
+<a href="javascript:void(0);" onclick = "copyToClipboard(window.location.href)">复制到剪贴板</a>
+<script>
+    function copyToClipboard(txt) {
+        if (window.clipboardData) {
+            window.clipboardData.clearData();
+            window.clipboardData.setData("Text", txt);
+            alert("复制成功！")
+        } else if (navigator.userAgent.indexOf("Opera") != -1) {
+            window.location = txt;
+            alert("复制成功！");
+        } else if (window.netscape) {
+            try {
+                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+            } catch (e) {
+                alert("被浏览器拒绝！\n请在浏览器地址栏输入'about:config'并回车\n然后将 'signed.applets.codebase_principal_support'设置为'true'");
+            }
+            var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
+            if (!clip)
+                return;
+            var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
+            if (!trans)
+                return;
+            trans.addDataFlavor('text/unicode');
+            var str = new Object();
+            var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
+            var copytext = txt;
+            str.data = copytext;
+            trans.setTransferData("text/unicode", str, copytext.length * 2);
+            var clipid = Components.interfaces.nsIClipboard;
+            if (!clip)
+                return false;
+            clip.setData(trans, null, clipid.kGlobalClipboard);
+            alert("复制成功！")
+        }else if(copy){
+            copy(txt);
+            alert("复制成功！")
+        }
+    }
+    </script>
+    </body>
+    </html>

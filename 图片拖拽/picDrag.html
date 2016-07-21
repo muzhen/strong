@@ -2,57 +2,74 @@
 <HEAD>
     <title>鼠标拖动图片</title>
     <style type="text/css">
-        <!--
+
         .dragme {
             position: relative;
             width: 500px;
             height: 375px;
         }
 
-        -->
+        img, .dragme {
+            width: 100px;
+            height: 100px;
+        }
+
     </style>
+
+    <script type="text/javascript" src="resouse/jquery-1.7.1.min.js"></script>
     <script type="text/javascript">
-        var ie = document.all;
-        var nn6 = document.getElementById && !document.all;
+        //   var ie = document.all;
+        var nn6 = document.getElementById && !document.all;//document.getElementById可用 而且 浏览器不是IE 则返回 true ，赋值给变量nn6
         var isdrag = false;
         var x, y;
         var dobj;
 
         function movemouse(e) {
-            if (isdrag) {
-                dobj.style.left = nn6 ? tx + e.clientX - x : tx + event.clientX - x;
-                dobj.style.top = nn6 ? ty + e.clientY - y : ty + event.clientY - y;
+            if (isdrag) {//如果有拖动
+                 dobj.style.left = nn6 ? tx + e.clientX - x : tx + event.clientX - x;
+                     dobj.style.top = nn6 ? ty + e.clientY - y : ty + event.clientY - y;
+               /* var left = nn6 ? tx + e.clientX - x : tx + event.clientX - x;
+                var top = nn6 ? ty + e.clientY - y : ty + event.clientY - y;
+                dobj.css({
+                    left: left,
+                    top: top
+                });*/
                 return false;
             }
         }
 
         function selectmouse(e) {
-            var fobj = nn6 ? e.target : event.srcElement;
+            //兼容检测target属性规定在何处打开页面
+            var fobj = nn6 ? e.target : event.srcElement;//IE下,event对象有srcElement属性,但是没有target属性;Firefox下,event对象有target属性,但是没有srcElement属性.但他们的作用是相当的
             var topelement = nn6 ? "HTML" : "BODY";
+            //判断拖动图片
             while (fobj.tagName != topelement && fobj.className != "dragme") {
+                //如果是，判断是不是节点
                 fobj = nn6 ? fobj.parentNode : fobj.parentElement;
             }
-            if (fobj.className == "dragme") {
+
+            if (fobj.className == "dragme") {  //如果是
                 isdrag = true;
                 dobj = fobj;
                 tx = parseInt(dobj.style.left + 0);
                 ty = parseInt(dobj.style.top + 0);
                 x = nn6 ? e.clientX : event.clientX;
                 y = nn6 ? e.clientY : event.clientY;
+                //去确认鼠标的位置,执行鼠标移动事件
                 document.onmousemove = movemouse;
                 return false;
             }
 
         }
-        document.onmousedown = selectmouse;
-        document.onmouseup = new Function("isdrag=false");
+        document.onmousedown = selectmouse;////当鼠标按下的瞬间所做的事件
+        document.onmouseup = new Function("isdrag=false");//如果鼠标停止，则停止图片移动事件
 
     </script>
 </HEAD>
 <BODY>
 <div align="center">
     <div class="dragme">
-        <img src="http://www.codefans.net/jscss/demoimg/wall7.jpg">
+        <img src="sea.jpg">
     </div>
 </div>
 </body>

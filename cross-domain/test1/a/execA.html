@@ -3,11 +3,19 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title> exec main function </title>
+    <script   src="jquery-1.8.0.min.js"> </script>
 </head>
 
 <body>
 <script type="text/javascript">
-    parent.parent.fMain(); // execute main function
+$(function(){
+    fMain()
+})
+    // a页面的函数
+    function fMain(){
+        console.log('a页面内的函数调用');
+    }
+    //parent.parent.fMain(); // execute main function
 </script>
 </body>
 </html>

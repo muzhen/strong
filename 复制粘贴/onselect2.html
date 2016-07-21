@@ -1,0 +1,19 @@
+<html>
+<body>
+<script type="text/javascript">
+    document.body.oncopy = function () {
+        event.returnValue = false;
+        var txt_cr = document.selection.createRange().text;
+        var copy_cr = "本文来自我爱开发网, 原文地址：http://www.5idev.cn/p-javascript_oncopy.shtml";
+        clipboardData.setData('Text', txt_cr + 'rn' + copy_cr + 'rn');
+    }
+</script>
+<p>这是一些文字</p>
+
+<form action="">
+
+    <textarea cols=50 rows=15> 哈哈。我们都是新生来得。大家都来相互帮助呀。这样我们才能进步，我们才能赚大钱！</textarea>
+    <input type=button value="选择字后点击我看看" onclick=alert(document.selection.createRange().text)>
+</form>
+</body>
+</html>

@@ -1,53 +1,79 @@
-<!DOCTYPE HTML>
 <html>
-<head>
+<HEAD>
+    <title>鼠标拖动图片</title>
+
+    <script type="text/javascript" src="resouse/jquery-1.7.1.min.js"></script>
     <style type="text/css">
-
-        #div1 {
-            width:600px;
-            height:400px;
-            padding: 10px;
-            border: 1px solid #aaaaaa;
+        body{
+            margin:50px;
         }
-img{
 
-    position: relative;
-    /*left: 50px;*/
-}
+        .demo {
+            position: relative;
+            width: 1500px;
+            height: 875px;
+            overflow: hidden;
+            background: lightpink;
+        }
+        .dragme {
+            position: absolute;
+            left: 0;
+             top:0;
+            width: 500px;
+            height: 375px;
+        }
+
     </style>
     <script type="text/javascript">
-        function allowDrop(ev) {
-            // 默认地，无法将数据/元素放置到其他元素中。如果需要设置允许放置，我们必须阻止对元素的默认处理方式。
-            ev.preventDefault();
+$(function(){
+    imgshow();
+})
+        function movemouse(e) {
+            if (isdrag) {
+                dobj.style.left = nn6 ? tx + e.clientX - x : tx + event.clientX - x;// dobj.style.left 相对于上级的left  ;nn6 真假 ； tx鼠标的x ;
+                dobj.style.top = nn6 ? ty + e.clientY - y : ty + event.clientY - y;
+
+                return false;
+            }
         }
 
-        function drag(ev) {
-            //dataTransfer.setData() 方法设置被拖数据的数据类型和值：
-            ev.dataTransfer.setData("Text", ev.target.id);
+        function selectmouse(e) {
+            var fobj = nn6 ? e.target : event.srcElement;
+            var topelement = nn6 ? "HTML" : "BODY";
+            while (fobj.tagName != topelement && fobj.className != "dragme") {
+                fobj = nn6 ? fobj.parentNode : fobj.parentElement;
+            }
+            if (fobj.className == "dragme") {
+                isdrag = true;
+                dobj = fobj;
+                tx = parseInt(dobj.style.left + 0);
+                ty = parseInt(dobj.style.top + 0);
+                x = nn6 ? e.clientX : event.clientX;
+                y = nn6 ? e.clientY : event.clientY;
+                document.onmousemove = movemouse;
+                console.log(e.clientX  );
+                return false;
+            }
+
+        }
+        function imgshow(){
+             e = document.getElementById("p1");
+             ie = document.all;
+             nn6 = document.getElementById("p1") && !document.all;
+             isdrag = false;
+             x=0;
+            y=0;
+             dobj={};
+            document.onmousedown = selectmouse;
+            document.onmouseup = new Function("isdrag=false");
         }
 
-        function drop(ev) {
-            ev.preventDefault();
 
-            var data = ev.dataTransfer.getData("Text");
-          //  alert(data);//drag1
-            //document.getElementById(data).style.left="200px";
-           ev.target.appendChild(document.getElementById(data));
-
-        }
     </script>
-</head>
-<body>
-
-<!--用 ondragover 事件的 event.preventDefault() 方法-->
-<!--ondragover 事件规定在何处放置被拖动的数据。-->
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-
-<br/>
-
-<!--使元素可拖动 draggable="true"-->
-<!--ondragstart 属性调用了一个函数，drag(event)，它规定了被拖动的数据。-->
-<img id="drag1" src="http://www.codefans.net/jscss/demoimg/wall7.jpg" draggable="true" ondragstart="drag(event)"/>
-
+</HEAD>
+<BODY>
+<div align="center" class="demo">
+        <img src="sea.jpg" class="dragme" >
+</div>
 </body>
 </html>

@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>测试复制粘帖</title>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="This is my page">
+    <style>
+        .cparea{
+            text-align: center;
+            font-family: Microsoft Yahei;
+            margin: -2em 0 0;
+        }
+        .kwd{
+            display: inline-block;
+            color: #272727;
+            background-color: #fff;
+            font-size: 1.1875em;
+            padding: .75em 1em;
+            border: 1px dashed #e60012;
+            -webkit-user-select:element;
+            margin: 2em;
+        }
+        .kwd span{
+            display: block;
+            border: 1px solid #fff;
+        }
+        .kdes{
+            display: inline-block;
+            color: #212121;
+            font-size: .875em;
+            padding-top: 0;
+        }
+        .kdes b{
+            color: #ed5353;
+            font-size: 1.25em;
+            padding-right: .1em;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script language="javascript">
+        $(function(){
+            //ie
+            $("#copy").click(function(){
+                var t=$("#txt").val();
+                window.clipboardData.setData('text',t);
+            })
+            //ie
+            $("#read").click(function(){
+                $("#txt1").val(window.clipboardData.getData("text"));
+            })
+        })
+
+
+
+        //设置剪贴板数据
+        function setClipboardText(event, value){
+            if(event.clipboardData){
+                return event.clipboardData.setData("text/plain", value);
+            }else if(window.clipboardData){
+                return window.clipboardData.setData("text", value);
+            }
+        };
+
+        window.onload = function(){
+            var oInp = document.getElementById("inp");
+            //获取剪贴板数据方法
+            function getClipboardText(event){
+                var clipboardData = event.clipboardData || window.clipboardData;
+                return clipboardData.getData("text");
+            };
+
+            oInp.addEventListener('paste',function(event){
+                var event = event || window.event;
+                var text = getClipboardText(event);
+
+                if(!/^\d+$/.test(text)){
+                    event.preventDefault();
+                }
+                console.log(text)
+            }, false);
+        }
+
+        $("#kwd").bind("taphold", function(){ //不支持iPhone/iTouch/iPad Safari
+            var doc = document,
+                    text = doc.getElementById("kwd"),
+                    range,
+                    selection;
+            if (doc.body.createTextRange) {
+                range = document.body.createTextRange();
+                range.moveToElementText(text);
+                range.select();
+            } else if (window.getSelection) {
+                selection = window.getSelection();
+                range = document.createRange();
+                range.selectNodeContents(text);
+                selection.removeAllRanges();
+                selection.addRange(range);
+            }else{
+                alert("浏览器不支持长按复制功能");
+            }
+        });
+
+        /*无效*/
+        function selectText(element) {
+            var doc = document,
+                    text = doc.getElementById(element),
+                    range,
+                    selection;
+
+            if (doc.body.createTextRange) {
+                range = document.body.createTextRange();
+                range.moveToElementText(text);
+                range.select();
+            } else if (window.getSelection) {
+                selection = window.getSelection();
+                range = document.createRange();
+                range.selectNodeContents(text);
+                selection.removeAllRanges();
+                selection.addRange(range);
+                /*if(selection.setBaseAndExtent){
+                 selection.setBaseAndExtent(text, 0, text, 1);
+                 }*/
+            }else{
+                alert("none");
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+<input name="txt" id="txt" value="测试" width="200px">
+　　<input type="button" value="复制" id="copy">
+　　<input type="button" value="粘贴" id="read">
+
+
+<input name="txt1" id="txt1" width="200px">
+
+<input type="text" id="inp" value="梦龙小站" />
+
+<div class=" para requirement">
+    <div class="cparea">
+        <div class="kwd" id="kwd"><span>三国艳义手机优化大师</span></div>
+    </div>
+    <div class="cparea">
+        <span class="kdes"><b>★</b>长按虚线框,拷贝关键词</span>
+    </div>
+</div>
+</button>
+</body>
+</html>
