@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function deleteCookie(name) {
+        document.cookie = name+"=;expires="+(new Date(0)).toGMTString();
+    }
+    deleteCookie(username)
+</script>
+</body>
+</html>

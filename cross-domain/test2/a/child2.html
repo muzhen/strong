@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function say(){
+            alert("调用孙页面的函数");
+        }
+        function callChild(){
+            parents.callParent();
+            //   parent.callParent();
+
+        }
+    </script>
+</head>
+<body>
+
+<input id="button" type="button" value="调用父页面的say()函数（parent）" onclick="callChild()"/><br/><br/>
+
+
+</body>
+</html>

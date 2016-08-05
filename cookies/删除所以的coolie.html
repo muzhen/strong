@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function clearCookie(){
+        var keys=document.cookie.match(/[^ =;]+(?=\=)/g);
+        if (keys) {
+            for (var i = keys.length; i--;)  {
+                document.cookie = keys[i]+'= 0;expires=' + new Date( 0).toUTCString()+";path=/";//本域名下面的所以cookies
+                console.log(document.cookie)
+            }
+        }
+    }
+</script>
+</body>
+</html>

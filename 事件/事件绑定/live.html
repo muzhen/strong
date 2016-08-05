@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<div class="box">
+    <button id="test">重复绑定触发按钮</button>(点击此按钮两次及以上,即可触发重复绑定,再点击下面的按钮就可看到结果)
+    <br/><br/>
+    <button id="test1">click重复绑定测试按钮</button>
+    <button id="test2">click绑定一次测试按钮</button>
+    <button id="test3">live重复绑定测试按钮</button>
+    <button id="test4">live绑定一次测试按钮</button>
+</div>
+<script type="text/javascript" src="../jquery-1.8.0.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var i = 1,j=1,k=1,h=1,n=1;
+        var triggerBind = function(){
+            $("#test1").click(function() {
+                alert("click未解除绑定重复绑定执行第" + j++ + "次");
+            });
+            $("#test2").unbind('click').click(function() {// unbind 解绑点击事件
+                alert("click解除绑定执行" + k++ + "次");
+            });
+
+            $("#test3").live("click",function() {
+                alert("live未解除绑定重复执行第" + h++ + "次");
+            });
+            $("#test4").die().live("click",function() {//die()方法解除所以绑定事件
+                alert("live解除绑定后执行" + n++ + "次");
+            });
+        }
+        $("#test").click(function() {
+            triggerBind();
+            alert("触发绑定点击第" + i++ + "次");
+        });
+    });
+</script>
+</body>
+</html>

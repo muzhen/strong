@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>获取某月的开始结束时间</title>
+    </head>
+
+    <body>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>  
+
+        <button onclick="gettime()">点击获取获取某月的开始时间--结束时间</button>
+        <input id="shows" type="text"  style="  width: 300px;"/>
+        <script>
+            function gettime(){  
+                var stm = getMonthStartDate();
+                var etm = getMonthEndDate();
+                var tm = stm + "," + etm;
+                $("#shows").val(tm)
+            } 
+
+            var now = new Date();                    //当前日期    
+            var nowMonth = now.getMonth();           //当前月  
+            var nowYear = now.getFullYear();             //当前年        
+            //获得本月的开始日期     
+            function getMonthStartDate(){     
+                var monthStartDate = new Date(nowYear, nowMonth, 1,0,0,0);      
+                return formatDate(monthStartDate);     
+            }     
+                
+            //获得本月的结束日期     
+            function getMonthEndDate(){     
+                var monthEndDate = new Date(nowYear, nowMonth, getMonthDays(nowMonth),23,59,59);      
+                return formatDate(monthEndDate);     
+            }
+            //获得某月的天数     
+            function getMonthDays(myMonth){     
+                var monthStartDate = new Date(nowYear, myMonth, 1);      
+                var monthEndDate = new Date(nowYear, myMonth + 1, 1);      
+                var   days   =   (monthEndDate   -   monthStartDate)/(1000   *   60   *   60   *   24);      
+                return   days;      
+            } 
+            //格式化日期：yyyy-MM-dd     
+            function formatDate(date) {      
+                var year = date.getFullYear();     
+                var month = date.getMonth()+1;     
+                var day = date.getDate();  
+                var hour = date.getHours();
+                var minute = date.getMinutes();
+                var second = date.getSeconds();     
+                     
+                if(month < 10){month = "0" + month; }
+                if(day < 10){day = "0" + day; }
+                if(hour < 10){hour = "0" + hour; }
+                if(minute < 10){minute = "0" + minute; }
+                if(second < 10){second = "0" + second; }
+
+                return (year+"-"+month + "-" + day + "T" + hour +":"+ minute +":"+ second);      
+            }   
+ 
+
+        </script>
+    </body>
+
+</html>

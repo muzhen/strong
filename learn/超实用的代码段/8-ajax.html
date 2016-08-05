@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+    <script src="jquery-1.8.0.min.js"></script>
+</head>
+<body>
+<script>
+    $(function(){
+        ajaxfile();
+    })
+    function ajaxfile(){
+        $("#aj").click(function(){
+
+          /*  $("#show").load("data/word.txt",function(statusTxt){//加载txt文件
+                console.log(statusTxt);
+            });*/
+            var par={
+                name:"username",
+                age:"age"
+            };
+            $("#show").load("data/word.html",par,function(statusTxt){//加载html文件
+                console.log(statusTxt);
+            });
+        })
+    }
+
+</script>
+
+<button id="aj">
+    点击
+</button>
+<div id="show">
+
+</div>
+</body>
+</html>

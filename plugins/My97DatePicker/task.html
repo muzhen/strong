@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+
+    <body>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+        <script language="javascript" type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+
+        <input id="d244" type="text" class="Wdate" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})"/> 
+        <br/>
+        <button onclick="gettime()">点击获取当前时间</button>
+        <input id="shows" type="text"  />
+        <script>
+            function gettime(){ 
+                var tm = $(".Wdate").val();//获取选中的时间
+               var lasttm = timeslotFn(tm,-3); 
+                $("#shows").val(lasttm)
+            } 
+            function timeslotFn(date,days){//返回后台的时间
+                var d=new Date(date);
+                d.setDate(d.getDate()+days);
+                var month=d.getMonth()+1;
+                var day = d.getDate();
+                var hours = d.getHours();
+                var minutes = d.getMinutes();
+                var seconds = d.getSeconds(); 
+
+                if(month<10){month = "0"+month;}
+                if(day<10){day = "0"+day;}
+                var val = d.getFullYear()+"-"+month+"-"+day + " " + hours +":"+ minutes +":"+ seconds; 
+
+                return val;
+            } 
+            
+
+ 
+
+        </script>
+    </body>
+
+</html>

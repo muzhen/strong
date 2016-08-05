@@ -1,0 +1,84 @@
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.ms-tabs {
+/*    border: 1px solid violet;
+    width: 330px;
+    padding: 5px;
+    height: 200px;*/
+}
+
+.swiper-container {
+  /*  width: 300px;
+    height: 300px;*/
+    margin: 0 auto;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide img{
+    width:100%
+}
+footer{
+    height: 50px;
+    margin-left: 1px;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer div {
+    width: 33.33%;
+    height: 100%;
+    color:#80CAF9;
+    text-align: center;
+    float: left;
+    border: 1px solid #80CAF9;
+    box-sizing: border-box;
+    margin-left: -1px;
+}
+footer div.active,footer div:hover {
+    color: white;
+    background-color: rgb(69, 160, 218);
+}
+footer div span{
+       width: 24px;
+    height: 22px;
+    display: inline-block;
+    padding-right: 5px;
+    box-sizing: content-box;
+      background-position: 0px -3px;
+    overflow: hidden;
+    background-size: 58px 29px;
+    vertical-align: middle;
+}
+footer div.active span{
+        background-image: url("../av-modules/src/swiperpart/img/01.png");
+      background-position-x: 29px;  
+}
+footer div span img{
+    width:100%;
+}
+

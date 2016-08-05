@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="This is my page">
+</head>
+
+<body>
+	<script type="text/javascript">
+	/*	window.onload = function() {
+			load();
+		};*/
+		function load() {
+			var fileName = "下载文件.html";
+			var content = document.getElementsByTagName("html")[0].outerHTML;
+			var aLink = document.getElementById("a");
+			if ((navigator.userAgent.indexOf('MSIE') >= 0)
+					&& (navigator.userAgent.indexOf('Opera') < 0)
+					|| (!!window.ActiveXObject || "ActiveXObject" in window)
+					|| (navigator.userAgent.indexOf('Edge') >= 0)) {
+				//包括Microsoft IE和Microsoft Edge
+				document.execCommand('Saveas', false, 'c:\\' + fileName);
+			} //Firefox浏览器的支持
+			else if (navigator.userAgent.indexOf('Firefox') >= 0) {
+				var blob = new Blob([ content ]);
+				var evt = document.createEvent("HTMLEvents");
+				evt.initEvent("click", false, false);
+				aLink.download = fileName;
+				aLink.href = URL.createObjectURL(blob);
+				aLink.dispatchEvent(evt);
+				document.getElementById("a").click();
+			}
+			//其他如Chrome和360浏览器的支持
+			else {
+				var aLink = document.createElement('a');
+				var blob = new Blob([ content ]);
+				var evt = document.createEvent("HTMLEvents");
+				evt.initEvent("click", false, false);
+				aLink.download = fileName;
+				aLink.href = URL.createObjectURL(blob);
+				aLink.dispatchEvent(evt);
+			}
+		}
+	</script>
+
+	<a id="a" onclick="load()" style="">下载</a>
+</body>
+</html>
