@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>获取某月的开始结束时间</title>
+    </head>
+
+    <body>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>  
+
+        <button id="gettimebtn" >获取基础时间</button> 
+        <textarea id="shows"  cols="80" rows="15"></textarea>   
+
+        <br/><br/> 
+        <button id="getcurtimebtn" >获取当前时间</button> 
+        <input  type="text" >
+
+        <br/><br/> 
+        <button id="monthDaysbtn" >获取某月的天数</button> 
+        <input  type="text" >
+
+        <br/><br/> 
+        <button id="monthEndDatebtn" >获取某月的结束日期</button> 
+        <input  type="text" >
+
+        <br/><br/> 
+        <button id="weekbtn" >获取当前的是礼拜几</button> 
+        <input  type="text" > 
+
+        <br/><br/> 
+        <button id="seasonbtn" >获取本季度的开端月份</button> 
+        <input  type="text" > 
+
+        <br/><br/> 
+        <button id="beforedaybtn" >获取当前往前 3 天的时间(-3)</button> 
+        <input  type="text" >
+
+        <br/><br/> 
+        <button id="comparebtn" >与8:00比较</button> 
+        <textarea    cols="80" rows="2"></textarea>   
+        
+        <script>　
+            $(function(){
+                 now = new Date();                 //当前日期     e.g: Sat Aug 06 2016 11:55:12 GMT+0800 (中国标准时间)
+                 nowMonth = now.getMonth();        //获取当前月份(0-11,0代表1月)     e.g:  7
+                 nowYearfull = now.getFullYear();  //获取完整的年份(4位,1970-????)   e.g:  2016        
+                 nowday = now.getDate();           //获取当前日(1-31)                e.g:  6
+                 nowweek= now.getDay();            //获取当前星期X(0-6,0代表星期天)  e.g:  6
+                 nowhour = now.getHours();         //获取当前小时数(0-23)            e.g:  11
+                 nowmin = now.getMinutes();        //获取当前分钟数(0-59)            e.g:  55
+                 nowsec = now.getSeconds();        //获取当前秒数(0-59)              e.g:  12
+                 nowmillisec = now.getMilliseconds();  //获取当前毫秒数(0-999)                  e.g: 943
+
+                 nowyear = now.getYear();          //获取当前年份(2位)               e.g: 116 
+                 nowtimes = now.getTime();         //获取当前时间(从1970.1.1开始的毫秒数)   e.g: 1470455712943 
+                 toLocaleDate = now.toLocaleDateString();     //获取当前日期                e.g: 2016/8/6
+                 mytime=now.toLocaleTimeString();             //获取当前时间                e.g: 上午11:55:12   
+
+                $("#gettimebtn").on("click",function(){ //点击获取天气 
+                    var tm = " now："+now + "\r\n nowMonth："+ nowMonth +"\r\n nowYearfull："+nowYearfull+ "\r\n nowyear："+nowyear + "\r\n nowday："+nowday +
+                        "\r\n nowweek："+nowweek + "\r\n nowhour："+ nowhour +"\r\n nowmin："+nowmin + "\r\n nowsec："+nowsec + "\r\n nowtimes："+nowtimes+
+                            "\r\n nowmillisec："+nowmillisec +"\r\n toLocaleDate："+toLocaleDate +"\r\n mytime："+mytime ;
+                    $("#gettimebtn + textarea").val(tm);
+                });
+
+                $("#getcurtimebtn").on("click",function(){ //点击获取当前时间
+                    var tm = formatDate(now); 
+                    $("#getcurtimebtn + input").val(tm);
+                });
+
+                $("#monthDaysbtn").on("click",function(){ //点击获得某月的天数（2016年08月）
+                    var tm = getMonthDays(nowYearfull,nowMonth); 
+                    $("#monthDaysbtn + input").val(tm);
+                });
+
+                $("#monthEndDatebtn").on("click",function(){ //点击获得某月的结束日期（2016年08月）
+                    var tm = getMonthEndDate(nowYearfull,nowMonth); 
+                    $("#monthEndDatebtn + input").val(tm);
+                });
+
+                $("#weekbtn").on("click",function(){ //点击获得当前的是礼拜几
+                    var tm = getWeekDay(nowweek); 
+                    $("#weekbtn + input").val(tm);
+                });
+
+                $("#seasonbtn").on("click",function(){ //点击获得本季度的开端月份 
+                    var tm = getQuarterStartMonth(nowweek); 
+                    $("#seasonbtn + input").val(tm);
+                });
+
+                $("#beforedaybtn").on("click",function(){ //获取当前往前n天的时间(-n) ; 往后n天的时间(+n)
+                    var tm = beforeDay(now,-3); 
+                    $("#beforedaybtn + input").val(tm);
+                });
+
+                $("#comparebtn").on("click",function(){ //与08:00比较，小于为昨天，显示昨天8点到现在时间
+                    var tm = comparebTime(now); 
+                    $("#comparebtn + textarea").val(tm);
+                }); 
+
+                
+                
+            });
+ 
+            //获得本月的开始日期     
+            function getMonthStartDate(year,month){     
+                var monthStartDate = new Date(year, month, 1,0,0,0);     //创建new Date(yyyy,mth,dd,hh,mm,ss); 
+                return formatDate(monthStartDate);     
+            }      
+            //获得本月的结束日期     
+            function getMonthEndDate(year,month){     
+                var monthEndDate = new Date(year, month, getMonthDays(year,month),23,59,59);      
+                return formatDate(monthEndDate);     
+            }
+            //获得某月的天数     
+            function getMonthDays(year,month){   
+                var nowYearfull =   year;
+                var nowMonthpre = parseInt(month)-1; 
+                var monthStartDate = new Date(year, nowMonthpre , 1);  // 创建 new Date(yyyy,mth,dd);      
+                var monthEndDate = new Date(year,month , 1);      
+                var days   =   (monthEndDate   -   monthStartDate)/(1000   *   60   *   60   *   24); // e.g: 8月的天数= (8月的d - 7月的d )/一天的毫秒数
+                return   days;      
+            }
+            //获得当前的是礼拜几     
+            function getWeekDay(week){  
+                var today = new Array('星期日','星期一','星期二','星期三','星期四','星期五','星期六');  
+                var week = today[week];      
+                return week;    
+            }
+            //获得本季度的开端月份 
+            function getQuarterStartMonth(month){ 
+                var seasonBegin = 0; 
+                if(month<3){ 
+                    seasonBegin = 0; 
+                } 
+                if(2<month && month<6){ 
+                   seasonBegin = 3; 
+                } 
+                if(5<month && month<9){ 
+                   seasonBegin = 6; 
+                } 
+                if(month>8){ 
+                    seasonBegin = 9; 
+                } 
+                return "第" + seasonBegin + "月"; 
+            } 
+            //获取当前往前n天的时间(-n) ; 往后n天的时间(+n)
+            function beforeDay(date,days){ 
+                var d=new Date(date);
+                d.setDate(d.getDate()+days);  
+                return formatDate(d);
+            }
+            //与08:00比较，小于为昨天，显示昨天8点到现在时间
+            function comparebTime(date){ 
+                var d = date;
+                var nowhour = d.getHours(); 
+                var nowmin = d.getMinutes();  
+                var key="";
+                var tm="";
+                if(nowhour < 8){//7
+                    key = "yesterday";
+                    var starttm = beforeDay(date,-1).substr(0,11) + "08:00:00";
+                    var emdtm = formatDate(date);
+                    tm = "[" + starttm + " " + emdtm +"]";
+                }else{//8：00之后
+                    key = "today";
+                    var emdtm =formatDate(date);
+                    var starttm = emdtm.substr(0,11) + "08:00:00";
+                    tm = "[" + starttm + " " + emdtm +"]";
+                } 
+
+                /*var obj = {
+                    key:key,
+                    tm:tm
+                }*/
+
+                return "key:" + key +";\r\n时间:" + tm;
+            } 
+
+              
+            //格式化日期：yyyy-MM-dd T hh:mm:ss     
+            function formatDate(date) {      
+                var year = date.getFullYear();     
+                var month = date.getMonth()+1;     
+                var day = date.getDate();  
+                var hour = date.getHours();
+                var minute = date.getMinutes();
+                var second = date.getSeconds();     
+                     
+                if(month < 10){month = "0" + month; }
+                if(day < 10){day = "0" + day; }
+                if(hour < 10){hour = "0" + hour; }
+                if(minute < 10){minute = "0" + minute; }
+                if(second < 10){second = "0" + second; }
+
+                return (year+"-"+month + "-" + day + "T" + hour +":"+ minute +":"+ second);      
+            }
+ 
+
+ 
+
+        </script>
+    </body>
+
+</html>
